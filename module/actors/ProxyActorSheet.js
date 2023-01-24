@@ -1,11 +1,51 @@
-import { HeroActorSheet } from "./sheets/HeroActorSheet.js";
-import { EnemyActorSheet } from "./sheets/EnemyActorSheet.js";
-import { NpcActorSheet } from "./sheets/NpcActorSheet.js";
+import { NobleFemaleActorSheet } from "./sheets/NobleFemaleActorSheet.js";
+import { CyborgMaleActorSheet } from "./sheets/CyborgMaleActorSheet.js";
+import { CompanionActorSheet } from "./sheets/CompanionActorSheet.js";
+import { CourierMaleActorSheet } from "./sheets/CourierMaleActorSheet.js";
+import { MercenaryMaleActorSheet } from "./sheets/MercenaryMaleActorSheet.js";
+import { TacticianMaleActorSheet } from "./sheets/TacticianMaleActorSheet.js";
+import { DaredevilActorSheet } from "./sheets/DaredevilActorSheet.js";
+import { StrangerActorSheet } from "./sheets/StrangerActorSheet.js";
+import { BattlesuitActorSheet } from "./sheets/BattlesuitActorSheet.js";
+import { BountyhunterActorSheet } from "./sheets/BountyhunterActorSheet.js";
+import { SupernovaFemaleActorSheet } from "./sheets/SupernovaFemaleActorSheet.js";
+import { CenzorActorSheet } from "./sheets/CenzorActorSheet.js";
+import { EngineerActorSheet } from "./sheets/EngineerActorSheet.js";
+import { DoctorActorSheet } from "./sheets/DoctorActorSheet.js";
+import { JuggernautFemaleActorSheet } from "./sheets/JuggernautFemaleActorSheet.js";
+import { KinetickActorSheet } from "./sheets/KinetickActorSheet.js";
+import { DigitalDaoMaleActorSheet } from "./sheets/DigitalDaoMaleActorSheet.js";
+import { EmissaryActorSheet } from "./sheets/EmissaryActorSheet.js";
+import { PsychomantActorSheet } from "./sheets/PsychomantActorSheet.js";
+import { RaelithActorSheet } from "./sheets/RaelithActorSheet.js";
+import { JanissaryActorSheet } from "./sheets/JanissaryActorSheet.js";
+import { ScoundrelActorSheet } from "./sheets/ScoundrelActorSheet.js";
+import { ShadowActorSheet } from "./sheets/ShadowActorSheet.js";
 
 const actorSheetMappings = {
-  hero: HeroActorSheet, 
-  enemy: EnemyActorSheet, 
-  npc: NpcActorSheet
+  noble_female: NobleFemaleActorSheet, 
+  cyborg_male: CyborgMaleActorSheet,
+  companion: CompanionActorSheet,
+  courier_male: CourierMaleActorSheet,
+  mercenary_male: MercenaryMaleActorSheet,
+  tactician_male: TacticianMaleActorSheet,
+  daredevil: DaredevilActorSheet,
+  stranger: StrangerActorSheet, 
+  battlesuit: BattlesuitActorSheet, 
+  bountyhunter: BountyhunterActorSheet, 
+  supernova_female: SupernovaFemaleActorSheet, 
+  cenzor: CenzorActorSheet, 
+  engineer: EngineerActorSheet, 
+  doctor: DoctorActorSheet,
+  juggernaut_female: JuggernautFemaleActorSheet,
+  kinetick: KinetickActorSheet,
+  digital_dao_male: DigitalDaoMaleActorSheet,
+  emissary: EmissaryActorSheet,
+  psychomant: PsychomantActorSheet,
+  raelith: RaelithActorSheet,
+  janissary: JanissaryActorSheet,
+  scoundrel: ScoundrelActorSheet,
+  shadow: ShadowActorSheet
 };
 
 /**

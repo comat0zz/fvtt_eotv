@@ -1,4 +1,4 @@
-export class HeroActor extends Actor {
+export class EmissaryActor extends Actor {
   /** @override */
   prepareBaseData() {
     // Data modifications in this step occur before processing embedded

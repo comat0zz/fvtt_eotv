@@ -1,9 +1,29 @@
 {
   "Actor": {
     "types": [
-      "hero",
-      "enemy",
-      "npc"
+      "noble_female",
+      "cyborg_male",
+      "companion",
+      "courier_male",
+      "mercenary_male",
+      "tactician_male",
+      "daredevil",
+      "stranger",
+      "battlesuit",
+      "bountyhunter",
+      "supernova_female",
+      "cenzor",
+      "engineer",
+      "doctor",
+      "juggernaut_female",
+      "kinetick",
+      "digital_dao_male",
+      "emissary",
+      "psychomant",
+      "raelith",
+      "janissary",
+      "scoundrel",
+      "shadow"
     ],
     "templates": {
       "baseActor": {
@@ -12,21 +32,82 @@
         "skills": []
       }
     },
-    "hero": {
+    "noble_female": {
       "templates": ["baseActor"]
     },
-    "enemy": {
+    "cyborg_male": {
       "templates": ["baseActor"]
     },
-    "npc": {
+    "companion": {
+      "templates": ["baseActor"]
+    },
+    "courier_male": {
+      "templates": ["baseActor"]
+    },
+    "mercenary_male": {
+      "templates": ["baseActor"]
+    },
+    "tactician_male": {
+      "templates": ["baseActor"]
+    },
+    "daredevil": {
+      "templates": ["baseActor"]
+    },
+    "stranger": {
+      "templates": ["baseActor"]
+    },
+    "battlesuit": {
+      "templates": ["baseActor"]
+    },
+    "bountyhunter": {
+      "templates": ["baseActor"]
+    },
+    "supernova_female": {
+      "templates": ["baseActor"]
+    },
+    "cenzor": {
+      "templates": ["baseActor"]
+    },
+    "engineer": {
+      "templates": ["baseActor"]
+    },
+    "doctor": {
+      "templates": ["baseActor"]
+    },
+    "juggernaut_female": {
+      "templates": ["baseActor"]
+    },
+    "kinetick": {
+      "templates": ["baseActor"]
+    },
+    "digital_dao_male": {
+      "templates": ["baseActor"]
+    },
+    "emissary": {
+      "templates": ["baseActor"]
+    },
+    "psychomant": {
+      "templates": ["baseActor"]
+    },
+    "raelith": {
+      "templates": ["baseActor"]
+    },
+    "janissary": {
+      "templates": ["baseActor"]
+    },
+    "scoundrel": {
+      "templates": ["baseActor"]
+    },
+    "shadow": {
       "templates": ["baseActor"]
     }
   },
   "Item": {
     "types": [
-      "weapon",
-      "armor",
-      "equipment"
+      "equipments",
+      "movies",
+      "origins",
+      "clusters"
     ],
     "templates": {
       "baseItem": {
@@ -34,11 +115,25 @@
         "formula": ""
       }
     },
-    "weapon": {
-      "templates": ["baseItem"]
+    "movies": {
+      "templates": ["baseItem"],
+      "kind": "",
+      "playbooks": "",
+      "char": "",
+      "to_choose": false,
+      "tpl": "",
+      "specifics": {}
     },
-    "armor": {
-      "templates": ["baseItem"]
+    "origins": {
+      "name": "",
+      "sign": "",
+      "description": "",
+      "playbook": ""
+    },
+    "clusters": {
+      "name": "",
+      "description": "",
+      "playbook": ""
     },
     "equipment": {
       "templates": ["baseItem"]

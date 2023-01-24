@@ -5,12 +5,12 @@ import { genId, getRandomInt } from "../../utils.js";
  * Extend the base Actor document to support attributes and groups with a custom template creation dialog.
  * @extends {Actor}
  */
-export class HeroActorSheet extends BaseActorSheet {
+export class JanissaryActorSheet extends BaseActorSheet {
 
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: [game.system.id, "sheet", "actor", "actor-hero"],
+      classes: [game.system.id, "sheet", "actor", "actor-noble_female"],
       width: 720,
       height: 800,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"}]

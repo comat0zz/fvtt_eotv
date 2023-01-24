@@ -1,10 +1,10 @@
-import { WeaponItem } from "./types/WeaponItem.js";
-import { ArmorItem } from "./types/ArmorItem.js";
+import { ClustersItem } from "./types/ClustersItem.js";
+import { OriginsItem } from "./types/OriginsItem.js";
 import { EquipmentItem } from "./types/EquipmentItem.js";
 
 const itemMappings = {
-  weapon: WeaponItem, 
-  armor: ArmorItem, 
+  clusters: ClustersItem, 
+  origins: OriginsItem, 
   equipment: EquipmentItem, 
 }
 

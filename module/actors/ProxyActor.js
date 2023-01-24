@@ -1,11 +1,51 @@
-import { HeroActor } from "./types/HeroActor.js";
-import { EnemyActor } from "./types/EnemyActor.js";
-import { NpcActor } from "./types/NpcActor.js";
+import { NobleFemaleActor } from "./types/NobleFemaleActor.js";
+import { CyborgMaleActor } from "./types/CyborgMaleActor.js";
+import { CompanionActor } from "./types/CompanionActor.js";
+import { CourierMaleActor } from "./types/CourierMaleActor.js";
+import { MercenaryMaleActor } from "./types/MercenaryMaleActor.js";
+import { TacticianMaleActor } from "./types/TacticianMaleActor.js";
+import { DaredevilActor } from "./types/DaredevilActor.js";
+import { StrangerActor } from "./types/StrangerActor.js";
+import { BattlesuitActor } from "./types/BattlesuitActor.js";
+import { BountyhunterActor } from "./types/BountyhunterActor.js";
+import { SupernovaFemaleActor } from "./types/SupernovaFemaleActor.js";
+import { CenzorActor } from "./types/CenzorActor.js";
+import { EngineerActor } from "./types/EngineerActor.js";
+import { DoctorActor } from "./types/DoctorActor.js";
+import { JuggernautFemaleActor } from "./types/JuggernautFemaleActor.js";
+import { KinetickActor } from "./types/KinetickActor.js";
+import { DigitalDaoMaleActor } from "./types/DigitalDaoMaleActor.js";
+import { EmissaryActor } from "./types/EmissaryActor.js";
+import { PsychomantActor } from "./types/PsychomantActor.js";
+import { RaelithActor } from "./types/RaelithActor.js";
+import { JanissaryActor } from "./types/JanissaryActor.js";
+import { ScoundrelActor } from "./types/ScoundrelActor.js";
+import { ShadowActor } from "./types/ShadowActor.js";
 
 const actorMappings = {
-  hero: HeroActor, 
-  enemy: EnemyActor, 
-  npc: NpcActor
+  noble_female: NobleFemaleActor, 
+  cyborg_male: CyborgMaleActor,
+  companion: CompanionActor,
+  courier_male: CourierMaleActor,
+  mercenary_male: MercenaryMaleActor,
+  tactician_male: TacticianMaleActor,
+  daredevil: DaredevilActor,
+  stranger: StrangerActor, 
+  battlesuit: BattlesuitActor, 
+  bountyhunter: BountyhunterActor, 
+  supernova_female: SupernovaFemaleActor, 
+  cenzor: CenzorActor, 
+  engineer: EngineerActor, 
+  doctor: DoctorActor,
+  juggernaut_female: JuggernautFemaleActor,
+  kinetick: KinetickActor,
+  digital_dao_male: DigitalDaoMaleActor,
+  emissary: EmissaryActor,
+  psychomant: PsychomantActor,
+  raelith: RaelithActor,
+  janissary: JanissaryActor,
+  scoundrel: ScoundrelActor,
+  shadow: ShadowActor
 }
 
 /**

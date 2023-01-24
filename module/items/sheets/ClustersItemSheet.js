@@ -1,11 +1,11 @@
 import { BaseItemSheet } from "../BaseItemSheet.js";
 
-export class WeaponItemSheet extends BaseItemSheet {
+export class ClustersItemSheet extends BaseItemSheet {
   
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: [game.system.id, "sheet", "item", "item-weapon"],
+      classes: [game.system.id, "sheet", "item", "item-clusters"],
       width: 520,
       height: 410,
       tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"}]

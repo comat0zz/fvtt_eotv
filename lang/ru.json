@@ -42,6 +42,9 @@
       "NamePlaceholder": "Имя персонажа",
       "Name": "Имя",
 
+      "Description": "Описание",
+
+
       "Inventory": {
         "itWeapons": "Оружие",
         "itArmor": "Броня",
@@ -50,22 +53,87 @@
         "itNoArmor": "Нет брони",
         "itNoEquips": "Нет снаряжения"
       }
+
     },
 
     "Item": {
       "NamePlaceholder": "Введите название",
       "Name": "Название",
 
-      "Weapon": {
-
-      },
-
-      "Armor": {
-
-      },
-
       "Equipment": {
         
+      }
+    },
+
+    "Playbooks": {
+      "noble_female": {
+        "label": ""
+      },
+      "cyborg_male": {
+
+      },
+      "companion": {
+
+      },
+      "courier_male": {
+
+      },
+      "mercenary_male": {
+
+      },
+      "tactician_male": {
+
+      },
+      "daredevil": {
+
+      },
+      "stranger": {
+
+      },
+      "battlesuit": {
+
+      },
+      "bountyhunter": {
+
+      },
+      "supernova_female": {
+
+      },
+      "cenzor": {
+
+      },
+      "engineer": {
+
+      },
+      "doctor": {
+
+      },
+      "juggernaut_female": {
+
+      },
+      "kinetick": {
+
+      },
+      "digital_dao_male": {
+
+      },
+      "emissary": {
+
+      },
+      "psychomant": {
+
+      },
+      "raelith": {
+
+      },
+      "janissary": {
+
+      },
+      "scoundrel": {
+
+      },
+      "shadow": {
+
       }
     }
 

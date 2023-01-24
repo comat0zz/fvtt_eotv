@@ -1,4 +1,4 @@
-export class NpcActor extends Actor {
+export class MercenaryMaleActor extends Actor {
   /** @override */
   prepareBaseData() {
     // Data modifications in this step occur before processing embedded
