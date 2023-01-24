@@ -1,0 +1,40 @@
+{
+  "id": "eotv",
+  "title": "Грань Вселенной. Быстрый старт. 3ed",
+  "description": "Космические полёты. Империя, включающая несколько планет с такими разными аристократическими семьями. Могущественные корпорации, считающие, что только им дано право определять жизнь человека. Независимые миры, каждый со своей уникальной культурой. Межзвёздные странствия. Инопланетный искусственный разум. Тайны космоса…<br>Если хоть одна из этих фраз отозвалась в твоём сердце – эта игра для тебя. Благодаря «Грани Вселенной» ты сможешь встать в один строй с героями фильмов и книг, бесстрашно бороздящих космос в поисках справедливости, знаний или наживы.",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "authors": [
+    {
+      "name": "Nikita Belov",
+      "email": "comAT0Zz@gmail.com",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/index.js"
+  ],
+  "styles": [
+    "styles/index.css"
+  ],
+  "packs": [
+    
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "lang/ru.json",
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "url": "https://github.com/comat0zz/fvtt_eotv",
+  "manifest": "https://github.com/comat0zz/fvtt_eotv/releases/latest/download/system.json",
+  "download": "https://github.com/comat0zz/fvtt_eotv/releases/latest/download/necrobiozz.zip"
+}

@@ -1,0 +1,73 @@
+{
+  "ACTOR": {
+    "TypeHero": "Герой",
+    "TypeEnemy": "Противник",
+    "TypeNpc": "NPC"
+  },
+
+  "ITEM": {
+    "TypeWeapon": "Оружие",
+    "TypeArmor": "Броня",
+    "TypeEquipment": "Снаряжение"
+  },
+
+  "CZT": {
+    
+    "Common": {
+      "Title": "",
+      "SubTitle": "",
+      "DelConfirm": "Вы точно хотите удалить?",
+      "Description": "Описание",
+      "Select": {
+        "Yes": "Да",
+        "No": "Нет"
+      },
+      "Buttons": {
+        "Cancel": "Отмена",
+        "Remove": "Удалить"     
+      },
+      "Navs": {
+        "Properties": "Свойства",
+        "Description": "Описание",
+        "Skills": "Навыки",
+        "ForNotes": "Для заметок"
+      }
+    },
+
+    "Rolls": {
+
+    },
+
+    "Actor": {
+      "NamePlaceholder": "Имя персонажа",
+      "Name": "Имя",
+
+      "Inventory": {
+        "itWeapons": "Оружие",
+        "itArmor": "Броня",
+        "itEquips": "Снаряжение",
+        "itNoWeapons": "Нет оружия",
+        "itNoArmor": "Нет брони",
+        "itNoEquips": "Нет снаряжения"
+      }
+    },
+
+    "Item": {
+      "NamePlaceholder": "Введите название",
+      "Name": "Название",
+
+      "Weapon": {
+
+      },
+
+      "Armor": {
+
+      },
+
+      "Equipment": {
+        
+      }
+    }
+
+  }
+}
