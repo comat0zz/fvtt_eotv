@@ -1,5 +1,28 @@
+@font-face {
+  font-family: 'Furore';
+  src: local('Furore'), url('./fonts/furore.woff2') format('woff2'), url('./fonts/furore.woff') format('woff'), url('./fonts/furore.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hattori Hanzo';
+  src: local('Hattori Hanzo Light'), local('HattoriHanzo-Light'), url('./fonts/hattorihanzolight.woff2') format('woff2'), url('./fonts/hattorihanzolight.woff') format('woff'), url('./fonts/hattorihanzolight.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+.sheet form {
+  font-family: 'Hattori Hanzo';
+}
 .sheet form .cursor-click {
   cursor: pointer;
+}
+.sheet form h1,
+.sheet form h2,
+.sheet form h3,
+.sheet form h4,
+.sheet form h5,
+.sheet form h6 {
+  font-family: Furore;
 }
 .sheet form input,
 .sheet form select {
@@ -36,6 +59,31 @@
   margin-left: 0;
 }
 /* Items Sheet */
+.item.sheet ul {
+  margin-top: 8px;
+}
+.item.sheet ul li {
+  line-height: 1.5;
+}
+.item.sheet.item-movies .txt-italicbold {
+  font-weight: bold;
+  font-style: italic;
+}
+.item.sheet.item-movies .ul-point li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.item.sheet.item-movies .kind-type-border {
+  border: 1px solid #f0f0e0;
+  padding: 5px 10px 5px 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px var(--color-shadow-dark);
+}
+.item.sheet.item-movies .block-help {
+  margin-top: 5px;
+}
 /* Actors Sheet */
 .actor.sheet .actor-info .actor-avatar {
   width: 100px;
