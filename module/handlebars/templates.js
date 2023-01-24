@@ -2,7 +2,7 @@ export const preloadHandlebarsTemplates = async function () {
   // Define template paths to load
   let templatePaths = [
     `${game.system_path}/templates/sheets/items/clusters-sheet.hbs`,
-    `${game.system_path}/templates/sheets/items/equipment-sheet.hbs`,
+    `${game.system_path}/templates/sheets/items/equipments-sheet.hbs`,
     `${game.system_path}/templates/sheets/items/origins-sheet.hbs`,
 
     `${game.system_path}/templates/dialogs/modify-attrs-roll.hbs`,

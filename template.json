@@ -119,7 +119,6 @@
       "templates": ["baseItem"],
       "kind": "",
       "playbooks": "",
-      "char": "",
       "to_choose": false,
       "tpl": "",
       "specifics": {}
@@ -135,7 +134,7 @@
       "description": "",
       "playbook": ""
     },
-    "equipment": {
+    "equipments": {
       "templates": ["baseItem"]
     }
   }

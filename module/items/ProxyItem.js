@@ -1,11 +1,13 @@
 import { ClustersItem } from "./types/ClustersItem.js";
 import { OriginsItem } from "./types/OriginsItem.js";
-import { EquipmentItem } from "./types/EquipmentItem.js";
+import { EquipmentsItem } from "./types/EquipmentsItem.js";
+import { MoviesItem } from "./types/MoviesItem.js";
 
 const itemMappings = {
   clusters: ClustersItem, 
   origins: OriginsItem, 
-  equipment: EquipmentItem, 
+  equipments: EquipmentsItem,
+  movies: MoviesItem
 }
 
 /**

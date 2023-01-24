@@ -1,14 +1,35 @@
 {
   "ACTOR": {
-    "TypeHero": "Герой",
-    "TypeEnemy": "Противник",
-    "TypeNpc": "NPC"
+    "TypeNoble_female": "Аристократка",
+    "TypeCyborg_male": "Киборг",
+    "TypeCompanion": "Компаньонка",
+    "TypeCourier_male": "Курьер",
+    "TypeMercenary_male": "Наёмник",
+    "TypeTactician_male": "Тактик",
+    "TypeDaredevil": "Сорвиголова",
+    "TypeStranger": "Странник",
+    "TypeBattlesuit": "Броненосец",
+    "TypeBountyhunter": "Охотник за головами",
+    "TypeSupernova_female": "Сверхновая",
+    "TypeCenzor": "Цензор",
+    "TypeEngineer": "Инженер",
+    "TypeDoctor": "Доктор",
+    "TypeJuggernaut_female": "Джаггернаут",
+    "TypeKinetick": "Кинетик",
+    "TypeDigital_dao_male": "Дао Цифры",
+    "TypeEmissary": "Эмиссар",
+    "TypePsychomant": "Психомант",
+    "TypeRaelith": "Раэлит",
+    "TypeJanissary": "Янычар",
+    "TypeScoundrel": "Авантюрист",
+    "TypeShadow": "Тень"
   },
 
   "ITEM": {
-    "TypeWeapon": "Оружие",
-    "TypeArmor": "Броня",
-    "TypeEquipment": "Снаряжение"
+    "TypeMovies": "Ход",
+    "TypeOrigins": "Происхождение",
+    "TypeEquipments": "Снаряжение",
+    "TypeClusters": "В свободном кластере"
   },
 
   "CZT": {

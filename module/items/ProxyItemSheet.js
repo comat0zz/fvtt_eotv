@@ -1,11 +1,13 @@
 import { ClustersItemSheet } from "./sheets/ClustersItemSheet.js";
 import { OriginsItemSheet } from "./sheets/OriginsItemSheet.js";
-import { EquipmentItemSheet } from "./sheets/EquipmentItemSheet.js";
+import { EquipmentsItemSheet } from "./sheets/EquipmentsItemSheet.js";
+import { MoviesItemSheet } from "./sheets/MoviesItemSheet.js";
 
 const itemMappingsSheets = {
   clusters: ClustersItemSheet, 
   origins: OriginsItemSheet, 
-  equipment: EquipmentItemSheet, 
+  equipments: EquipmentsItemSheet,
+  movies: MoviesItemSheet 
 }
 
 /**

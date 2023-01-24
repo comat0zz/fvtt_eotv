@@ -12,7 +12,7 @@ Hooks.once("init", function () {
   console.log(game.system.id + " | init system");
 
   CONFIG.CZT = CZT;
-  game.system_path = "systems/fvtt10_engine";
+  game.system_path = "systems/eotv";
 
   CONFIG.Item.documentClass = ProxyItem;
   Items.unregisterSheet("core", ItemSheet);

@@ -21,7 +21,13 @@
     "styles/index.css"
   ],
   "packs": [
-    
+    {
+      "name": "movies",
+      "label": "Ходы",
+      "system": "eotv",
+      "path": "packs/movies.db",
+      "type": "Item"
+    }
   ],
   "languages": [
     {
