@@ -124,14 +124,15 @@
       "specifics": {}
     },
     "origins": {
-      "name": "",
       "sign": "",
       "description": "",
       "playbook": ""
     },
     "clusters": {
-      "name": "",
       "description": "",
+      "playbook": ""
+    },
+    "princips": {
       "playbook": ""
     },
     "equipments": {
