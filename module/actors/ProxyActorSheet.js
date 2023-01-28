@@ -1,3 +1,6 @@
+/* Есть идея сделать 1 контроллер на все, и шуровать на уровне проверки типа 
+если взлетит, то после причешу код
+
 import { NobleFemaleActorSheet } from "./sheets/NobleFemaleActorSheet.js";
 import { CyborgMaleActorSheet } from "./sheets/CyborgMaleActorSheet.js";
 import { CompanionActorSheet } from "./sheets/CompanionActorSheet.js";
@@ -47,6 +50,35 @@ const actorSheetMappings = {
   scoundrel: ScoundrelActorSheet,
   shadow: ShadowActorSheet
 };
+*/
+import { MainActorSheet } from "./sheets/MainActorSheet.js";
+
+const actorSheetMappings = {
+  noble_female: MainActorSheet, 
+  cyborg_male: MainActorSheet,
+  companion: MainActorSheet,
+  courier_male: MainActorSheet,
+  mercenary_male: MainActorSheet,
+  tactician_male: MainActorSheet,
+  daredevil: MainActorSheet,
+  stranger: MainActorSheet, 
+  battlesuit: MainActorSheet, 
+  bountyhunter: MainActorSheet, 
+  supernova_female: MainActorSheet, 
+  cenzor: MainActorSheet, 
+  engineer: MainActorSheet, 
+  doctor: MainActorSheet,
+  juggernaut_female: MainActorSheet,
+  kinetick: MainActorSheet,
+  digital_dao_male: MainActorSheet,
+  emissary: MainActorSheet,
+  psychomant: MainActorSheet,
+  raelith: MainActorSheet,
+  janissary: MainActorSheet,
+  scoundrel: MainActorSheet,
+  shadow: MainActorSheet
+};
+
 
 /**
  * Polymorphic base class.

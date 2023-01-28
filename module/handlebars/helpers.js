@@ -5,6 +5,11 @@ export const registerHandlebarsHelpers = async function () {
     return game.i18n.localize(str + val);
   });
 
+  // localize "SYSTEM.WORD.STR." VAL ".VAL2"
+  Handlebars.registerHelper('lzCc3', function (str, val, val2) {
+      return game.i18n.localize(str + val + val2);
+    });
+
   // Отвязываем картинки от путей
   Handlebars.registerHelper('get_assets', function (asset) {
     return `${game.system_path}/assets/${asset}`;
