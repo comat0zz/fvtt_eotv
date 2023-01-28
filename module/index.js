@@ -32,3 +32,15 @@ Hooks.once("init", function () {
   initializeHandlebars();
   registerSettings();
 });
+
+const mm = "icons/svg/mystery-man.svg";
+const mmToken = "icons/mystery-man.png";
+
+Hooks.on("createActor", (actorData) => {
+  const prevImg = actorData.img;
+  const prevToken = actorData.token?.img;
+  const imgPath = `${game.system_path}/assets/playbooks/${actorData.type}.png`;
+
+  actorData.img = !prevImg || prevImg === mm ? imgPath : prevImg;
+  //actorData.token.img = !prevToken || prevToken === mmToken || prevToken === mm ? tokenPath : prevToken;
+});

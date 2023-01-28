@@ -29,6 +29,12 @@
   background: none;
   border: 1px solid transparent;
 }
+.sheet form .card-block-header {
+  font-family: Furore;
+  font-weight: bold;
+  transform: uppercase;
+  font-size: var(--font-size-16);
+}
 .sheet form table {
   margin: 0;
   border: 0;
@@ -57,6 +63,13 @@
 .sheet form ul li {
   list-style: none;
   margin-left: 0;
+}
+.window-app .window-content {
+  padding-top: 0;
+}
+.sheet form .sheet-tabs {
+  margin: 0;
+  border: 0;
 }
 /* Items Sheet */
 .item.sheet ul {
@@ -100,4 +113,16 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+.actor.sheet .sheet-tabs-origin {
+  justify-content: space-between;
+}
+.actor.sheet .actor-item-origin.active {
+  text-shadow: None;
+}
+.actor.sheet textarea[name="system.history.originInfo"] {
+  height: 160px;
+}
+.actor.sheet .actor-sheet-block {
+  margin-top: 3px;
 }

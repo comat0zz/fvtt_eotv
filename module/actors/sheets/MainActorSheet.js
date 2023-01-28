@@ -17,21 +17,27 @@ export class MainActorSheet extends ActorSheet {
       classes: [game.system.id, "sheet", "actor", "actor-main"],
       width: 1200,
       height: 800,
-      tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"}]
+      tabs: [
+        {navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"},
+        {navSelector: ".sheet-tabs-origin", contentSelector: ".sheet-body-origin", initial: "origin-list"}
+      ]
     });
   }
 
   /** @inheritdoc */
-  getData(options) {
+  async getData(options) {
     const context = super.getData(options);
 
     context.systemData = context.data.system;
     context.config = CONFIG.CZT;
 
-    context.isWeapons = context.systemData.items.filter((i) => i.type === "weapon");
-    context.isArmor = context.systemData.items.filter((i) => i.type === "armor");
-    context.isEquip = context.systemData.items.filter((i) => i.type === "equipment");
-    context.items = context.systemData.items;
+    //context.isWeapons = context.systemData.items.filter((i) => i.type === "weapon");
+    //context.isArmor = context.systemData.items.filter((i) => i.type === "armor");
+    //context.isEquip = context.systemData.items.filter((i) => i.type === "equipment");
+    //context.items = context.systemData.items;
+
+    const pack = await game.packs.get(game.system.id + '.origins').getDocuments();
+    context.origins = await pack.filter(e => e.system.playbook === this.actor.type);
 
     console.log(context)
     return context;
@@ -44,6 +50,11 @@ export class MainActorSheet extends ActorSheet {
     html.find('.sheet-roll-attrs').click(evt => this._onActorRollAttrs(evt));
 
     html.find('.sheet-item-del').click(evt => this._onActorItemDel(evt));
+  }
+
+  async _getDocumentByPack(name) {
+    const pack = game.packs.get(name.pack);
+    return await pack.getDocument(name.id);
   }
 
   async _extractItem(data) {

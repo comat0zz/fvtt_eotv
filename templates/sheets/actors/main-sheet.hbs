@@ -1,9 +1,12 @@
 <form class="{{cssClass}}" autocomplete="off">
 
-<nav class="sheet-tabs tabs" data-group="primary">
-  <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.Properties"}}</a>
-  <a class="item" data-tab="skills">{{localize "CZT.Common.Navs.Skills"}}</a>
+<nav class="tabs sheet-tabs" data-group="primary">
+  <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.History"}}</a>
+  <a class="item" data-tab="skills">{{localize "CZT.Common.Navs.Playbook"}}</a>
   <a class="item" data-tab="common-movies">{{localize "CZT.Common.Navs.CommonMovies"}}</a>
+  <a class="item" data-tab="dramatic-movies">{{localize "CZT.Common.Navs.DramaticMovies"}}</a>
+  <a class="item" data-tab="cosmic-movies">{{localize "CZT.Common.Navs.CosmicMovies"}}</a>
+  <a class="item" data-tab="traits-movies">{{localize "CZT.Common.Navs.TraitsMovies"}}</a>
 </nav>
 <section class="sheet-body">
   <div class="tab properties" data-group="primary" data-tab="properties">
@@ -11,17 +14,48 @@
       <div class="actor-row">
         <div class="actor-column">
           <div class="actor-description">
+            <div class="card-block-header">{{localize "CZT.Actor.Description"}}</div>
             {{{lzCc3 "CZT.Playbooks." actor.type ".Description"}}}
           </div>
-          <div>
-            
+          <div class="actor-sheet-block">
+            <nav class="tabs sheet-tabs-origin" data-group="origin-tabs">
+              <a class="item card-block-header actor-item-origin" data-tab="origin-list">{{localize "CZT.Actor.Origin"}}</a>
+              <a class="item" data-tab="origin-desc">{{localize "CZT.Actor.OriginQA"}}</a>
+            </nav>
+            <div  class="sheet-body-origin">
+              <div class="tab origin-list" data-group="origin-tabs" data-tab="origin-list">
+                {{localize "CZT.Actor.OriginText"}}
+                <ul>
+                  {{#each origins as |item key|}}
+                  <li><input type="radio" value="{{item.id}}" name="system.history.origin" {{#ife ../systemData.history.origin item.id}} checked="checked"{{/ife}}/>&nbsp;<b>{{item.name}}</b>&nbsp;(<i>{{item.system.sign}}</i>): {{{item.system.description}}}</li>
+                  {{/each}}
+                </ul>
+              </div>
+              <div class="tab origin-desc" data-group="origin-tabs" data-tab="origin-desc">
+                <textarea name="system.history.originInfo">{{systemData.history.originInfo}}</textarea>
+              </div>
+            </div>
+          </div>
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Actor.Cluster"}}.</span> {{localize "CZT.Actor.ClusterText"}}
+          </div>
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Actor.Appearance"}}.</span> {{localize "CZT.Actor.AppearanceText"}}
           </div>
         </div>
         <div class="actor-column">
-          center
+          <img class="actor-avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         </div>
         <div class="actor-column">
-          right
+          <div>
+            <span class="card-block-header">{{localize "CZT.Actor.Princips"}}.</span>
+          </div>
+          <div class="actor-sheet-block">
+            <div class="card-block-header">{{localize "CZT.Actor.StartEquips"}}</div>
+          </div>
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Actor.Contacts"}}.</span>
+          </div>
         </div>
       </div>
     </div>
@@ -42,7 +76,16 @@
     </div>
   </div>
   <div class="tab" data-group="primary" data-tab="common-movies">
-
+common-movies
+  </div>
+  <div class="tab" data-group="primary" data-tab="dramatic-movies">
+dramatic-movies
+  </div>
+  <div class="tab" data-group="primary" data-tab="cosmic-movies">
+cosmic-movies
+  </div>
+  <div class="tab" data-group="primary" data-tab="traits-movies">
+traits-movies
   </div>
 </section>
 </form>

@@ -27,9 +27,38 @@
     ],
     "templates": {
       "baseActor": {
+        "exp": 0,
+        "lvl": 0,
+
+        "provisions": 0,
+        "finance": 0,
+        "profit": 0,
+
+        "fury": 0,
+        "logic": 0,
+        "science": 0,
+        "status": 0,
+
+        "injured_not_sure": 0,
+        "shocked_confused": 0,
+        "contuse_angry": 0,
+        "blooded_frightened": 0,
+
+        "additional_states": [],
+        "critical_state": false,
+
         "description": "",
-        "items": [],
-        "skills": []
+        "history": {
+          "origin": "",
+          "originInfo": "",
+          "cluster": "",
+          "clusterInfo": "",
+          "appearancies": [],
+          "princips": "",
+          "theme": ""
+        },
+        "contacts": []
+        
       }
     },
     "noble_female": {
