@@ -126,3 +126,6 @@
 .actor.sheet .actor-sheet-block {
   margin-top: 3px;
 }
+.actor.sheet .cluster-own-you {
+  border: 1px solid var(--color-border-light-tertiary);
+}

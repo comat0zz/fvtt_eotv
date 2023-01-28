@@ -38,6 +38,15 @@
           </div>
           <div class="actor-sheet-block">
             <span class="card-block-header">{{localize "CZT.Actor.Cluster"}}.</span> {{localize "CZT.Actor.ClusterText"}}
+            <ul>
+              {{#each clusters as |item key|}}
+                <li><input type="radio" value="{{item.id}}" name="system.history.cluster" {{#ife ../systemData.history.cluster item.id}} checked="checked"{{/ife}}/>&nbsp;<b>{{item.name}}</b>: {{{item.system.description}}}</li>
+              {{/each}}
+                <li>
+                  <input type="radio" value="your_own_version" name="system.history.cluster" {{#ife systemData.history.cluster "your_own_version"}} checked="checked"{{/ife}}/>&nbsp;<b>{{localize "CZT.Actor.your_own_version"}}</b>:
+                  <input type="text" class="cluster-own-you" value="{{systemData.history.clusterInfo}}" name="system.history.clusterInfo" />
+                </li>
+              </ul>
           </div>
           <div class="actor-sheet-block">
             <span class="card-block-header">{{localize "CZT.Actor.Appearance"}}.</span> {{localize "CZT.Actor.AppearanceText"}}

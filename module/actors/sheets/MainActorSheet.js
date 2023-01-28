@@ -36,8 +36,11 @@ export class MainActorSheet extends ActorSheet {
     //context.isEquip = context.systemData.items.filter((i) => i.type === "equipment");
     //context.items = context.systemData.items;
 
-    const pack = await game.packs.get(game.system.id + '.origins').getDocuments();
-    context.origins = await pack.filter(e => e.system.playbook === this.actor.type);
+    const origins_pack = await game.packs.get(game.system.id + '.origins').getDocuments();
+    context.origins = await origins_pack.filter(e => e.system.playbook === this.actor.type);
+
+    const clusters_pack = await game.packs.get(game.system.id + '.clusters').getDocuments();
+    context.clusters = await clusters_pack.filter(e => e.system.playbook === this.actor.type);
 
     console.log(context)
     return context;
