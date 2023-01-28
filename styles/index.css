@@ -146,3 +146,19 @@
 .actor.sheet .actor-sheet-block {
   margin-top: 3px;
 }
+.actor.sheet .input-contacts-name {
+  width: 25%;
+  border-bottom: 1px solid black;
+}
+.actor.sheet .input-contacts-val {
+  width: 60%;
+  border-bottom: 1px solid black;
+}
+.actor.sheet .input-contacts-val::placeholder {
+  opacity: 1;
+  color: black;
+}
+.actor.sheet .input-contact-psychomant-no-active::placeholder {
+  opacity: 0.5;
+  color: gray;
+}

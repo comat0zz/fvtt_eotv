@@ -75,7 +75,28 @@
             {{{lzCc3 "CZT.Playbooks." actor.type ".StartEquips"}}}
           </div>
           <div class="actor-sheet-block">
-            <span class="card-block-header">{{localize "CZT.Actor.Contacts"}}.</span>
+            <span class="card-block-header">{{localize "CZT.Actor.Contacts"}}.</span>&nbsp;{{localize "CZT.Actor.ContactsText"}}
+            <ul class="ul-point">
+              <li>
+                <input type="text" class="input-contacts-name" name="system.contacts.c1.name" value="{{systemData.contacts.c1.name}}" />.&nbsp;
+                <input type="text" class="input-contacts-val" name="system.contacts.c1.val" value="{{systemData.contacts.c1.val}}" placeholder="{{lzCc3 "CZT.Playbooks." actor.type ".Contacts.one"}}" />
+              <li>
+                <input type="text" class="input-contacts-name" name="system.contacts.c2.name" value="{{systemData.contacts.c2.name}}" />.&nbsp;
+                <input type="text" class="input-contacts-val" name="system.contacts.c2.val" value="{{systemData.contacts.c2.val}}" placeholder="{{lzCc3 "CZT.Playbooks." actor.type ".Contacts.two"}}" />
+              </li>
+              <li>
+                <input type="text" class="input-contacts-name" name="system.contacts.c3.name" value="{{systemData.contacts.c3.name}}" />.&nbsp;
+                <input type="text" class="input-contacts-val" name="system.contacts.c3.val" value="{{systemData.contacts.c3.val}}" placeholder="{{lzCc3 "CZT.Playbooks." actor.type ".Contacts.three"}}" />
+              </li>
+              <li>
+                <input type="text" class="input-contacts-name" name="system.contacts.c4.name" value="{{systemData.contacts.c4.name}}" />.&nbsp;
+                <input type="text" class="input-contacts-val" name="system.contacts.c4.val" value="{{systemData.contacts.c4.val}}" placeholder="{{#ife actor.type "psychomant"}}{{lzCc3 "CZT.Playbooks." actor.type ".Contacts.four"}}{{/ife}}" />
+              </li>
+              <li>
+                <input type="text" class="input-contacts-name" name="system.contacts.c5.name" value="{{systemData.contacts.c5.name}}" />.&nbsp;
+                <input type="text" class="input-contacts-val input-contact-psychomant-no-active" name="system.contacts.c5.val" value="{{systemData.contacts.c5.val}}" placeholder="{{#ife actor.type "psychomant"}}{{lzCc3 "CZT.Playbooks." actor.type ".Contacts.five"}}{{/ife}}" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>

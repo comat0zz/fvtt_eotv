@@ -57,7 +57,28 @@
           "princips": "",
           "theme": ""
         },
-        "contacts": []
+        "contacts": {
+          "c1": {
+            "name": "",
+            "val": ""
+          },
+          "c2": {
+            "name": "",
+            "val": ""
+          },
+          "c3": {
+            "name": "",
+            "val": ""
+          },
+          "c4": {
+            "name": "",
+            "val": ""
+          },
+          "c5": {
+            "name": "",
+            "val": ""
+          }
+        }
         
       }
     },
