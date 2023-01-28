@@ -12,7 +12,7 @@
   <div class="tab properties" data-group="primary" data-tab="properties">
     <div class="actor-wrapper">
       <div class="actor-row">
-        <div class="actor-column">
+        <div class="actor-column actor-sheet-leftside">
           <div class="actor-description">
             <div class="card-block-header">{{localize "CZT.Actor.Description"}}</div>
             {{{lzCc3 "CZT.Playbooks." actor.type ".Description"}}}
@@ -44,7 +44,7 @@
               {{/each}}
                 <li>
                   <input type="radio" value="your_own_version" name="system.history.cluster" {{#ife systemData.history.cluster "your_own_version"}} checked="checked"{{/ife}}/>&nbsp;<b>{{localize "CZT.Actor.your_own_version"}}</b>:
-                  <input type="text" class="cluster-own-you" value="{{systemData.history.clusterInfo}}" name="system.history.clusterInfo" />
+                  <input type="text" class="input-under-line" value="{{systemData.history.clusterInfo}}" name="system.history.clusterInfo" />
                 </li>
               </ul>
           </div>
@@ -55,12 +55,24 @@
         <div class="actor-column">
           <img class="actor-avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         </div>
-        <div class="actor-column">
+        <div class="actor-column actor-sheet-rightside">
           <div>
-            <span class="card-block-header">{{localize "CZT.Actor.Princips"}}.</span>
+            <span class="card-block-header">{{localize "CZT.Actor.Princips"}}.</span>&nbsp;{{{lzCc3 "CZT.Playbooks." actor.type ".PrincipsTitle"}}}
+            <ul class="ul-point">
+              <li>{{lzCc3 "CZT.Playbooks." actor.type ".Princips.P1"}}</li>
+              <li>{{lzCc3 "CZT.Playbooks." actor.type ".Princips.P2"}}</li>
+              <li>{{lzCc3 "CZT.Playbooks." actor.type ".Princips.P3"}}</li>
+              <li>{{lzCc3 "CZT.Playbooks." actor.type ".Princips.P4"}}</li>
+            </ul>
+          </div>
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Actor.Theme"}}.</span>&nbsp;{{localize "CZT.Actor.ThemeText"}}
+            <div class="text-bold-italic text-font-size-16">{{{lzCc3 "CZT.Playbooks." actor.type ".Theme"}}}</div>
+            <input type="text" class="input-under-line" name="system.history.theme" value="{{systemData.history.theme}}" />
           </div>
           <div class="actor-sheet-block">
             <div class="card-block-header">{{localize "CZT.Actor.StartEquips"}}</div>
+            {{{lzCc3 "CZT.Playbooks." actor.type ".StartEquips"}}}
           </div>
           <div class="actor-sheet-block">
             <span class="card-block-header">{{localize "CZT.Actor.Contacts"}}.</span>
