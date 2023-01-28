@@ -107,7 +107,8 @@
       "equipments",
       "movies",
       "origins",
-      "clusters"
+      "clusters",
+      "princips"
     ],
     "templates": {
       "baseItem": {

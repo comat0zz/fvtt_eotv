@@ -1,18 +1,18 @@
-{"data":{"description":"ледяной мир, синяя кожа, технологичность","playbook":"noble_female"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"aGe09iLkUKvWJ7Ge"}
-{"data":{"description":"изящество, культурный лидер, интриги и дуэли","playbook":"noble_female"},"folder":null,"img":"","name":"Акоста (Империя)","type":"clusters","_id":"Wo0efoYABKOTHGPO"}
-{"data":{"description":"гармония, сельское хозяйство, традиционализм","playbook":"noble_female"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"W8fAYwPh1Ci43cYy"}
-{"data":{"description":"опальный, связь с криминалом, индустриальный","playbook":"noble_female"},"folder":null,"img":"","name":"Анхил (Империя)","type":"clusters","_id":"cnGsoGSzbssctjRc"}
-{"data":{"description":"правящий, благополучный, влиятельный","playbook":"noble_female"},"folder":null,"img":"","name":"Астор (Империя)","type":"clusters","_id":"ilVIufQpG8mfBGAk"}
-{"data":{"description":"амбициозный, молодой, транспортный хаб","playbook":"noble_female"},"folder":null,"img":"","name":"Дега Росса (Империя)","type":"clusters","_id":"kSBK7RE9zg6eG2kQ"}
-{"data":{"description":"феодализм, гордость, свобода","playbook":"noble_female"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"l4aIiWPzGdq89S58"}
-{"data":{"description":"традиции, импланты, честь","playbook":"noble_female"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"hpBW3D7bHjjl37Oa"}
-{"data":{"description":"религиозность, биотехнологии, иерархичность","playbook":"noble_female"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"kYsPtMNc6CVvsjpo"}
 {"data":{"description":"в Империи и вне","playbook":"noble_female"},"folder":null,"img":"","name":"Малый Дом","type":"clusters","_id":"0HHvz8Cv2PwJnsrf"}
-{"data":{"description":"«Смерть не является оправданием»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"nnoJzXWFr4BTx0Dr"}
-{"data":{"description":"«Честь превыше Жизни»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"LIkaKcL3aCxXP0Qq"}
 {"data":{"description":"«Всё имеет свою цену»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Чёрный лис","type":"clusters","_id":"2N3ry5GOw8OWU2LN"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"companion"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"8TKSdTyvMKb8Hx3V"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"companion"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"DCrJrfQoXUWVbigH"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"companion"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"EbOoAYdAz91OArPT"}
 {"data":{"description":"ты жил не на Тао Прайм. А где и почему?","playbook":"cyborg_male"},"folder":null,"img":"","name":"Иное","type":"clusters","_id":"IBRgA6InRmcsTc23"}
 {"data":{"description":"аристократия, традиции, забота","playbook":"companion"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"JioGJh2QhRaGPRPt"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"companion"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"DCrJrfQoXUWVbigH"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"companion"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"8TKSdTyvMKb8Hx3V"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"companion"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"EbOoAYdAz91OArPT"}
+{"data":{"description":"«Честь превыше Жизни»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"LIkaKcL3aCxXP0Qq"}
+{"data":{"description":"гармония, сельское хозяйство, традиционализм","playbook":"noble_female"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"W8fAYwPh1Ci43cYy"}
+{"data":{"description":"изящество, культурный лидер, интриги и дуэли","playbook":"noble_female"},"folder":null,"img":"","name":"Акоста (Империя)","type":"clusters","_id":"Wo0efoYABKOTHGPO"}
+{"data":{"description":"ледяной мир, синяя кожа, технологичность","playbook":"noble_female"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"aGe09iLkUKvWJ7Ge"}
+{"data":{"description":"опальный, связь с криминалом, индустриальный","playbook":"noble_female"},"folder":null,"img":"","name":"Анхил (Империя)","type":"clusters","_id":"cnGsoGSzbssctjRc"}
+{"data":{"description":"традиции, импланты, честь","playbook":"noble_female"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"hpBW3D7bHjjl37Oa"}
+{"data":{"description":"правящий, благополучный, влиятельный","playbook":"noble_female"},"folder":null,"img":"","name":"Астор (Империя)","type":"clusters","_id":"ilVIufQpG8mfBGAk"}
+{"data":{"description":"амбициозный, молодой, транспортный хаб","playbook":"noble_female"},"folder":null,"img":"","name":"Дега Росса (Империя)","type":"clusters","_id":"kSBK7RE9zg6eG2kQ"}
+{"data":{"description":"религиозность, биотехнологии, иерархичность","playbook":"noble_female"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"kYsPtMNc6CVvsjpo"}
+{"data":{"description":"феодализм, гордость, свобода","playbook":"noble_female"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"l4aIiWPzGdq89S58"}
+{"data":{"description":"«Смерть не является оправданием»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"nnoJzXWFr4BTx0Dr"}
