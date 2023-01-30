@@ -53,7 +53,12 @@
           "originInfo": "",
           "cluster": "",
           "clusterInfo": "",
-          "appearancies": [],
+          "appearancies": {
+            "plLine1": "",
+            "plLine2": "",
+            "plLine3": "",
+            "plLine4": ""
+          },
           "princips": "",
           "theme": ""
         },
