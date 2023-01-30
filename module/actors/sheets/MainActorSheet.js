@@ -42,6 +42,13 @@ export class MainActorSheet extends ActorSheet {
     const clusters_pack = await game.packs.get(game.system.id + '.clusters').getDocuments();
     context.clusters = await clusters_pack.filter(e => e.system.playbook === this.actor.type);
 
+    const movies_pack = await game.packs.get(game.system.id + '.movies').getDocuments();
+    context.movie_common = await movies_pack.filter(e => e.system.kind === "basic");
+    context.movie_dramatic = await movies_pack.filter(e => e.system.kind === "dramatic");
+    context.movie_cosmo = await movies_pack.filter(e => e.system.kind === "cosmo");
+    context.movie_traits = await movies_pack.filter(e => e.system.kind === "traits");
+
+
     console.log(context)
     return context;
   }

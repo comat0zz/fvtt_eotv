@@ -118,16 +118,44 @@
     </div>
   </div>
   <div class="tab" data-group="primary" data-tab="common-movies">
-common-movies
+    <div class="masonry-container">
+    {{#each movie_common as |movie key|}}
+      <span class="masonry-item">
+        <h3>{{movie.name}}</h3>
+        {{{movie.system.description}}}
+      </span>
+    {{/each}}
+    </div>
   </div>
   <div class="tab" data-group="primary" data-tab="dramatic-movies">
-dramatic-movies
+    <div class="masonry-container">
+    {{#each movie_dramatic as |movie key|}}
+      <span class="masonry-item">
+        <h3>{{movie.name}}</h3>
+        {{{movie.system.description}}}
+      </span>
+    {{/each}}
+    </div>
   </div>
   <div class="tab" data-group="primary" data-tab="cosmic-movies">
-cosmic-movies
+    <div class="masonry-container">
+    {{#each movie_cosmo as |movie key|}}
+      <span class="masonry-item">
+        <h3>{{movie.name}}</h3>
+        {{{movie.system.description}}}
+      </span>
+    {{/each}}
+    </div>
   </div>
   <div class="tab" data-group="primary" data-tab="traits-movies">
-traits-movies
+    <div class="masonry-container">
+    {{#each movie_traits as |movie key|}}
+      <span class="masonry-item">
+        <h3>{{movie.name}}</h3>
+        {{{movie.system.description}}}
+      </span>
+    {{/each}}
+    </div>
   </div>
 </section>
 </form>

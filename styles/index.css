@@ -80,6 +80,8 @@
 }
 .window-app .window-content {
   padding-top: 0;
+  background: none;
+  background-color: #fff;
 }
 .sheet form .sheet-tabs {
   margin: 0;
@@ -91,10 +93,6 @@
 }
 .item.sheet ul li {
   line-height: 1.5;
-}
-.item.sheet.item-movies .txt-italicbold {
-  font-weight: bold;
-  font-style: italic;
 }
 .item.sheet.item-movies .ul-point li {
   list-style-type: circle;
@@ -161,4 +159,10 @@
 .actor.sheet .input-contact-psychomant-no-active::placeholder {
   opacity: 0.5;
   color: gray;
+}
+.actor.sheet .masonry-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-flow: dense;
 }

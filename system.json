@@ -43,10 +43,10 @@
       "type": "Item"
     },
     {
-      "name": "princips",
-      "label": "Принципы архетипов",
+      "name": "equips",
+      "label": "Снаряжение архетипов",
       "system": "eotv",
-      "path": "packs/princips.db",
+      "path": "packs/equips.db",
       "type": "Item"
     }
   ],

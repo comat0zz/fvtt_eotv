@@ -157,8 +157,7 @@
       "equipments",
       "movies",
       "origins",
-      "clusters",
-      "princips"
+      "clusters"
     ],
     "templates": {
       "baseItem": {
@@ -181,9 +180,6 @@
     },
     "clusters": {
       "description": "",
-      "playbook": ""
-    },
-    "princips": {
       "playbook": ""
     },
     "equipments": {

@@ -1,0 +1,9 @@
+ul для стрелки ul-arrow <ul class=\"ul-arrow\"><li><i class=\"fa-thin fa-arrow-right\"></i>
+ul для точки ul-point <ul class=\"ul-point\"><li>
+<ol class=\"ol-point\"><ol>
+
+Для жирного курсива
+<span class=\"text-bold-italic\">
+
+стрелка вправо
+<i class=\"fa-thin fa-arrow-right\"></i>
