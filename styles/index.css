@@ -1,3 +1,6 @@
+:root {
+  --color-shadow-primary: #78D8FC;
+}
 @font-face {
   font-family: 'Furore';
   src: local('Furore'), url('./fonts/furore.woff2') format('woff2'), url('./fonts/furore.woff') format('woff'), url('./fonts/furore.ttf') format('truetype');
@@ -64,9 +67,14 @@
   list-style: none;
   margin-left: 0;
 }
+.sheet form .ul-point {
+  padding-left: 18px;
+}
 .sheet form .ul-point li {
-  list-style-type: circle;
-  list-style-position: inside;
+  list-style: circle;
+}
+.sheet form .ol-point li {
+  list-style: square;
 }
 .sheet form .input-under-line {
   border-bottom: 2px solid black;
@@ -126,6 +134,10 @@
 .actor.sheet .actor-row .actor-sheet-leftside {
   padding-right: 5px;
 }
+.actor.sheet .actor-row .actor-sheet-center {
+  flex: 0 0 auto;
+  width: 30%;
+}
 .actor.sheet .actor-column {
   display: flex;
   flex-direction: column;
@@ -165,4 +177,11 @@
   grid-gap: 15px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-flow: dense;
+}
+.actor.sheet .actor-playbook-name {
+  font-family: Furore;
+  font-weight: bold;
+  transform: uppercase;
+  font-size: var(--font-size-24);
+  text-align: center;
 }

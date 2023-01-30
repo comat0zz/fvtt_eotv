@@ -5,8 +5,8 @@ import { registerSettings } from "./settings.js";
 import { ProxyItemSheet } from "./items/ProxyItemSheet.js";
 import { ProxyItem } from "./items/ProxyItem.js";
 
-import { ProxyActorSheet } from "./actors/ProxyActorSheet.js";
-import { ProxyActor } from "./actors/ProxyActor.js";
+import { PlaybookActorSheet } from "./actors/PlaybookActorSheet.js";
+import { PlaybookActor } from "./actors/PlaybookActor.js";
 
 Hooks.once("init", function () {
   console.log(game.system.id + " | init system");
@@ -21,9 +21,9 @@ Hooks.once("init", function () {
     makeDefault: true
   });
 
-  CONFIG.Actor.documentClass = ProxyActor;
+  CONFIG.Actor.documentClass = PlaybookActor;
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet(game.system.id, ProxyActorSheet, {
+  Actors.registerSheet(game.system.id, PlaybookActorSheet, {
     label: "CZT.Sheet.Actor",
     makeDefault: true 
   });

@@ -8,8 +8,12 @@ export const registerHandlebarsHelpers = async function () {
   // localize "SYSTEM.WORD.STR." VAL ".VAL2"
   Handlebars.registerHelper('lzCc3', function (str, val, val2) {
       return game.i18n.localize(str + val + val2);
-    });
+  });
 
+  Handlebars.registerHelper('namePlaybook', function (playbook) {
+    return game.i18n.localize("ACTOR.Type" + playbook.charAt(0).toUpperCase() + playbook.slice(1));
+  });
+    
   // Отвязываем картинки от путей
   Handlebars.registerHelper('get_assets', function (asset) {
     return `${game.system_path}/assets/${asset}`;
@@ -60,7 +64,7 @@ export const registerHandlebarsHelpers = async function () {
   Handlebars.registerHelper('stringify', function (value) {
     return JSON.stringify(value);
   });
-
+  
   Handlebars.registerHelper('frCfg', function (obj, val) {
     console.log(this.config, obj)
 
