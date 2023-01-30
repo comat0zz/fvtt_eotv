@@ -14,36 +14,6 @@ export const preloadHandlebarsTemplates = async function () {
     `${game.system_path}/templates/sheets/actors/main-sheet.hbs`
   ];
 
-  const playbooks = [
-    "noble_female",
-    "cyborg_male",
-    "companion",
-    "courier_male",
-    "mercenary_male",
-    "tactician_male",
-    "daredevil",
-    "stranger",
-    "battlesuit",
-    "bountyhunter",
-    "supernova_female",
-    "cenzor",
-    "engineer",
-    "doctor",
-    "juggernaut_female",
-    "kinetick",
-    "digital_dao_male",
-    "emissary",
-    "psychomant",
-    "raelith",
-    "janissary",
-    "scoundrel",
-    "shadow"
-  ];
-
-  playbooks.forEach(el => {
-    templatePaths.push(`${game.system_path}/templates/sheets/actors/${el}-sheet.hbs`)
-  });
-
   // Load the template parts
   return loadTemplates(templatePaths); 
 };

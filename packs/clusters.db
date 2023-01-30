@@ -1,78 +1,78 @@
-{"data":{"description":"ледяной мир, синяя кожа, технологичность","playbook":"noble_female"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"MqsAIXXarYqXz0VX"}
-{"data":{"description":"изящество, культурный лидер, интриги и дуэли","playbook":"noble_female"},"folder":null,"img":"","name":"Акоста (Империя)","type":"clusters","_id":"pWilqFdgqxySH7cv"}
-{"data":{"description":"гармония, сельское хозяйство, традиционализм","playbook":"noble_female"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"XzLBmadVBVJ3nGrO"}
-{"data":{"description":"опальный, связь с криминалом, индустриальный","playbook":"noble_female"},"folder":null,"img":"","name":"Анхил (Империя)","type":"clusters","_id":"hWa0C2z5IcvM2u48"}
-{"data":{"description":"правящий, благополучный, влиятельный","playbook":"noble_female"},"folder":null,"img":"","name":"Астор (Империя)","type":"clusters","_id":"aSCEcjUhaCFtloHQ"}
-{"data":{"description":"амбициозный, молодой, транспортный хаб","playbook":"noble_female"},"folder":null,"img":"","name":"Дега Росса (Империя)","type":"clusters","_id":"VImYbg4AWAItJ74p"}
-{"data":{"description":"феодализм, гордость, свобода","playbook":"noble_female"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"ycN7T2nEtb1Sa02H"}
-{"data":{"description":"традиции, импланты, честь","playbook":"noble_female"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"D2tW7K8w2u1b5dwn"}
-{"data":{"description":"религиозность, биотехнологии, иерархичность","playbook":"noble_female"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"zk3feSeMn9gyfi6e"}
-{"data":{"description":"в Империи и вне","playbook":"noble_female"},"folder":null,"img":"","name":"Малый Дом","type":"clusters","_id":"2uoCmhUN2iSzf6Wn"}
-{"data":{"description":"«Смерть не является оправданием»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"YPf8RtFG1xPaYlX2"}
-{"data":{"description":"«Честь превыше Жизни»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"aG7ZGkgvIY5fKZvI"}
-{"data":{"description":"«Всё имеет свою цену»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Чёрный лис","type":"clusters","_id":"jzzBy9c1E5MU76XT"}
-{"data":{"description":"ты жил не на Тао Прайм. А где и почему?","playbook":"cyborg_male"},"folder":null,"img":"","name":"Иное","type":"clusters","_id":"j6UvQaJkgDOGwUL8"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"companion"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"G7290GID2g8D89eP"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"companion"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"zCQHfao3UosYZKaF"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"companion"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"RLVgckSbLYiNWW1l"}
 {"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"companion"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"2NdIGOdBFg4hwkAk"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"courier_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"ilj9wmnWt3IJnXwN"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"courier_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"SsEHkf8Ts3A0lsIW"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"courier_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"bDk1XvI9UwsBRUCo"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"courier_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"hFfYY4sQmWsCBMD1"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"mercenary_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"FKP2oyotqPYOpvUn"}
+{"data":{"description":"в Империи и вне","playbook":"noble_female"},"folder":null,"img":"","name":"Малый Дом","type":"clusters","_id":"2uoCmhUN2iSzf6Wn"}
 {"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"mercenary_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"47k0KjQ3xnaKWFBV"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"mercenary_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"iUk2lOu4VEeKh7oP"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"5cLsb0JzWJdd5EmR"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"cenzor"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"6uLLjStK45fAIEEy"}
+{"data":{"description":"лидирующая, дипломатия, надёжность во всём","playbook":"emissary"},"folder":null,"img":"","name":"Ершалаим","type":"clusters","_id":"712R9F3fuW3xJ3Hv"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"psychomant"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"75GS8jxW9JyQp8Bn"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"kinetick"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"APym3bQZQ6dZ3BEf"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"scoundrel"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"BhTgh4aTbRt7AcMT"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"doctor"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"COKbbRbnhbngUEAx"}
+{"data":{"description":"традиции, импланты, честь","playbook":"noble_female"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"D2tW7K8w2u1b5dwn"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"bountyhunter"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"D3u8TvPvO7bkWXyW"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"psychomant"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"EIVfuhuUCepWEse1"}
+{"data":{"description":"Ты следишь, чтобы оборудование было исправно.","playbook":"stranger"},"folder":null,"img":"","name":"Сохраняющий","type":"clusters","_id":"EUCmEpyu7plHkU3u"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"battlesuit"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"F1IXkzLzBoqDyIhb"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"mercenary_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"FKP2oyotqPYOpvUn"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"companion"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"G7290GID2g8D89eP"}
+{"data":{"description":"биотехнологии, соц. Технологии, доступность во всём","playbook":"emissary"},"folder":null,"img":"","name":"Магадон","type":"clusters","_id":"JuC53jQw1cgXKQXe"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"engineer"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"KPf6FYscUeKUifpg"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"bountyhunter"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"KbqZ7gdSVH0CHmxA"}
+{"data":{"description":"Ты строишь маршруты для кораблей.","playbook":"stranger"},"folder":null,"img":"","name":"Направляющий","type":"clusters","_id":"LrxRz9dyrQbgiyQv"}
 {"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"mercenary_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"LzCKOwrt4whhgujw"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"tactician_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"Zyid09zKQxLgyf8Z"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"tactician_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"idb9t6rmtvX5XD7H"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"tactician_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"V0eMFQ5XiHa1mEp6"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"tactician_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"TAN3uiqFLJKu3Ieh"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"daredevil"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"votVJ8ugq8wM9ZCw"}
+{"data":{"description":"ледяной мир, синяя кожа, технологичность","playbook":"noble_female"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"MqsAIXXarYqXz0VX"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"cenzor"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"N37VR1wp5EHUTJOj"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"bountyhunter"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"O0gCh0gmWTyYZ1H6"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"battlesuit"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"QF6cmYvxB47Y3bcr"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"companion"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"RLVgckSbLYiNWW1l"}
 {"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"daredevil"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"SpB5RtPqDu0KOViJ"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"courier_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"SsEHkf8Ts3A0lsIW"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"tactician_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"TAN3uiqFLJKu3Ieh"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"tactician_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"V0eMFQ5XiHa1mEp6"}
+{"data":{"description":"амбициозный, молодой, транспортный хаб","playbook":"noble_female"},"folder":null,"img":"","name":"Дега Росса (Империя)","type":"clusters","_id":"VImYbg4AWAItJ74p"}
+{"data":{"description":"Ты — защитник и заботишься о безопасности.","playbook":"stranger"},"folder":null,"img":"","name":"Оберегающий","type":"clusters","_id":"VYSUbW6BLMLLoySS"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"scoundrel"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"Wa4DyfzuvedZEcoh"}
+{"data":{"description":"гармония, сельское хозяйство, традиционализм","playbook":"noble_female"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"XzLBmadVBVJ3nGrO"}
+{"data":{"description":"«Смерть не является оправданием»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"YPf8RtFG1xPaYlX2"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"tactician_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"Zyid09zKQxLgyf8Z"}
+{"data":{"description":"«Честь превыше Жизни»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"aG7ZGkgvIY5fKZvI"}
+{"data":{"description":"правящий, благополучный, влиятельный","playbook":"noble_female"},"folder":null,"img":"","name":"Астор (Империя)","type":"clusters","_id":"aSCEcjUhaCFtloHQ"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"cenzor"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"aX7cZlHyTFOmLYb4"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"courier_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"bDk1XvI9UwsBRUCo"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"scoundrel"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"bj34vtN9ehM1b2Vs"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"kinetick"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"cDyTq6RdM7P8UzXM"}
 {"data":{"description":"разнообразные, самобытные, недоверие","playbook":"daredevil"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"cKoT0xPkHxtX1yJK"}
 {"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"daredevil"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"cXXWelwzWtCDVhLp"}
-{"data":{"description":"Ты – проводник слова Бездны среди странников.","playbook":"stranger"},"folder":null,"img":"","name":"Слышащий","type":"clusters","_id":"gC89a7HOrqUwAX5K"}
-{"data":{"description":"Ты — защитник и заботишься о безопасности.","playbook":"stranger"},"folder":null,"img":"","name":"Оберегающий","type":"clusters","_id":"VYSUbW6BLMLLoySS"}
-{"data":{"description":"Ты следишь, чтобы оборудование было исправно.","playbook":"stranger"},"folder":null,"img":"","name":"Сохраняющий","type":"clusters","_id":"EUCmEpyu7plHkU3u"}
-{"data":{"description":"Ты строишь маршруты для кораблей.","playbook":"stranger"},"folder":null,"img":"","name":"Направляющий","type":"clusters","_id":"LrxRz9dyrQbgiyQv"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"battlesuit"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"lgMTvskxiVVeK7mi"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"battlesuit"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"pHrWvcrkgue5P3J0"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"battlesuit"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"QF6cmYvxB47Y3bcr"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"battlesuit"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"F1IXkzLzBoqDyIhb"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"bountyhunter"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"O0gCh0gmWTyYZ1H6"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"bountyhunter"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"D3u8TvPvO7bkWXyW"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"bountyhunter"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"n493dw7GpwtlEKyQ"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"bountyhunter"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"KbqZ7gdSVH0CHmxA"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"cenzor"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"aX7cZlHyTFOmLYb4"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"cenzor"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"6uLLjStK45fAIEEy"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"cenzor"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"N37VR1wp5EHUTJOj"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"cenzor"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"qlHfMORfd6laP6KE"}
 {"data":{"description":"аристократия, традиции, забота","playbook":"engineer"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"dVygKSRiMwqtN4fm"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"engineer"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"KPf6FYscUeKUifpg"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"engineer"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"maxEseFvmAAzHczs"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"engineer"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"q2zV4N8usWo8VUwC"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"doctor"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"uxAdfRlDvw3BtXWU"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"doctor"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"xVb14c8dslHF2kVA"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"doctor"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"COKbbRbnhbngUEAx"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"doctor"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"gzsz9RfbfHnmWIW0"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"kinetick"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"vEXQmEH02973eBtN"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"kinetick"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"APym3bQZQ6dZ3BEf"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"kinetick"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"cDyTq6RdM7P8UzXM"}
 {"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"kinetick"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"ejV3rp6S0mosGvul"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"rzLLq20McIp9yoOD"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"oBgZFEaZgr4GfM2B"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"wQyXpdNdPxryyYCA"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"5cLsb0JzWJdd5EmR"}
-{"data":{"description":"лидирующая, дипломатия, надёжность во всём","playbook":"emissary"},"folder":null,"img":"","name":"Ершалаим","type":"clusters","_id":"712R9F3fuW3xJ3Hv"}
-{"data":{"description":"биотехнологии, соц. Технологии, доступность во всём","playbook":"emissary"},"folder":null,"img":"","name":"Магадон","type":"clusters","_id":"JuC53jQw1cgXKQXe"}
-{"data":{"description":"транспорт, логистика, исследование космоса","playbook":"emissary"},"folder":null,"img":"","name":"Висдегри","type":"clusters","_id":"n4sXdwYKtskvlQvi"}
+{"data":{"description":"Ты – проводник слова Бездны среди странников.","playbook":"stranger"},"folder":null,"img":"","name":"Слышащий","type":"clusters","_id":"gC89a7HOrqUwAX5K"}
 {"data":{"description":"дерзкая, передовые технологии, масс-медиа","playbook":"emissary"},"folder":null,"img":"","name":"Юнити","type":"clusters","_id":"gqRRlNKpwbj0efq9"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"psychomant"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"nBRRuVBi7RpAPYwi"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"psychomant"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"EIVfuhuUCepWEse1"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"doctor"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"gzsz9RfbfHnmWIW0"}
 {"data":{"description":"разнообразные, самобытные, недоверие","playbook":"psychomant"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"h8fThfS3NOUSg567"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"psychomant"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"75GS8jxW9JyQp8Bn"}
-{"data":{"description":"аристократия, традиции, забота","playbook":"scoundrel"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"bj34vtN9ehM1b2Vs"}
-{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"scoundrel"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"Wa4DyfzuvedZEcoh"}
-{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"scoundrel"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"BhTgh4aTbRt7AcMT"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"courier_male"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"hFfYY4sQmWsCBMD1"}
+{"data":{"description":"опальный, связь с криминалом, индустриальный","playbook":"noble_female"},"folder":null,"img":"","name":"Анхил (Империя)","type":"clusters","_id":"hWa0C2z5IcvM2u48"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"mercenary_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"iUk2lOu4VEeKh7oP"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"tactician_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"idb9t6rmtvX5XD7H"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"courier_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"ilj9wmnWt3IJnXwN"}
+{"data":{"description":"ты жил не на Тао Прайм. А где и почему?","playbook":"cyborg_male"},"folder":null,"img":"","name":"Иное","type":"clusters","_id":"j6UvQaJkgDOGwUL8"}
 {"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"scoundrel"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"jRd5xcezy1JKQpF5"}
+{"data":{"description":"«Всё имеет свою цену»","playbook":"cyborg_male"},"folder":null,"img":"","name":"Чёрный лис","type":"clusters","_id":"jzzBy9c1E5MU76XT"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"battlesuit"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"lgMTvskxiVVeK7mi"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"engineer"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"maxEseFvmAAzHczs"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"bountyhunter"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"n493dw7GpwtlEKyQ"}
+{"data":{"description":"транспорт, логистика, исследование космоса","playbook":"emissary"},"folder":null,"img":"","name":"Висдегри","type":"clusters","_id":"n4sXdwYKtskvlQvi"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"psychomant"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"nBRRuVBi7RpAPYwi"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"oBgZFEaZgr4GfM2B"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"battlesuit"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"pHrWvcrkgue5P3J0"}
+{"data":{"description":"изящество, культурный лидер, интриги и дуэли","playbook":"noble_female"},"folder":null,"img":"","name":"Акоста (Империя)","type":"clusters","_id":"pWilqFdgqxySH7cv"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"engineer"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"q2zV4N8usWo8VUwC"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","playbook":"cenzor"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"qlHfMORfd6laP6KE"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"rzLLq20McIp9yoOD"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"doctor"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"uxAdfRlDvw3BtXWU"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"kinetick"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"vEXQmEH02973eBtN"}
+{"data":{"description":"аристократия, традиции, забота","playbook":"daredevil"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"votVJ8ugq8wM9ZCw"}
+{"data":{"description":"разнообразные, самобытные, недоверие","playbook":"digital_dao_male"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"wQyXpdNdPxryyYCA"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"doctor"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"xVb14c8dslHF2kVA"}
+{"data":{"description":"феодализм, гордость, свобода","playbook":"noble_female"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"ycN7T2nEtb1Sa02H"}
+{"data":{"description":"корпорации, рейтинг граждан, свобода","playbook":"companion"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"zCQHfao3UosYZKaF"}
+{"data":{"description":"религиозность, биотехнологии, иерархичность","playbook":"noble_female"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"zk3feSeMn9gyfi6e"}
