@@ -188,7 +188,9 @@
       "playbook": ""
     },
     "equipments": {
-      "templates": ["baseItem"]
+      "templates": ["baseItem"],
+      "in_action": false,
+      "key": "no"
     }
   }
 }

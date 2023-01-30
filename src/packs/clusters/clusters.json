@@ -178,5 +178,605 @@
         "img": "",
         "name": "Пограничье",
         "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "courier_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "courier_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "courier_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "courier_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "mercenary_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "mercenary_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "mercenary_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "mercenary_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "tactician_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "tactician_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "tactician_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "tactician_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "daredevil"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "daredevil"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "daredevil"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "daredevil"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "Ты – проводник слова Бездны среди странников.",
+            "playbook": "stranger"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Слышащий",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "Ты — защитник и заботишься о безопасности.",
+            "playbook": "stranger"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Оберегающий",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "Ты следишь, чтобы оборудование было исправно.",
+            "playbook": "stranger"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Сохраняющий",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "Ты строишь маршруты для кораблей.",
+            "playbook": "stranger"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Направляющий",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "battlesuit"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "battlesuit"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "battlesuit"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "battlesuit"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "bountyhunter"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "bountyhunter"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "bountyhunter"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "bountyhunter"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "cenzor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "cenzor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "cenzor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "cenzor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "engineer"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "engineer"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "engineer"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "engineer"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "doctor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "doctor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "doctor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "doctor"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "kinetick"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "kinetick"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "kinetick"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "kinetick"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "digital_dao_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "digital_dao_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "digital_dao_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "digital_dao_male"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "лидирующая, дипломатия, надёжность во всём",
+            "playbook": "emissary"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ершалаим",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "биотехнологии, соц. Технологии, доступность во всём",
+            "playbook": "emissary"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Магадон",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "транспорт, логистика, исследование космоса",
+            "playbook": "emissary"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Висдегри",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "дерзкая, передовые технологии, масс-медиа",
+            "playbook": "emissary"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Юнити",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "psychomant"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "psychomant"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "psychomant"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "psychomant"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "playbook": "scoundrel"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "playbook": "scoundrel"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "playbook": "scoundrel"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "playbook": "scoundrel"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
     }
 ]
