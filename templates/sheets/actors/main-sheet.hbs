@@ -7,6 +7,7 @@
   <a class="item" data-tab="dramatic-movies">{{localize "CZT.Common.Navs.DramaticMovies"}}</a>
   <a class="item" data-tab="cosmic-movies">{{localize "CZT.Common.Navs.CosmicMovies"}}</a>
   <a class="item" data-tab="traits-movies">{{localize "CZT.Common.Navs.TraitsMovies"}}</a>
+  <a class="item" data-tab="notes-own">{{localize "CZT.Common.Navs.ForNotes"}}</a>
 </nav>
 <section class="sheet-body">
   <div class="tab properties" data-group="primary" data-tab="properties">
@@ -24,30 +25,149 @@
             </nav>
             <div  class="sheet-body-origin">
               <div class="tab origin-list" data-group="origin-tabs" data-tab="origin-list">
-                {{localize "CZT.Actor.OriginText"}}
+                {{#ife actor.type "supernova_female"}}{{{lzCc3 "CZT.Playbooks." actor.type ".Origins.addInfo"}}}&nbsp;{{/ife}}{{localize "CZT.Actor.OriginText"}}
                 <ul>
                   {{#each origins as |item key|}}
                   <li><input type="radio" value="{{item.id}}" name="system.history.origin" {{#ife ../systemData.history.origin item.id}} checked="checked"{{/ife}}/>&nbsp;<b>{{item.name}}</b>&nbsp;(<i>{{item.system.sign}}</i>): {{{item.system.description}}}</li>
                   {{/each}}
                 </ul>
+                {{#if showElements.OriginsBeforeInfo}}
+                  {{{lzCc3 "CZT.Playbooks." actor.type ".Origins.beforeInfo"}}}
+                {{/if}}
+                {{#ife actor.type 'janissary'}}
+                <ul>
+                  <li>
+                    <input type="radio" value="one" name="system.origin_statuses" {{#ife systemData.origin_statuses 'one'}} checked="checked"{{/ife}}/>&nbsp;
+                    <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.OneTitle"}}}</b>&nbsp;
+                    {{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.OneDesc"}}}
+                  </li>
+                  <li>
+                    <input type="radio" value="two" name="system.origin_statuses" {{#ife systemData.origin_statuses 'two'}} checked="checked"{{/ife}}/>&nbsp;
+                    <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.TwoTitle"}}}</b>&nbsp;
+                    {{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.TwoDesc"}}}
+                  </li>
+                  <li>
+                    <input type="radio" value="three" name="system.origin_statuses" {{#ife systemData.origin_statuses 'three'}} checked="checked"{{/ife}}/>&nbsp;
+                    <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.ThreeTitle"}}}</b>&nbsp;
+                    {{{lzCc3 "CZT.Playbooks." actor.type ".Origins.statuses.ThreeDesc"}}}
+                  </li>
+                </ul>
+                {{/ife}}
               </div>
               <div class="tab origin-desc" data-group="origin-tabs" data-tab="origin-desc">
                 <textarea name="system.history.originInfo">{{systemData.history.originInfo}}</textarea>
               </div>
             </div>
           </div>
+          {{#ife actor.type 'janissary'}}
           <div class="actor-sheet-block">
-            <span class="card-block-header">{{localize "CZT.Actor.Cluster"}}.</span> {{localize "CZT.Actor.ClusterText"}}
+            <div class="card-block-header">{{localize "CZT.Playbooks.janissary.Path.Title"}}</div>
+            {{localize "CZT.Playbooks.janissary.Path.Text"}}:
+            <ul>
+              <li>
+                <input type="radio" value="one" name="system.path" {{#ife systemData.path 'one'}} checked="checked"{{/ife}}/>&nbsp;
+                <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Path.OneTitle"}}}</b>&nbsp;
+                {{{lzCc3 "CZT.Playbooks." actor.type ".Path.OneDesc"}}}
+              </li>
+              <li>
+                <input type="radio" value="two" name="system.path" {{#ife systemData.path 'two'}} checked="checked"{{/ife}}/>&nbsp;
+                <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Path.TwoTitle"}}}</b>&nbsp;
+                {{{lzCc3 "CZT.Playbooks." actor.type ".Path.TwoDesc"}}}
+              </li>
+              <li>
+                <input type="radio" value="three" name="system.path" {{#ife systemData.path 'three'}} checked="checked"{{/ife}}/>&nbsp;
+                <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Path.ThreeTitle"}}}</b>&nbsp;
+                {{{lzCc3 "CZT.Playbooks." actor.type ".Path.ThreeDesc"}}}
+              </li>
+              <li>
+                <input type="radio" value="four" name="system.path" {{#ife systemData.path 'four'}} checked="checked"{{/ife}}/>&nbsp;
+                <b>{{{lzCc3 "CZT.Playbooks." actor.type ".Path.FourTitle"}}}</b>&nbsp;
+                {{{lzCc3 "CZT.Playbooks." actor.type ".Path.FourDesc"}}}
+              </li>
+            </ul>
+          </div>
+          {{/ife}}
+          {{#ife actor.type 'stranger'}}
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Playbooks.stranger.Specialist.Title"}}.</span>&nbsp;{{localize "CZT.Playbooks.stranger.Specialist.Text"}}
+            <ul>
+              <li>
+                <input type="radio" name="system.specialist" value="one"{{#ife systemData.specialist "one"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.stranger.Specialist.OneTitle"}}</b> {{localize "CZT.Playbooks.stranger.Specialist.OneText"}}
+              </li>
+              <li>
+                <input type="radio" name="system.specialist" value="two"{{#ife systemData.specialist "two"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.stranger.Specialist.TwoTitle"}}</b> {{localize "CZT.Playbooks.stranger.Specialist.TwoText"}}
+              </li>
+              <li>
+                <input type="radio" name="system.specialist" value="three"{{#ife systemData.specialist "three"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.stranger.Specialist.ThreeTitle"}}</b> {{localize "CZT.Playbooks.stranger.Specialist.ThreeText"}}
+              </li>
+              <li>
+                <input type="radio" name="system.specialist" value="four"{{#ife systemData.specialist "four"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.stranger.Specialist.FourTitle"}}</b> {{localize "CZT.Playbooks.stranger.Specialist.FourText"}}
+              </li>
+              <li>
+                <input type="radio" name="system.specialist" value="five"{{#ife systemData.specialist "five"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.stranger.Specialist.FiveTitle"}}</b> {{localize "CZT.Playbooks.stranger.Specialist.FiveText"}}
+              </li>
+            </ul>
+          </div>
+          {{/ife}}
+          {{#ife actor.type 'juggernaut_female'}}
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Playbooks.juggernaut_female.Craft.Title"}}</span><br>
+            {{localize "CZT.Playbooks.juggernaut_female.Craft.SubTitle"}}
+            <ul>
+              <li>
+                <input type="radio" name="system.remeslo" value="warrior"{{#ife systemData.remeslo "warrior"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.juggernaut_female.Craft.WLabel"}}</b> {{localize "CZT.Playbooks.juggernaut_female.Craft.Warrior"}}
+              </li>
+              <li>
+                <input type="radio" name="system.remeslo" value="hunter"{{#ife systemData.remeslo "hunter"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.juggernaut_female.Craft.HLabel"}}</b> {{localize "CZT.Playbooks.juggernaut_female.Craft.Hunter"}}
+              </li>
+            </ul>
+          </div>
+          {{/ife}}
+          {{#ife actor.type 'raelith'}}
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Playbooks.raelith.Function.Title"}}</span><br>
+            {{localize "CZT.Playbooks.raelith.Function.Text"}}
+            <ul>
+              <li>
+                <input type="radio" name="system.function" value="warrior"{{#ife systemData.function "warrior"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.raelith.Function.v1Name"}}</b> {{localize "CZT.Playbooks.raelith.Function.v1Text"}}
+              </li>
+              <li>
+                <input type="radio" name="system.function" value="hunter"{{#ife systemData.function "hunter"}} checked="checked"{{/ife}} />
+                <b>{{localize "CZT.Playbooks.raelith.Function.v2Name"}}</b> {{localize "CZT.Playbooks.raelith.Function.v2Text"}}
+              </li>
+            </ul>
+            {{localize "CZT.Playbooks.raelith.Function.afterText"}}
+          </div>
+          {{/ife}}
+          {{#if showElements.blockClusters}}
+          <div class="actor-sheet-block">
+            <span class="card-block-header">{{localize "CZT.Actor.Cluster"}}.</span>&nbsp;
+            {{#if showElements.ClusterTitle}}
+              {{{lzCc3 "CZT.Playbooks." actor.type ".ClusterTitle"}}}
+            {{else}}
+              {{localize "CZT.Actor.ClusterText"}}
+            {{/if}}
+            {{#if clusters}}
             <ul>
               {{#each clusters as |item key|}}
                 <li><input type="radio" value="{{item.id}}" name="system.history.cluster" {{#ife ../systemData.history.cluster item.id}} checked="checked"{{/ife}}/>&nbsp;<b>{{item.name}}</b>: {{{item.system.description}}}</li>
               {{/each}}
                 <li>
-                  <input type="radio" value="your_own_version" name="system.history.cluster" {{#ife systemData.history.cluster "your_own_version"}} checked="checked"{{/ife}}/>&nbsp;<b>{{localize "CZT.Actor.your_own_version"}}</b>:
+                  <input type="radio" value="your_own_version" name="system.history.cluster" {{#ife systemData.history.cluster "your_own_version"}} checked="checked"{{/ife}}/>&nbsp;<b>{{localize "CZT.Actor.your_own_version"}}</b>: <i>{{localize "CZT.Actor.your_own_desc"}}</i>
                   <input type="text" class="input-under-line" value="{{systemData.history.clusterInfo}}" name="system.history.clusterInfo" />
                 </li>
-              </ul>
+            </ul>
+            {{/if}}
           </div>
+          {{/if}}
           <div class="actor-sheet-block">
             <span class="card-block-header">{{localize "CZT.Actor.Appearance"}}.</span> {{localize "CZT.Actor.AppearanceText"}}:
             <ul>
@@ -89,19 +209,33 @@
             <div class="card-block-header">{{localize "CZT.Actor.StartEquips"}}</div>
             {{{lzCc3 "CZT.Playbooks." actor.type ".StartEquips"}}}
 
-            <ul>
-            {{#each equipments_active as |item key|}}
-              <li>
-                <input type="radio" />
-                <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
-              </li>
-            {{/each}}
-            </ul>
-
+            {{#if equipments_active}}
+              <ul>
+              {{#each equipments_active as |item key|}}
+                <li>
+                  <input type="radio" name="system.you_weapon" value="{{item.id}}"{{#ife item.id ../systemData.you_weapon}} checked="checked"{{/ife}}/>
+                  {{#ife ../actor.type "supernova_female"}}
+                    {{{item.system.description}}}
+                  {{else}}
+                    <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
+                  {{/ife}}
+                </li>
+              {{/each}}
+              </ul>
+            {{/if}}
+            {{#if equipments_active}}
+              {{#if equipments_noactive}}
+                {{localize "CZT.Actor.as_well_as"}}:
+              {{/if}}
+            {{/if}}
             <ul class="ul-point">
             {{#each equipments_noactive as |item key|}}
               <li>
-                <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
+                {{#ife ../actor.type "supernova_female"}}
+                  {{{item.system.description}}}
+                {{else}}
+                  <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
+                {{/ife}}
               </li>
             {{/each}}
             </ul>
@@ -187,6 +321,15 @@
         {{{movie.system.description}}}
       </span>
     {{/each}}
+    </div>
+  </div>
+  <div class="tab notes-own" data-group="primary" data-tab="notes-own">
+    <div class="actor-wrapper">
+      <div class="actor-row">
+        <div class="actor-column">
+          {{editor systemData.notes target="system.notes" button=true engine="tinymce" collaborate=false}}
+        </div>
+      </div>
     </div>
   </div>
 </section>

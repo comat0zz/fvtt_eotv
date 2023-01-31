@@ -131,16 +131,6 @@
     },
     {
         "data": {
-            "description": "ты жил не на Тао Прайм. А где и почему?",
-            "playbook": "cyborg_male"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Иное",
-        "type": "clusters"
-    },
-    {
-        "data": {
             "description": "аристократия, традиции, забота",
             "playbook": "companion"
         },
@@ -337,46 +327,6 @@
         "folder": null,
         "img": "",
         "name": "Пограничье",
-        "type": "clusters"
-    },
-    {
-        "data": {
-            "description": "Ты – проводник слова Бездны среди странников.",
-            "playbook": "stranger"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Слышащий",
-        "type": "clusters"
-    },
-    {
-        "data": {
-            "description": "Ты — защитник и заботишься о безопасности.",
-            "playbook": "stranger"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Оберегающий",
-        "type": "clusters"
-    },
-    {
-        "data": {
-            "description": "Ты следишь, чтобы оборудование было исправно.",
-            "playbook": "stranger"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Сохраняющий",
-        "type": "clusters"
-    },
-    {
-        "data": {
-            "description": "Ты строишь маршруты для кораблей.",
-            "playbook": "stranger"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Направляющий",
         "type": "clusters"
     },
     {

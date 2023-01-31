@@ -185,3 +185,7 @@
   font-size: var(--font-size-24);
   text-align: center;
 }
+.actor.sheet .notes-own .editor {
+  width: 100%;
+  height: 766px;
+}

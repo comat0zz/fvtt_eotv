@@ -27,6 +27,7 @@ export class PlaybookActorSheet extends ActorSheet {
   /** @inheritdoc */
   async getData(options) {
     const context = super.getData(options);
+    const actor_type = this.actor.type;
 
     context.systemData = context.data.system;
     context.config = CONFIG.CZT;
@@ -37,10 +38,10 @@ export class PlaybookActorSheet extends ActorSheet {
     //context.items = context.systemData.items;
 
     const origins_pack = await game.packs.get(game.system.id + '.origins').getDocuments();
-    context.origins = await origins_pack.filter(e => e.system.playbook === this.actor.type);
+    context.origins = await origins_pack.filter(e => e.system.playbook === actor_type);
 
     const clusters_pack = await game.packs.get(game.system.id + '.clusters').getDocuments();
-    context.clusters = await clusters_pack.filter(e => e.system.playbook === this.actor.type);
+    context.clusters = await clusters_pack.filter(e => e.system.playbook === actor_type);
 
     const movies_pack = await game.packs.get(game.system.id + '.movies').getDocuments();
     context.movie_common = await movies_pack.filter(e => e.system.kind === "basic");
@@ -49,8 +50,15 @@ export class PlaybookActorSheet extends ActorSheet {
     context.movie_traits = await movies_pack.filter(e => e.system.kind === "traits");
 
     const equipments_pack = await game.packs.get(game.system.id + '.equipments').getDocuments();
-    context.equipments_active = await equipments_pack.filter(e => e.system.playbook === this.actor.type && e.system.in_action);
-    context.equipments_noactive = await equipments_pack.filter(e => e.system.playbook === this.actor.type && !e.system.in_action);
+    context.equipments_active = await equipments_pack.filter(e => e.system.playbook === actor_type && e.system.in_action);
+    context.equipments_noactive = await equipments_pack.filter(e => e.system.playbook === actor_type && !e.system.in_action);
+
+    context.showElements = {
+      "OriginsBeforeInfo": (['shadow', 'tactician_male', 'scoundrel', 'psychomant', 'juggernaut_female', 'supernova_female', 'janissary'].indexOf(actor_type) > -1)?true:false,
+      "ClusterTitle": (['shadow', 'stranger', 'juggernaut_female', 'emissary', 'janissary'].indexOf(actor_type) > -1)?true:false,
+      "blockClusters": (['supernova_female', 'raelith'].indexOf(actor_type) > -1)?false:true,
+    } 
+
 
     console.log(context)
     return context;

@@ -29,7 +29,7 @@
       "baseActor": {
         "exp": 0,
         "lvl": 0,
-
+        "notes": "",
         "provisions": 0,
         "finance": 0,
         "profit": 0,
@@ -46,6 +46,7 @@
 
         "additional_states": [],
         "critical_state": false,
+        "you_weapon": "",
 
         "description": "",
         "history": {
@@ -109,7 +110,8 @@
       "templates": ["baseActor"]
     },
     "stranger": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "specialist": ""
     },
     "battlesuit": {
       "templates": ["baseActor"]
@@ -130,7 +132,8 @@
       "templates": ["baseActor"]
     },
     "juggernaut_female": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "remeslo": ""
     },
     "kinetick": {
       "templates": ["baseActor"]
@@ -145,10 +148,13 @@
       "templates": ["baseActor"]
     },
     "raelith": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "function": ""
     },
     "janissary": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "origin_statuses": "",
+      "path": ""
     },
     "scoundrel": {
       "templates": ["baseActor"]
