@@ -48,6 +48,9 @@ export class PlaybookActorSheet extends ActorSheet {
     context.movie_cosmo = await movies_pack.filter(e => e.system.kind === "cosmo");
     context.movie_traits = await movies_pack.filter(e => e.system.kind === "traits");
 
+    const equipments_pack = await game.packs.get(game.system.id + '.equipments').getDocuments();
+    context.equipments_active = await equipments_pack.filter(e => e.system.playbook === this.actor.type && e.system.in_action);
+    context.equipments_noactive = await equipments_pack.filter(e => e.system.playbook === this.actor.type && !e.system.in_action);
 
     console.log(context)
     return context;

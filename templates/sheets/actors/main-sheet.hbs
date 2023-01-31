@@ -88,6 +88,23 @@
           <div class="actor-sheet-block">
             <div class="card-block-header">{{localize "CZT.Actor.StartEquips"}}</div>
             {{{lzCc3 "CZT.Playbooks." actor.type ".StartEquips"}}}
+
+            <ul>
+            {{#each equipments_active as |item key|}}
+              <li>
+                <input type="radio" />
+                <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
+              </li>
+            {{/each}}
+            </ul>
+
+            <ul class="ul-point">
+            {{#each equipments_noactive as |item key|}}
+              <li>
+                <b>{{item.name}}</b>&nbsp;{{{item.system.description}}}
+              </li>
+            {{/each}}
+            </ul>
           </div>
           <div class="actor-sheet-block">
             <span class="card-block-header">{{localize "CZT.Actor.Contacts"}}.</span>&nbsp;{{localize "CZT.Actor.ContactsText"}}
