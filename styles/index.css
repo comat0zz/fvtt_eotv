@@ -178,6 +178,9 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-flow: dense;
 }
+.actor.sheet .masonry-container .masonry-item input {
+  width: 100%;
+}
 .actor.sheet .actor-playbook-name {
   font-family: Furore;
   font-weight: bold;
@@ -188,4 +191,72 @@
 .actor.sheet .notes-own .editor {
   width: 100%;
   height: 766px;
+}
+.actor.sheet .actor-stats-block {
+  padding: 5px;
+  font-family: Furore;
+  font-weight: bold;
+  flex: 0 0 auto;
+  width: 45%;
+}
+.actor.sheet .actor-stats-block .actor-stat-line {
+  margin-bottom: 5px;
+  background-color: black;
+  color: #fff;
+  padding-top: 3px;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .line-height-50 {
+  height: 50px;
+  line-height: 25px;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-label {
+  flex: 0 0 auto;
+  width: 20%;
+  padding-left: 3px;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-input {
+  flex: 0 0 auto;
+  width: 10%;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-input input {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: black;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-prop {
+  font-size: var(--font-size-16);
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-cond {
+  font-size: var(--font-size-14);
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-mod {
+  flex: 0 0 auto;
+  width: 10%;
+  font-size: var(--font-size-14);
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-select {
+  flex: 0 0 auto;
+  width: 25%;
+}
+.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-select select {
+  background-color: #fff;
+  color: black;
+}
+.actor.sheet .actor-stats-block .actor-stats-caption {
+  background-color: black;
+  color: #fff;
+  font-size: var(--font-size-20);
+}
+.actor.sheet .actor-stats-block .actor-stats-name {
+  flex: 0 0 auto;
+  width: 100px;
+  padding-left: 3px;
+}
+.actor.sheet .actor-stats-block .actor-name {
+  border: 2px solid black;
+  font-size: var(--font-size-18);
+  font-family: Furore;
+  background-color: #fff;
+  color: black;
 }

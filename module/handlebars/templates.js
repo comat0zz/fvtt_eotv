@@ -11,7 +11,9 @@ export const preloadHandlebarsTemplates = async function () {
     `${game.system_path}/templates/chats/weapon-roll.hbs`,
     `${game.system_path}/templates/chats/attrs-roll.hbs`,
 
-    `${game.system_path}/templates/sheets/actors/main-sheet.hbs`
+    `${game.system_path}/templates/sheets/actors/main-sheet.hbs`,
+
+    `${game.system_path}/templates/sheets/actors/partials/tab-battlesuit.hbs`
   ];
 
   // Load the template parts

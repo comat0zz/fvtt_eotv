@@ -2,7 +2,10 @@
 
 <nav class="tabs sheet-tabs" data-group="primary">
   <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.History"}}</a>
-  <a class="item" data-tab="skills">{{localize "CZT.Common.Navs.Playbook"}}</a>
+  <a class="item" data-tab="self-movies">{{localize "CZT.Common.Navs.Playbook"}}</a>
+  {{#ife actor.type 'battlesuit'}}
+    <a class="item" data-tab="tab-battlesuit">{{localize "CZT.Common.Navs.PlaybookBattlesuit"}}</a>
+  {{/ife}}
   <a class="item" data-tab="common-movies">{{localize "CZT.Common.Navs.CommonMovies"}}</a>
   <a class="item" data-tab="dramatic-movies">{{localize "CZT.Common.Navs.DramaticMovies"}}</a>
   <a class="item" data-tab="cosmic-movies">{{localize "CZT.Common.Navs.CosmicMovies"}}</a>
@@ -10,6 +13,11 @@
   <a class="item" data-tab="notes-own">{{localize "CZT.Common.Navs.ForNotes"}}</a>
 </nav>
 <section class="sheet-body">
+  {{#ife actor.type 'battlesuit'}}
+  <div class="tab tab-battlesuit" data-group="primary" data-tab="tab-battlesuit">
+    {{>"systems/eotv/templates/sheets/actors/partials/tab-battlesuit.hbs" systemData=systemData}}
+  </div>
+  {{/ife}}
   <div class="tab properties" data-group="primary" data-tab="properties">
     <div class="actor-wrapper">
       <div class="actor-row">
@@ -268,18 +276,67 @@
       </div>
     </div>
   </div>
-  <div class="tab skills" data-group="primary" data-tab="skills">
-        <div class="actor-wrapper">
+  <div class="tab self-movies" data-group="primary" data-tab="self-movies">
+    <div class="actor-wrapper">
       <div class="actor-row">
-        <div class="actor-column">
-          left
-        </div>
-        <div class="actor-column">
-          center
-        </div>
-        <div class="actor-column">
-          right
-        </div>
+          <div class="actor-column">
+            <div class="masonry-container">
+            {{#each movie_playbook_starter as |movie key|}}
+              <span class="masonry-item">
+                <h3>{{#if movie.system.to_choose}}<input type="checkbox" name="system.movies" value="{{movie._id}}" {{#ifIn movie._id ../systemData.movies}} checked="checked"{{/ifIn}}/>&nbsp;{{/if}}{{movie.name}}</h3>
+                {{{movie.system.description}}}
+              </span>
+            {{/each}}
+            </div>
+          </div>
+          <div class="actor-column actor-stats-block">
+            <div class="actor-wrapper">
+              <div class="actor-row actor-stat-line">
+                <div class="actor-column actor-stats-caption actor-stats-name">
+                {{localize "CZT.Actor.Name"}}  
+                </div>
+                <div class="actor-column">
+                  <input type="text" name="name" class="actor-name" value="{{actor.name}}" />
+                </div>
+              </div>
+              <div class="actor-row actor-stat-line line-height-50">
+                <div class="actor-column actor-stat-to-label actor-stat-to-prop">
+                  {{localize "CZT.Actor.Stats.Fury"}}
+                </div>
+                <div class="actor-column actor-stat-to-input">
+                  <input type="text" data-type="number" name="system.fury" value="{{systemData.fury}}" />
+                </div>
+                <div class="actor-column actor-stat-to-label actor-stat-to-cond">
+                  {{localize "CZT.Actor.Stats.injured"}}<br>
+                  {{localize "CZT.Actor.Stats.not_sure"}}
+                </div>
+                <div class="actor-column actor-stat-to-mod">
+                  [-1]
+                </div>
+                <div class="actor-column actor-stat-to-select">
+                  <select name="system.injured_not_sure">
+                    <option value="0">{{localize "CZT.Actor.Conditions.No"}}</option>
+                    <option value="1">{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                    <option value="2">{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="actor-column">
+            {{#each movie_playbook_special as |movie key|}}
+              <span class="masonry-item">
+                <h3>{{#if movie.system.to_choose}}<input type="checkbox" name="system.movies" value="{{movie._id}}" {{#ifIn movie._id ../systemData.movies}} checked="checked"{{/ifIn}}/>&nbsp;{{/if}}{{movie.name}}</h3>
+                {{#if movie.system.predesc}}
+                  {{#ife ../actor.type 'battlesuit'}}
+                    {{{movie.system.predesc}}}:<br>
+                    <input type="text" class="input-under-line" name="system.movieFields.UnexpectedTalent" value="{{../systemData.movieFields.UnexpectedTalent}}" /><br>
+                  {{/ife}}
+                {{/if}}
+                {{{movie.system.description}}}
+              </span>
+            {{/each}}
+          </div>
       </div>
     </div>
   </div>

@@ -58,7 +58,9 @@
         "CommonMovies": "Базовые ходы",
         "DramaticMovies": "Драматические ходы",
         "CosmicMovies": "Космические Ходы",
-        "TraitsMovies": "Угрозы"
+        "TraitsMovies": "Угрозы",
+
+        "PlaybookBattlesuit": "Экзоскелет"
       }
     },
 
@@ -90,6 +92,22 @@
       "Exp": "Опыт",
       "Level": "Уровень",
 
+      "Stats": {
+        "Fury": "Ярость",
+        "Logic": "Логика",
+        "Science": "Наука",
+        "Status": "Статус",
+
+        "injured": "Травмирован", 
+        "not_sure": "Неуверен",
+        "shocked": "Шокирован", 
+        "confused": "Растерян",
+        "contuse": "Контужен", 
+        "angry": "Разозлён",
+        "blooded": "Окровавлен", 
+        "frightened": "Испуган"
+      },
+
       "Inventory": {
         "itWeapons": "Оружие",
         "itArmor": "Броня",
@@ -97,6 +115,12 @@
         "itNoWeapons": "Нет оружия",
         "itNoArmor": "Нет брони",
         "itNoEquips": "Нет снаряжения"
+      },
+
+      "Conditions": {
+        "No": "Нет состояний",
+        "Simple": "Лёгкое",
+        "Serious": "Серьёзное"
       }
 
     },

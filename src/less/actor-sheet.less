@@ -97,7 +97,9 @@
     grid-auto-flow: dense;
 
     .masonry-item {
-
+      input {
+        width: 100%
+      }
     }
   }
 
@@ -115,4 +117,88 @@
       height: 766px;
     }
   }
+
+  .actor-stats-block {
+    padding: 5px;
+    font-family: Furore;
+    font-weight: bold;
+    flex: 0 0 auto;
+    width: 45%;
+
+    .actor-stat-line {
+      margin-bottom: 5px;
+      background-color: black;
+      color: #fff;
+      padding-top: 3px;
+      
+      .line-height-50 {
+        height: 50px;
+        line-height: 25px;
+      }
+
+      .actor-stat-to-label {
+        flex: 0 0 auto;
+        width: 20%;
+        padding-left: 3px;
+      }
+      .actor-stat-to-input {
+        flex: 0 0 auto;
+        width: 10%;
+        
+        input {
+          width: 40px;
+          height: 40px;
+          background-color: #fff;
+          color: black;
+        }
+      }
+
+      .actor-stat-to-prop {
+        font-size: var(--font-size-16);
+
+      }
+
+      .actor-stat-to-cond {
+        font-size: var(--font-size-14);
+      }
+
+      .actor-stat-to-mod {
+        flex: 0 0 auto;
+        width: 10%;
+        font-size: var(--font-size-14);
+      }
+
+      .actor-stat-to-select {
+        flex: 0 0 auto;
+        width: 25%;
+        select {
+          background-color: #fff;
+          color: black;
+        }
+      }
+    }
+
+    .actor-stats-caption {
+      background-color: black;
+      color: #fff;
+      font-size: var(--font-size-20);
+    }
+  
+    .actor-stats-name {
+      flex: 0 0 auto;
+      width: 100px;
+      padding-left: 3px;
+    }
+
+    .actor-name {
+      border: 2px solid black;
+      font-size: var(--font-size-18);
+      font-family: Furore;
+      background-color: #fff;
+      color: black;
+    }
+
+
+  }
+
 }
