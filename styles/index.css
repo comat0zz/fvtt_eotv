@@ -277,7 +277,15 @@
   flex: 0 0 auto;
   width: 40%;
 }
+.actor.sheet .actor-cons-prfire .cons-prfire-input {
+  padding-left: 10px;
+}
+.actor.sheet .actor-cons-prfire .prfire-padding-top {
+  padding-top: 5px;
+}
 .actor.sheet .input-consumables {
   width: 25px;
   border-bottom: 1px solid black;
+  margin-left: auto;
+  text-align: center;
 }

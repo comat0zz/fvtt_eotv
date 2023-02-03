@@ -27,24 +27,11 @@
     ],
     "templates": {
       "baseActor": {
-        "movies": {},
+        "movies": [],
 
         "exp": 0,
         "lvl": 0,
         "notes": "",
-
-        "provisions": {
-          "current": 0,
-          "max": 0
-        },
-        "finance": {
-          "current": 0,
-          "max": 0
-        },
-        "profit": {
-          "current": 0,
-          "max": 0
-        },
 
         "fury": 0,
         "logic": 0,
