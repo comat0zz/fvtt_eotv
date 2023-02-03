@@ -283,9 +283,76 @@
 .actor.sheet .actor-cons-prfire .prfire-padding-top {
   padding-top: 5px;
 }
+.actor.sheet .actor-cons-prfire .prfire-padding-explvl {
+  padding-right: 37px;
+}
+.actor.sheet .actor-cons-prfire .prfire-padding-explvl input {
+  width: 50px;
+}
 .actor.sheet .input-consumables {
   width: 25px;
   border-bottom: 1px solid black;
   margin-left: auto;
   text-align: center;
+}
+.actor.sheet .actor-critical-block .set-backgound-black {
+  background-color: black;
+}
+.actor.sheet .actor-critical-block .actor-critical-cond {
+  padding: 5px;
+  padding-top: 13px;
+  background-color: black;
+  color: #fff;
+  flex: 0 0 auto;
+  width: 84%;
+  height: 43px;
+}
+.actor.sheet .actor-critical-block .actor-critical-check {
+  flex: 0 0 42px;
+  width: 25%;
+  padding-left: 11px;
+  padding-top: 8px;
+  background-color: black;
+}
+.actor.sheet .actor-critical-block .actor-critical-check input[type="checkbox"] {
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  transform: scale(2);
+}
+.actor.sheet .critical-additional_states {
+  background-color: #E4E4E4;
+  margin-top: 3px;
+}
+.actor.sheet .critical-additional_states ul {
+  padding: 2px;
+  margin-bottom: 0;
+}
+.actor.sheet .critical-additional_states ul li:first-child {
+  margin-bottom: 2px;
+}
+.actor.sheet .critical-additional_states ul li:last-child {
+  padding-top: 2px;
+}
+.actor.sheet .critical-additional_states ul input {
+  background-color: #fff;
+}
+.actor.sheet .critical-additional_states .actor-stat-to-select {
+  flex: 0 0 auto;
+  width: 30%;
+  padding: 2px;
+}
+.actor.sheet .critical-additional_states .actor-stat-to-select select {
+  background-color: #fff;
+  color: black;
+  margin-top: 15px;
+}
+.actor.sheet .critical-additional_states .actor-stat-to-select select option {
+  background-color: #fff;
+  color: black;
 }

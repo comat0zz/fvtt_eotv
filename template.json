@@ -43,7 +43,11 @@
         "contuse_angry": 0,
         "blooded_frightened": 0,
 
-        "additional_states": [],
+        "additional_states": {
+          "one": "",
+          "two": "",
+          "select": "0"
+        },
         "critical_state": false,
         "you_weapon": "",
 
@@ -380,7 +384,8 @@
       "to_choose": false,
       "tpl": "",
       "specifics": {},
-      "predesc": ""
+      "predesc": "",
+      "key": ""
     },
     "origins": {
       "sign": "",

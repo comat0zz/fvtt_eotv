@@ -398,39 +398,61 @@
                   <div class="actor-row">
                     <div class="actor-column prfire-padding-top">{{localize "CZT.Actor.Consumables.Supplies"}}</div>
                     <div class="actor-column cons-prfire-input">
-                      <input type="text" name="system.consumables.res_tec" value="{{systemData.consumables.res_tec}}" class="input-consumables" />
+                      <input type="text" name="system.consumables.res_tec" value="{{systemData.consumables.res_tec}}" class="input-consumables" data-type="number" />
                     </div>
                     <div class="actor-column prfire-padding-top">/&nbsp;{{systemData.consumables.res_max}}</div>
                   </div>
                   <div class="actor-row">
                     <div class="actor-column prfire-padding-top">{{localize "CZT.Actor.Consumables.Finance"}}</div>
                     <div class="actor-column cons-prfire-input">
-                      <input type="text" name="system.consumables.fin_tec" value="{{systemData.consumables.fin_tec}}" class="input-consumables" />
+                      <input type="text" name="system.consumables.fin_tec" value="{{systemData.consumables.fin_tec}}" class="input-consumables" data-type="number" />
                     </div>
                     <div class="actor-column prfire-padding-top">/&nbsp;{{systemData.consumables.fin_max}}</div>
                   </div>
                   <div class="actor-row">
                     <div class="actor-column prfire-padding-top">{{localize "CZT.Actor.Consumables.Income"}}</div>
                     <div class="actor-column cons-prfire-input">
-                      <input type="text" name="system.consumables.pr_tec" value="{{systemData.consumables.pr_tec}}" class="input-consumables" />
+                      <input type="text" name="system.consumables.pr_tec" value="{{systemData.consumables.pr_tec}}" class="input-consumables" data-type="number" />
                     </div>
                     <div class="actor-column prfire-padding-top">/&nbsp;{{systemData.consumables.pr_max}}</div>
                   </div>
+                  <div class="actor-row">
+                    <div class="actor-column prfire-padding-top">{{localize "CZT.Actor.Exp"}}</div>
+                    <div class="actor-column cons-prfire-input prfire-padding-explvl">
+                      <input type="text" name="system.exp" value="{{systemData.exp}}" class="input-consumables" data-type="number" />
+                    </div>
+                  </div>
+                  <div class="actor-row">
+                    <div class="actor-column prfire-padding-top">{{localize "CZT.Actor.Level"}}</div>
+                    <div class="actor-column cons-prfire-input prfire-padding-explvl">
+                      <input type="text" name="system.lvl" value="{{systemData.lvl}}" class="input-consumables" data-type="number" />
+                    </div>
+                  </div>
                 </div>
-                <div class="actor-column">
-                  криты
+                <div class="actor-column actor-critical-block">
+                  <div class="actor-row set-backgound-black">
+                    <div class="actor-column actor-critical-cond">{{localize "CZT.Actor.CriticalCond"}}</div>
+                    <div class="actor-column actor-critical-check">
+                      <input type="checkbox" name="system.critical_state" {{checked systemData.critical_state}} />
+                    </div>
+                  </div>
+                  <div class="actor-row critical-additional_states">
+                    <div class="actor-column">
+                      <ul>
+                        <li><input type="text" value="{{systemData.additional_states.one}}" name="system.additional_states.one" /></li>
+                        <li><input type="text" value="{{systemData.additional_states.two}}" name="system.additional_states.two" /></li>
+                      </ul>
+                    </div>
+                    <div class="actor-column actor-stat-to-select">
+                      <select name="system.additional_states.select">
+                        <option value="0"{{#ife systemData.additional_states.select "0"}} selected{{/ife}}>{{localize "CZT.Common.Select.No"}}</option>
+                        <option value="1"{{#ife systemData.additional_states.select "1"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                        <option value="2"{{#ife systemData.additional_states.select "2"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                      </select>
+                  </div>
+                  </div>
                 </div>
               </div>
-              <!-- Опыт и уровень -->
-              <div class="actor-row actor-cons-line">
-                <div class="actor-column">
-                  {{localize "CZT.Actor.Exp"}}
-                </div>
-                <div class="actor-column">
-                  {{localize "CZT.Actor.Level"}}
-                </div>
-              </div>
-              
             </div>
           </div>
           <div class="actor-column">
