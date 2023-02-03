@@ -101,29 +101,93 @@
       }
     },
     "noble_female": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 3,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "cyborg_male": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "companion": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 3,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "courier_male": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "mercenary_male": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 3,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "tactician_male": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "daredevil": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 3
+      }
     },
     "stranger": {
       "templates": ["baseActor"],
-      "specialist": ""
+      "specialist": "",
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 0,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 3
+      }
     },
     "battlesuit": {
       "templates": ["baseActor"],
@@ -140,53 +204,173 @@
           "current": 8,
           "max": 12
         }
+      },
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
       }
     },
     "bountyhunter": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "supernova_female": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 0,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 0
+      }
     },
     "cenzor": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "engineer": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 4
+      }
     },
     "doctor": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 3
+      }
     },
     "juggernaut_female": {
       "templates": ["baseActor"],
-      "remeslo": ""
+      "remeslo": "",
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "kinetick": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "digital_dao_male": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "emissary": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 3,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "psychomant": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "raelith": {
       "templates": ["baseActor"],
-      "function": ""
+      "function": "",
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "janissary": {
       "templates": ["baseActor"],
       "origin_statuses": "",
-      "path": ""
+      "path": "",
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "scoundrel": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 2,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     },
     "shadow": {
-      "templates": ["baseActor"]
+      "templates": ["baseActor"],
+      "consumables": {
+        "fin_max": 5,
+        "fin_tec": 1,
+        "pr_max": 3,
+        "pr_tec": 0,
+        "res_max": 10,
+        "res_tec": 2
+      }
     }
   },
   "Item": {

@@ -124,12 +124,15 @@
     font-weight: bold;
     flex: 0 0 auto;
     width: 45%;
+    .actor-cons-line {
+      margin-top: 10px;
+    }
 
     .actor-stat-line {
       margin-bottom: 5px;
       background-color: black;
       color: #fff;
-      padding-top: 3px;
+      padding: 3px;
       
       .line-height-50 {
         height: 50px;
@@ -146,34 +149,44 @@
         width: 10%;
         
         input {
-          width: 40px;
-          height: 40px;
+          width: 30px;
+          height: 30px;
           background-color: #fff;
           color: black;
+          text-align: center;
+          margin-top: 1px;
         }
       }
 
       .actor-stat-to-prop {
         font-size: var(--font-size-16);
-
+        margin-top: 6px;
       }
 
       .actor-stat-to-cond {
         font-size: var(--font-size-14);
+        width: 30%
       }
 
       .actor-stat-to-mod {
         flex: 0 0 auto;
         width: 10%;
         font-size: var(--font-size-14);
+        margin-top: 7px;
       }
 
       .actor-stat-to-select {
         flex: 0 0 auto;
-        width: 25%;
+        width: 30%;
         select {
           background-color: #fff;
           color: black;
+          margin-top: 2px;
+
+          option {
+            background-color: #fff;
+            color: black;
+          }
         }
       }
     }
@@ -199,6 +212,15 @@
     }
 
 
+  }
+
+  .actor-cons-prfire {
+    flex: 0 0 auto;
+    width: 40%;
+  }
+  .input-consumables {
+    width: 25px;
+    border-bottom: 1px solid black;
   }
 
 }

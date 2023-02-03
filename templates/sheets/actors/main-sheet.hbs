@@ -291,6 +291,7 @@
           </div>
           <div class="actor-column actor-stats-block">
             <div class="actor-wrapper">
+              <!-- Начало характеристики Имя -->
               <div class="actor-row actor-stat-line">
                 <div class="actor-column actor-stats-caption actor-stats-name">
                 {{localize "CZT.Actor.Name"}}  
@@ -299,6 +300,7 @@
                   <input type="text" name="name" class="actor-name" value="{{actor.name}}" />
                 </div>
               </div>
+              <!-- Начало характеристики Ярость -->
               <div class="actor-row actor-stat-line line-height-50">
                 <div class="actor-column actor-stat-to-label actor-stat-to-prop">
                   {{localize "CZT.Actor.Stats.Fury"}}
@@ -311,16 +313,124 @@
                   {{localize "CZT.Actor.Stats.not_sure"}}
                 </div>
                 <div class="actor-column actor-stat-to-mod">
-                  [-1]
+                  [&nbsp;-1&nbsp;]
                 </div>
                 <div class="actor-column actor-stat-to-select">
                   <select name="system.injured_not_sure">
-                    <option value="0">{{localize "CZT.Actor.Conditions.No"}}</option>
-                    <option value="1">{{localize "CZT.Actor.Conditions.Simple"}}</option>
-                    <option value="2">{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                    <option value="0"{{#ife systemData.injured_not_sure "0"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.No"}}</option>
+                    <option value="1"{{#ife systemData.injured_not_sure "1"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                    <option value="2"{{#ife systemData.injured_not_sure "2"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Serious"}}</option>
                   </select>
                 </div>
               </div>
+              <!-- Начало характеристики Логика -->
+              <div class="actor-row actor-stat-line line-height-50">
+                <div class="actor-column actor-stat-to-label actor-stat-to-prop">
+                  {{localize "CZT.Actor.Stats.Logic"}}
+                </div>
+                <div class="actor-column actor-stat-to-input">
+                  <input type="text" data-type="number" name="system.logic" value="{{systemData.logic}}" />
+                </div>
+                <div class="actor-column actor-stat-to-label actor-stat-to-cond">
+                  {{localize "CZT.Actor.Stats.shocked"}}<br>
+                  {{localize "CZT.Actor.Stats.confused"}}
+                </div>
+                <div class="actor-column actor-stat-to-mod">
+                  [&nbsp;-1&nbsp;]
+                </div>
+                <div class="actor-column actor-stat-to-select">
+                  <select name="system.shocked_confused">
+                    <option value="0"{{#ife systemData.shocked_confused "0"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.No"}}</option>
+                    <option value="1"{{#ife systemData.shocked_confused "1"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                    <option value="2"{{#ife systemData.shocked_confused "2"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Начало характеристики Наука -->
+              <div class="actor-row actor-stat-line line-height-50">
+                <div class="actor-column actor-stat-to-label actor-stat-to-prop">
+                  {{localize "CZT.Actor.Stats.Science"}}
+                </div>
+                <div class="actor-column actor-stat-to-input">
+                  <input type="text" data-type="number" name="system.science" value="{{systemData.science}}" />
+                </div>
+                <div class="actor-column actor-stat-to-label actor-stat-to-cond">
+                  {{localize "CZT.Actor.Stats.contuse"}}<br>
+                  {{localize "CZT.Actor.Stats.angry"}}
+                </div>
+                <div class="actor-column actor-stat-to-mod">
+                  [&nbsp;-1&nbsp;]
+                </div>
+                <div class="actor-column actor-stat-to-select">
+                  <select name="system.contuse_angry">
+                    <option value="0"{{#ife systemData.contuse_angry "0"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.No"}}</option>
+                    <option value="1"{{#ife systemData.contuse_angry "1"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                    <option value="2"{{#ife systemData.contuse_angry "2"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Начало характеристики Статус -->
+              <div class="actor-row actor-stat-line line-height-50">
+                <div class="actor-column actor-stat-to-label actor-stat-to-prop">
+                  {{localize "CZT.Actor.Stats.Status"}}
+                </div>
+                <div class="actor-column actor-stat-to-input">
+                  <input type="text" data-type="number" name="system.status" value="{{systemData.status}}" />
+                </div>
+                <div class="actor-column actor-stat-to-label actor-stat-to-cond">
+                  {{localize "CZT.Actor.Stats.blooded"}}<br>
+                  {{localize "CZT.Actor.Stats.frightened"}}
+                </div>
+                <div class="actor-column actor-stat-to-mod">
+                  [&nbsp;-1&nbsp;]
+                </div>
+                <div class="actor-column actor-stat-to-select">
+                  <select name="system.blooded_frightened">
+                    <option value="0"{{#ife systemData.blooded_frightened "0"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.No"}}</option>
+                    <option value="1"{{#ife systemData.blooded_frightened "1"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Simple"}}</option>
+                    <option value="2"{{#ife systemData.blooded_frightened "2"}} selected{{/ife}}>{{localize "CZT.Actor.Conditions.Serious"}}</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Клетки и криты -->
+              <div class="actor-row actor-cons-line">
+                <div class="actor-column actor-cons-prfire">
+                  <div class="actor-row">
+                    <div class="actor-column">{{localize "CZT.Actor.Consumables.Supplies"}}</div>
+                    <div class="actor-column">
+                      <input type="text" name="system.consumables.res_cur" value="{{systemData.consumables.res_cur}}" class="input-consumables" />
+                    </div>
+                    <div class="actor-column">/&nbsp;{{systemData.consumables.res_max}}</div>
+                  </div>
+                  <div class="actor-row">
+                    <div class="actor-column">{{localize "CZT.Actor.Consumables.Finance"}}</div>
+                    <div class="actor-column">
+                      <input type="text" name="system.consumables.fin_cur" value="{{systemData.consumables.fin_cur}}" class="input-consumables" />
+                    </div>
+                    <div class="actor-column">/&nbsp;{{systemData.consumables.fin_max}}</div>
+                  </div>
+                  <div class="actor-row">
+                    <div class="actor-column">{{localize "CZT.Actor.Consumables.Income"}}</div>
+                    <div class="actor-column">
+                      <input type="text" name="system.consumables.pr_cur" value="{{systemData.consumables.pr_cur}}" class="input-consumables" />
+                    </div>
+                    <div class="actor-column">/&nbsp;{{systemData.consumables.pr_max}}</div>
+                  </div>
+                </div>
+                <div class="actor-column">
+                  криты
+                </div>
+              </div>
+              <!-- Опыт и уровень -->
+              <div class="actor-row actor-cons-line">
+                <div class="actor-column">
+                  {{localize "CZT.Actor.Exp"}}
+                </div>
+                <div class="actor-column">
+                  {{localize "CZT.Actor.Level"}}
+                </div>
+              </div>
+              
             </div>
           </div>
           <div class="actor-column">
