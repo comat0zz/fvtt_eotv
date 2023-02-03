@@ -280,13 +280,18 @@
     <div class="actor-wrapper">
       <div class="actor-row">
           <div class="actor-column">
+            <span class="card-block-header">{{localize "CZT.Actor.MovieStart"}}</span> {{localize "CZT.Actor.You_have_everything"}}:
             <div class="masonry-container">
+              {{>"systems/eotv/templates/sheets/actors/movie-fabric.hbs" movies=movie_playbook_starter systemData=systemData}}
+            
+            <!--
             {{#each movie_playbook_starter as |movie key|}}
               <span class="masonry-item">
                 <h3>{{#if movie.system.to_choose}}<input type="checkbox" name="system.movies" value="{{movie._id}}" {{#ifIn movie._id ../systemData.movies}} checked="checked"{{/ifIn}}/>&nbsp;{{/if}}{{movie.name}}</h3>
                 {{{movie.system.description}}}
               </span>
             {{/each}}
+            -->
             </div>
           </div>
           <div class="actor-column actor-stats-block">
@@ -456,6 +461,9 @@
             </div>
           </div>
           <div class="actor-column">
+            <span class="card-block-header">{{localize "CZT.Actor.MovieSpecial"}}</span> {{localize "CZT.Actor.Choose_how_many"}}:
+            {{>"systems/eotv/templates/sheets/actors/movie-fabric.hbs" movies=movie_playbook_special systemData=systemData}}
+            <!--
             {{#each movie_playbook_special as |movie key|}}
               <span class="masonry-item">
                 <h3>{{#if movie.system.to_choose}}<input type="checkbox" name="system.movies" value="{{movie._id}}" {{#ifIn movie._id ../systemData.movies}} checked="checked"{{/ifIn}}/>&nbsp;{{/if}}{{movie.name}}</h3>
@@ -468,6 +476,7 @@
                 {{{movie.system.description}}}
               </span>
             {{/each}}
+            -->
           </div>
       </div>
     </div>

@@ -93,6 +93,11 @@
       "Level": "Уровень",
       "CriticalCond": "Критическое состояние",
 
+      "You_have_everything": "У тебя есть все",
+      "Choose_how_many": "Выбери 1 / сколько Навигатор скажет",
+      "MovieStart": "Стартовые ходы",
+      "MovieSpecial": "Специальные ходы",
+
       "Stats": {
         "Fury": "Ярость",
         "Logic": "Логика",
