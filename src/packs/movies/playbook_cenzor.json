@@ -11,7 +11,8 @@
       "to_choose": false,
       "specifics": {
         "in_action": ["status"],
-        "key": "inthenameofhumanity"
+        "key": "inthenameofhumanity",
+        "type": "single"
       }
      }
   },
@@ -27,7 +28,8 @@
       "to_choose": false,
       "specifics": {
         "in_action": [],
-        "key": "gankata"
+        "key": "gankata",
+        "type": "single"
       }
      }
   },
@@ -44,6 +46,7 @@
       "specifics": {
         "in_action": ["status"],
         "key": "cavalry",
+        "type": "single"
       }
      }
   },
@@ -59,7 +62,8 @@
       "to_choose": false,
       "specifics": {
         "in_action": [],
-        "key": "counterattack"
+        "key": "counterattack",
+        "type": "single"
       }
      }
   },
@@ -128,7 +132,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "accuracy"
+        "key": "accuracy",
+        "type": "single"
       }
      }
   },
@@ -144,7 +149,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": ["status"],
-        "key": "mobilization"
+        "key": "mobilization",
+        "type": "single"
       }
      }
   },
@@ -160,7 +166,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "didntyouwait"
+        "key": "didntyouwait",
+        "type": "single"
       }
      }
   },
@@ -176,7 +183,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "divination"
+        "key": "divination",
+        "type": "single"
       }
      }
   },
@@ -192,7 +200,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "insight"
+        "key": "insight",
+        "type": "single"
       }
      }
   },
@@ -208,7 +217,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "tightgrip"
+        "key": "tightgrip",
+        "type": "single"
       }
      }
   },
@@ -224,7 +234,8 @@
       "to_choose": true,
       "specifics": {
         "in_action": [],
-        "key": "specialagent"
+        "key": "specialagent",
+        "type": "single"
       }
      }
   },
@@ -240,9 +251,9 @@
       "to_choose": true,
       "specifics": {
         "in_action": ["status"],
-        "key": "jurisprudence"
+        "key": "jurisprudence",
+        "type": "single"
       }
      }
   }
-
 ]

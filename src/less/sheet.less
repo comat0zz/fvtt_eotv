@@ -99,3 +99,60 @@
   background: none;
   background-color: #fff;
 }
+
+.app, .window-content .dialog-content {
+  font-family: 'Hattori Hanzo';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Furore;
+}
+
+
+
+.window-content .dialog-content {
+  padding-top: 5px;
+  .actor-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .actor-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .dialog-select-mofidy {
+    margin-bottom: 5px;
+    .actor-column {
+      line-height: 25px;
+      flex: 0 0 auto;
+    }
+    .actor-column:first-child {
+      width: 80%;
+      
+      font-weight: bold;
+    }
+    .actor-column:last-child {
+      width: 20%;
+    }
+    
+  }
+
+  select {
+    background-color: #fff;
+    color: black;
+    option {
+      background-color: #fff;
+      color: black;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

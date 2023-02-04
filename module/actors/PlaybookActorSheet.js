@@ -32,11 +32,6 @@ export class PlaybookActorSheet extends ActorSheet {
     context.systemData = context.data.system;
     context.config = CONFIG.CZT;
 
-    //context.isWeapons = context.systemData.items.filter((i) => i.type === "weapon");
-    //context.isArmor = context.systemData.items.filter((i) => i.type === "armor");
-    //context.isEquip = context.systemData.items.filter((i) => i.type === "equipment");
-    //context.items = context.systemData.items;
-
     const origins_pack = await game.packs.get(game.system.id + '.origins').getDocuments();
     context.origins = await origins_pack.filter(e => e.system.playbook === actor_type);
 
@@ -71,10 +66,7 @@ export class PlaybookActorSheet extends ActorSheet {
   activateListeners(html) {
     super.activateListeners(html);
 
-    html.find('.sheet-roll-weapon').click(evt => this._onActorRollWeapon(evt));
-    html.find('.sheet-roll-attrs').click(evt => this._onActorRollAttrs(evt));
-
-    html.find('.sheet-item-del').click(evt => this._onActorItemDel(evt));
+    html.find('.playbook-movie-action h3 span').click(evt => this._onPlaybookMovieAction(evt));
   }
 
   async _getDocumentByPack(name) {
@@ -93,70 +85,72 @@ export class PlaybookActorSheet extends ActorSheet {
     }
   }
   
-  async _onActorRollWeapon(evt) {
-    evt.preventDefault();
-    const weapon_id = $(evt.currentTarget).closest('tr').attr('item-id');
-    const item = this.actor.system.items.filter((i) => i.type === "weapon" && i.id == weapon_id);
-    const oItem = game.items.get(item[0].item_id);
-    
-    let roll = await new Roll(item[0].formula).roll({async: true});
+  async getModNum(num) {
+    if(num[0] == "+" || num[0] == "-") {
+      return num;
+    }else{
+      return `+${num}`;
+    }
+  }
 
-    const html = await renderTemplate(`${game.system_path}/templates/chats/weapon-roll.hbs`, {
-      item_name: item[0].name,
-      img: item[0].img,
-      dice: item[0].formula,
-      desc: oItem.system.description,
+  async movieRoll(id, opts, html) {
+    const stat = html.find(`form input[name=selected-stats]:checked`).val();
+    const modify = await this.getModNum(html.find(`form select[name=set-mofidy] option:selected`).val());
+    const num = await this.getModNum(this.actor.system[stat]);
+    const injName = CONFIG.CZT.StatToInjury[stat];
+    const injActor = this.actor.system[injName];
+    let injMod = "+0";
+    if(injActor > 0) {
+      injMod = "-1";
+    }
+
+    let formula = `2d6${modify}${num}${injMod}`;
+    let roll = await new Roll(formula).evaluate({async: true});
+    console.log(roll.result, roll.total)
+
+    const tpl = await renderTemplate(`${game.system_path}/templates/chats/movie-roll.hbs`, {
       result: roll.result,
-      total: roll.total
+      total: roll.total,
+      movie_name: opts.name,
+      isInjury: (injActor > 0)?true:false,
+      injMod: injMod,
+      formula: formula,
+      injActor: injActor,
+      stat: game.i18n.localize(CONFIG.CZT.StatsLocale[stat])
     });
 
     ChatMessage.create({
       user: game.user._id,
       speaker: ChatMessage.getSpeaker(),
-      content: html
+      content: tpl
     });
   }
 
-  async checkAttr(attr, html) {
-    // Оставлю себе для примера
-    const actor_min = this.actor.system.attrs[attr].curr;
-    const actor_max = this.actor.system.attrs[attr].max;
-
-    const dices = html.find(`form input[name=count_dices]`).val();
-    const mod = html.find(`form input[type=radio][name=modificator]:checked`).val();
-
-    let roll = await new Roll(`${dices}d20`).evaluate({async: true});
-    let sortedResults = roll.terms[0].results.map(r => {return r.result}).sort(function(a, b) {
-      return b - a;});
-    
-      const tpl = await renderTemplate(`${game.system_path}/templates/chats/attrs-roll.hbs`, {
-        terms: `${dices}d20`,
-        row: sortedResults.join(', '),
-        rmax: parseInt(sortedResults[0]),
-        rmin: parseInt(sortedResults.slice(-1)),
-        attr: attr,
-        mod: mod,
-        actor_min: parseInt(actor_min),
-        actor_max: parseInt(actor_max),
-        attrLabel: CONFIG.CZT.Attrs[attr]
-      });
-  
-    ChatMessage.create({
-        user: game.user._id,
-        speaker: ChatMessage.getSpeaker(),
-        content: tpl
-    });
-  }
-
-  async _onActorRollAttrs(evt) {
+  async _onPlaybookMovieAction(evt) {
     evt.preventDefault();
-    return false; // Заглушка
-    const attrType = $(evt.currentTarget).attr('attr-type'); 
+    const movie_id = $(evt.currentTarget).closest('span.playbook-movie-action').attr('movie-id');
+    const movie_list = this.actor.system.movies;
+    //if(movie_list.indexOf(movie_id) < 0) return;
 
-    const template = await renderTemplate(`${game.system_path}/templates/dialogs/attrs-roll.hbs`);
+    const playbook = $(evt.currentTarget).closest('span.playbook-movie-action').attr('movie-playbook');
+    const movie_key = $(evt.currentTarget).closest('span.playbook-movie-action').attr('movie-key');
+    const movies_pack = await game.packs.get(game.system.id + '.movies').getDocuments();
+    const movie_item = await movies_pack.filter(e => e.system.kind === playbook && e._id === movie_id);
+    const actions = movie_item[0].system.specifics.in_action;
+    console.log(actions.length)
+
+    let options = {
+      name: movie_item[0].name,
+      lenacts: actions.length,
+      actions: actions,
+      StatsLocale: CONFIG.CZT.StatsLocale
+    }
+
+    const template = await renderTemplate(`${game.system_path}/templates/dialogs/movie-roll.hbs`, {data: options});
+
     return new Promise(resolve => {
       const data = {
-        title: "", // game.i18n.localize("CZT.Common.CheckAttrs"),
+        title: game.i18n.localize("CZT.Actor.YouUseMovie") + movie_item[0].name,
         content: template,
         buttons: {
           cancel: {
@@ -167,7 +161,7 @@ export class PlaybookActorSheet extends ActorSheet {
           yes: {
             icon: '<i class="fas fa-check"></i>',
             label: game.i18n.localize("CZT.Common.Select.Yes"),
-            callback: html => resolve(this.checkAttr(attrType, html))
+            callback: html => resolve(this.movieRoll(movie_id, options, html))
            }        
         },
         default: "cancel",
@@ -177,71 +171,7 @@ export class PlaybookActorSheet extends ActorSheet {
     });
   }
 
-  // Удаление предметов из инвентаря персонажа
-  async _onActorItemDelConfirm(item_id, html) {
-    var items = duplicate(this.actor.system.items);
 
-    let newEquips = [];
 
-    items.forEach(el => {
-      if(el.id !== item_id) {
-        newEquips.push(el);
-      }
-    });
-
-    this.actor.update({"system.items": newEquips});
-  }
-
-  async _onActorItemDel(evt) {
-    evt.preventDefault();
-    const item_id = $(evt.currentTarget).closest('tr').attr('item-id');
-
-    const tpl = await renderTemplate(`${game.system_path}/templates/dialogs/sheet-item-del.hbs`);
-    return new Promise(resolve => {
-      const data = {
-        title: game.i18n.localize("CZT.Common.DelConfirm"),
-        content: tpl,
-        buttons: {
-          cancel: {
-            icon: '<i class="fas fa-times"></i>',
-            label: game.i18n.localize("CZT.Common.Buttons.Cancel"),
-            callback: html => resolve({cancelled: true})
-          },
-          yes: {
-            icon: '<i class="fas fa-check"></i>',
-            label: game.i18n.localize("CZT.Common.Buttons.Remove"),
-            callback: html => resolve(this._onActorItemDelConfirm(item_id, html))
-           }        
-        },
-        default: "cancel",
-        close: () => resolve({cancelled: true})
-      }
-      new Dialog(data, null).render(true);
-    });
-    
-  }
-
-  /** @override */
-  _onDrop(evt) { 
-    evt.preventDefault();
-    const dragData = JSON.parse(evt.dataTransfer.getData("text/plain"));
-
-    if(dragData.type != "Item") return;
-
-    var item_id = dragData.uuid.replace("Item.", "");
-    var item =  game.items.get(item_id);
-    let items = this.actor.system.items;
-
-    let newItem = {
-      "id": genId(),
-      "item_id": item_id,
-      "name": item.name,
-      "img": item.img,
-      "type": item.type
-    };
-
-    items.push(newItem);
-    this.actor.update({"system.items": items});
-  }
 
 }

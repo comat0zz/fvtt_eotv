@@ -91,6 +91,58 @@
   background: none;
   background-color: #fff;
 }
+.app,
+.window-content .dialog-content {
+  font-family: 'Hattori Hanzo';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Furore;
+}
+.window-content .dialog-content {
+  padding-top: 5px;
+}
+.window-content .dialog-content .actor-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.window-content .dialog-content .actor-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.window-content .dialog-content .dialog-select-mofidy {
+  margin-bottom: 5px;
+}
+.window-content .dialog-content .dialog-select-mofidy .actor-column {
+  line-height: 25px;
+  flex: 0 0 auto;
+}
+.window-content .dialog-content .dialog-select-mofidy .actor-column:first-child {
+  width: 80%;
+  font-weight: bold;
+}
+.window-content .dialog-content .dialog-select-mofidy .actor-column:last-child {
+  width: 20%;
+}
+.window-content .dialog-content select {
+  background-color: #fff;
+  color: black;
+}
+.window-content .dialog-content select option {
+  background-color: #fff;
+  color: black;
+}
+.hidden {
+  display: none;
+}
 .sheet form .sheet-tabs {
   margin: 0;
   border: 0;
@@ -355,4 +407,34 @@
 .actor.sheet .critical-additional_states .actor-stat-to-select select option {
   background-color: #fff;
   color: black;
+}
+#chat-log .chat-message {
+  background: none;
+  background-color: #fff;
+  color: black;
+}
+#chat-log .chat-message .actor-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#chat-log .chat-message .actor-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+#chat-log .chat-message .roll-total {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#chat-log .chat-message .roll-total .success {
+  color: #1F8A2F;
+}
+#chat-log .chat-message .roll-total .fail {
+  color: #DC3200;
 }

@@ -1,0 +1,29 @@
+<form>
+  <div class="actor-wrapper">
+    <div class="actor-row dialog-select-mofidy">
+      <div class="actor-column">{{localize "CZT.Actor.YouModifyRoll"}}:</div>
+      <div class="actor-column">
+        <select name="set-mofidy">
+          <option value="-3">-3</option>
+          <option value="-2">-2</option>
+          <option value="-1">-1</option>
+          <option value="0" selected>0</option>
+          <option value="1">+1</option>
+          <option value="2">+2</option>
+          <option value="3">+3</option>
+        </select>
+      </div>
+    </div>
+    {{#ife data.lenacts 1}}
+    <div class="actor-row dialog-select-mofidy">
+      <div class="actor-column">{{localize "CZT.Actor.YouStatUse"}}:</div>
+      <div class="actor-column">
+        {{localize (lookup data.StatsLocale (lookup data.actions 0))}}
+        <input type="radio" class="hidden" name="selected-stats" value="{{lookup data.actions 0}}" checked="checked" />
+      </div>
+    </div>
+    {{else}}
+    {{localize "CZT.Actor.NeedYouStatsRoll"}}
+    {{/ife}}
+  </div>
+</form>
