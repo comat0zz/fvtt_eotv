@@ -1,13 +1,19 @@
 <form class="{{cssClass}}" autocomplete="off">
-  <header class="sheet-header flexrow">
-    <h1>{{data.name}}</h1>
-  </header>
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.Properties"}}</a>
+    <a class="item" data-tab="spections">{{localize "CZT.Common.Navs.Spections"}}</a>
+  </nav>
+  {{!-- Sheet Header --}}
+  <header class="sheet-header flexrow">{{name}}</header>
+
   {{!-- Sheet Body --}}
   <section class="sheet-body">
-    <div class="kind-type-border">
-      <b>{{localize "CZT.Item.Movies.KindLabel"}}:</b> {{lzCc "CZT.Item.Movies.Kind." systemData.kind}}
-
+    <div class="tab properties" data-group="primary" data-tab="properties">  
+      Properties
     </div>
-    <p>{{{systemData.description}}}</p>
+    <div class="tab" data-group="primary" data-tab="spections">
+      spections
+    </div>
   </section>
 </form>

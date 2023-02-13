@@ -1,8 +1,8 @@
 {
   "id": "eotv",
-  "title": "Грань Вселенной. 3 ред.",
-  "description": "Космические полёты. Империя, включающая несколько планет с такими разными аристократическими семьями. Могущественные корпорации, считающие, что только им дано право определять жизнь человека. Независимые миры, каждый со своей уникальной культурой. Межзвёздные странствия. Инопланетный искусственный разум. Тайны космоса…<br>Если хоть одна из этих фраз отозвалась в твоём сердце – эта игра для тебя. Благодаря «Грани Вселенной» ты сможешь встать в один строй с героями фильмов и книг, бесстрашно бороздящих космос в поисках справедливости, знаний или наживы.",
-  "version": "0.5",
+  "title": "eotv",
+  "description": "Болванка наработок под проекты разработки",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
@@ -15,39 +15,25 @@
     }
   ],
   "esmodules": [
-    "module/index.js"
+    "module/index.mjs"
   ],
   "styles": [
     "styles/index.css"
   ],
   "packs": [
     {
-      "name": "movies",
-      "label": "Ходы",
+      "name": "items",
+      "label": "Снаряжение",
       "system": "eotv",
-      "path": "packs/movies.db",
+      "path": "packs/items.db",
       "type": "Item"
     },
     {
-      "name": "origins",
-      "label": "Происхождения",
+      "name": "actors",
+      "label": "Персонажи",
       "system": "eotv",
-      "path": "packs/origins.db",
-      "type": "Item"
-    },
-    {
-      "name": "clusters",
-      "label": "Свободный кластер",
-      "system": "eotv",
-      "path": "packs/clusters.db",
-      "type": "Item"
-    },
-    {
-      "name": "equipments",
-      "label": "Снаряжение архетипов",
-      "system": "eotv",
-      "path": "packs/equipments.db",
-      "type": "Item"
+      "path": "packs/actors.db",
+      "type": "Actor"
     }
   ],
   "languages": [
@@ -61,7 +47,7 @@
   "socket": true,
   "gridDistance": 1,
   "gridUnits": "m",
-  "url": "https://github.com/comat0zz/fvtt_eotv",
-  "manifest": "https://github.com/comat0zz/fvtt_eotv/releases/latest/download/system.json",
-  "download": "https://github.com/comat0zz/fvtt_eotv/releases/latest/download/necrobiozz.zip"
+  "url": "https://github.com/comat0zz/fvtt10_eotv",
+  "manifest": "https://github.com/comat0zz/fvtt10_eotv/releases/latest/download/system.json",
+  "download": "https://github.com/comat0zz/fvtt10_eotv/releases/latest/download/fvtt10_eotv.zip"
 }

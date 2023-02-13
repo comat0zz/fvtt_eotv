@@ -1,0 +1,554 @@
+{
+  "Actor": {
+    "types": [
+      "noble_female",
+      "cyborg_male",
+      "companion",
+      "courier_male",
+      "mercenary_male",
+      "tactician_male",
+      "daredevil",
+      "stranger",
+      "battlesuit",
+      "bountyhunter",
+      "supernova_female",
+      "cenzor",
+      "engineer",
+      "doctor",
+      "juggernaut_female",
+      "kinetick",
+      "digital_dao_male",
+      "emissary",
+      "psychomant",
+      "raelith",
+      "janissary",
+      "scoundrel",
+      "shadow",
+      "cosmoship",
+      "enemy"
+    ],
+    "templates": {
+      "baseActor": {
+        "movies": [],
+
+        "exp": 0,
+        "lvl": 0,
+        "notes": "",
+        
+        "stats": {
+          "fury": 0,
+          "logic": 0,
+          "science": 0,
+          "status": 0
+        },
+
+        "conditions": {
+          "injured_not_sure": 0,
+          "shocked_confused": 0,
+          "contuse_angry": 0,
+          "blooded_frightened": 0,
+          "critical_state": false,
+          "custom": {
+            "one": "",
+            "two": "",
+            "select": "0"
+          }
+        },
+
+        "consumables": {
+          "finance": {
+            "current": 0,
+            "limit": 5
+          },
+          "resources": {
+            "current": 0,
+            "limit": 10
+          },
+          "income": {
+            "current": 0,
+            "limit": 3
+          }
+        },
+        
+        "start_preset": "",
+        "princip_input": "",
+        "theme": "",
+        "description": "",
+        
+        "history": {
+          "origin": "",
+          "originInfo": "",
+          "cluster": "",
+          "clusterInfo": "",
+          "appearancies": {
+            "plLine1": "",
+            "plLine2": "",
+            "plLine3": "",
+            "plLine4": ""
+          }
+          
+        },
+        "contacts": {
+          "c1": {
+            "name": "",
+            "val": ""
+          },
+          "c2": {
+            "name": "",
+            "val": ""
+          },
+          "c3": {
+            "name": "",
+            "val": ""
+          },
+          "c4": {
+            "name": "",
+            "val": ""
+          },
+          "c5": {
+            "name": "",
+            "val": ""
+          }
+        }
+      },
+      "common_clusters": {
+        "clusters": [
+          "empire",
+          "federation",
+          "independent_worlds",
+          "borderland"
+        ]
+      }
+    },
+    "cosmoship": {
+
+    },
+    "noble_female": {
+      "templates": ["baseActor"],
+      "clusters": [
+        "adana_empire", 
+        "acosta_empire", 
+        "aluat_empire", 
+        "ankhil_empire", 
+        "astor_empire", 
+        "degas_rossa_empire", 
+        "baron_of_the_castonian_mark", 
+        "noble_of_the_shogun_clan_on_tao_prime", 
+        "approximate_emir_on_elkhali",
+        "small_House"
+      ],
+      "consumables": {
+        "finance": {
+          "current": 3,
+          "limit": 5
+        },
+        "resources": {
+          "current": 10,
+          "limit": 2
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "cyborg_male": {
+      "templates": ["baseActor"],
+      "clusters": [
+        "crimson_lotus",
+        "steel_crane",
+        "black_fox"
+      ],
+      "consumables": {
+        "finance": {
+          "current": 5,
+          "limit": 2
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "companion": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 3,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "courier_male": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "mercenary_male": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 3,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "tactician_male": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "daredevil": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 3,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "stranger": {
+      "templates": ["baseActor"],
+      "specialist": "",
+      "consumables": {
+        "finance": {
+          "current": 0,
+          "limit": 5
+        },
+        "resources": {
+          "current": 3,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "battlesuit": {
+      "templates": ["baseActor"],
+      "movieFields": {
+        "UnexpectedTalent": ""
+      },
+      "exoskeleton": {
+        "body": "",
+        "type": "",
+        "is_damage": false,
+        "weapons": [],
+        "systems": [],
+        "battery": {
+          "current": 8,
+          "max": 12
+        }
+      },
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "bountyhunter": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "supernova_female": {
+      "templates": ["baseActor"],
+      "consumables": {
+        "finance": {
+          "current": 0,
+          "limit": 5
+        },
+        "resources": {
+          "current": 0,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "cenzor": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "engineer": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 4,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "doctor": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 3,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "juggernaut_female": {
+      "templates": ["baseActor"],
+      "remeslo": "",
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "kinetick": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "digital_dao_male": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "emissary": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 3,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "psychomant": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "raelith": {
+      "templates": ["baseActor"],
+      "function": "",
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "janissary": {
+      "templates": ["baseActor"],
+      "origin_statuses": "",
+      "path": "",
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "scoundrel": {
+      "templates": ["baseActor", "common_clusters"],
+      "consumables": {
+        "finance": {
+          "current": 2,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    },
+    "shadow": {
+      "templates": ["baseActor"],
+      "consumables": {
+        "finance": {
+          "current": 1,
+          "limit": 5
+        },
+        "resources": {
+          "current": 2,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      }
+    }
+  }
+}

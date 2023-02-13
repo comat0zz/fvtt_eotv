@@ -8,5 +8,11 @@
     "gulp-notify": "^4.0.0",
     "merge-stream": "^2.0.0",
     "nedb": "^1.8.0"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.4.0",
+    "gulp-merge-json": "^2.1.2",
+    "gulp-webp": "^4.0.1",
+    "gulp-zip": "^5.1.0"
   }
 }

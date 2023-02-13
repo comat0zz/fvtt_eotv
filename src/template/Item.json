@@ -1,0 +1,57 @@
+{
+"Item": {
+    "types": [
+      "equipments",
+      "movies",
+      "origins",
+      "clusters",
+      "tags"
+    ],
+    "templates": {
+      "baseItem": {
+        "keyName": "",
+        "formula": "",
+        "description": "",
+        "playbook": ""
+      },
+      "equipItem": {
+        "description": "",
+        "price": 0,
+        "tags": []
+      }
+    },
+    "movies": {
+      "templates": [],
+      "kind": "",
+      "keyName": "",
+      "isStudied": false,
+      "stats": [],
+      "spections": {
+        "order": [],
+        "list": {}
+      },
+      "template": false,
+      "rolls": {
+        "fail": "",
+        "partially": "",
+        "success": ""
+      }
+    },
+    "tags": {
+      "templates": [],
+      "description": "",
+      "type": "",
+      "keyName": ""
+    },
+    "origins": {
+      "templates": ["baseItem"],
+      "sign": ""
+    },
+    "clusters": {
+      "templates": ["baseItem"]
+    },
+    "equipment": {
+      "templates": ["baseItem", "equipItem"]
+    }
+  }
+}

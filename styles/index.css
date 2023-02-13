@@ -1,440 +1,95 @@
-:root {
-  --color-shadow-primary: #78D8FC;
-}
-@font-face {
-  font-family: 'Furore';
-  src: local('Furore'), url('./fonts/furore.woff2') format('woff2'), url('./fonts/furore.woff') format('woff'), url('./fonts/furore.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Hattori Hanzo';
-  src: local('Hattori Hanzo Light'), local('HattoriHanzo-Light'), url('./fonts/hattorihanzolight.woff2') format('woff2'), url('./fonts/hattorihanzolight.woff') format('woff'), url('./fonts/hattorihanzolight.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-.sheet form {
-  font-family: 'Hattori Hanzo';
-}
-.sheet form .cursor-click {
-  cursor: pointer;
-}
-.sheet form h1,
-.sheet form h2,
-.sheet form h3,
-.sheet form h4,
-.sheet form h5,
-.sheet form h6 {
-  font-family: Furore;
-}
-.sheet form input,
-.sheet form select {
-  background: none;
-  border: 1px solid transparent;
-}
-.sheet form .card-block-header {
-  font-family: Furore;
-  font-weight: bold;
-  transform: uppercase;
-  font-size: var(--font-size-16);
-}
-.sheet form table {
-  margin: 0;
-  border: 0;
-  background: none;
-  border-collapse: separate;
-  border-spacing: 2px;
-}
-.sheet form table td.table-line-img {
-  width: 30px;
-  height: 30px;
-}
-.sheet form table td.table-line-img img {
-  border: 0;
-}
-.sheet form table td.icon-trash {
-  width: 15px;
-}
-.sheet form .editor {
+/* Reset bases */
+.window-content .czt-wrapper .czt-row,
+.message-content .czt-wrapper .czt-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  height: 100%;
 }
-.sheet form ul {
+.window-content .czt-wrapper .czt-row .czt-column,
+.message-content .czt-wrapper .czt-row .czt-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.window-content div.editor,
+.message-content div.editor {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 300px;
+}
+.window-content .czt-ul,
+.message-content .czt-ul,
+.window-content .czt-ol,
+.message-content .czt-ol {
   margin-top: 0;
   padding: 0;
 }
-.sheet form ul li {
+.window-content .czt-ul li,
+.message-content .czt-ul li,
+.window-content .czt-ol li,
+.message-content .czt-ol li {
   list-style: none;
   margin-left: 0;
 }
-.sheet form .ul-point {
-  padding-left: 18px;
+.window-content .czt-table,
+.message-content .czt-table {
+  background: unset;
+  margin: 0;
+  border: none;
 }
-.sheet form .ul-point li {
-  list-style: circle;
+.window-content .czt-table tr,
+.message-content .czt-table tr {
+  background-color: unset;
 }
-.sheet form .ol-point li {
-  list-style: square;
+.window-content .czt-table .table-line-img,
+.message-content .czt-table .table-line-img {
+  width: 45px;
 }
-.sheet form .input-under-line {
-  border-bottom: 2px solid black;
+.window-content .czt-table .table-line-img img,
+.message-content .czt-table .table-line-img img {
+  width: 40px;
+  height: 40px;
 }
-.sheet form .text-bold-italic {
+.window-content .czt-table .table-line-name,
+.message-content .czt-table .table-line-name {
+  padding-left: 3px;
+}
+.window-content .czt-table .table-line-control,
+.message-content .czt-table .table-line-control {
+  width: 30px;
+}
+.window-content .czt-table .table-line-control i.fa-trash,
+.message-content .czt-table .table-line-control i.fa-trash {
+  cursor: pointer;
+}
+.window-content .czt-no-flex,
+.message-content .czt-no-flex {
+  flex: 0 0 auto;
+}
+.window-content .czt-style-bold-italic,
+.message-content .czt-style-bold-italic {
   font-weight: bold;
   font-style: italic;
 }
-.sheet form .text-font-size-16 {
-  font-size: var(--font-size-16);
+.window-content .czt-style-center,
+.message-content .czt-style-center {
+  text-align: center;
 }
-.window-app .window-content {
-  padding-top: 0;
-  background: none;
-  background-color: #fff;
+.window-content .czt-margin-bottom,
+.message-content .czt-margin-bottom {
+  margin-bottom: 3px;
 }
-.app,
-.window-content .dialog-content {
-  font-family: 'Hattori Hanzo';
+.window-content .czt-float-left,
+.message-content .czt-float-left {
+  float: left;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Furore;
-}
-.window-content .dialog-content {
-  padding-top: 5px;
-}
-.window-content .dialog-content .actor-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.window-content .dialog-content .actor-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.window-content .dialog-content .dialog-select-mofidy {
-  margin-bottom: 5px;
-}
-.window-content .dialog-content .dialog-select-mofidy .actor-column {
-  line-height: 25px;
-  flex: 0 0 auto;
-}
-.window-content .dialog-content .dialog-select-mofidy .actor-column:first-child {
-  width: 80%;
-  font-weight: bold;
-}
-.window-content .dialog-content .dialog-select-mofidy .actor-column:last-child {
-  width: 20%;
-}
-.window-content .dialog-content select {
-  background-color: #fff;
-  color: black;
-}
-.window-content .dialog-content select option {
-  background-color: #fff;
-  color: black;
-}
-.hidden {
-  display: none;
-}
-.sheet form .sheet-tabs {
-  margin: 0;
-  border: 0;
+@font-face {
+  font-family: 'PT Sans';
+  src: local('PT Sans'), local('PTSans-Regular'), url('./fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 /* Items Sheet */
-.item.sheet ul {
-  margin-top: 8px;
-}
-.item.sheet ul li {
-  line-height: 1.5;
-}
-.item.sheet.item-movies .ul-point li {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-.item.sheet.item-movies .kind-type-border {
-  border: 1px solid #f0f0e0;
-  padding: 5px 10px 5px 10px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  border-radius: 5px;
-  box-shadow: 0 0 3px var(--color-shadow-dark);
-}
-.item.sheet.item-movies .block-help {
-  margin-top: 5px;
-}
 /* Actors Sheet */
-.actor.sheet .actor-info .actor-avatar {
-  width: 100px;
-  height: 100px;
-}
-.actor.sheet .actor-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.actor.sheet .actor-row .actor-sheet-rightside {
-  padding-left: 5px;
-}
-.actor.sheet .actor-row .actor-sheet-leftside {
-  padding-right: 5px;
-}
-.actor.sheet .actor-row .actor-sheet-center {
-  flex: 0 0 auto;
-  width: 30%;
-}
-.actor.sheet .actor-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.actor.sheet .sheet-tabs-origin {
-  justify-content: space-between;
-}
-.actor.sheet .actor-item-origin.active {
-  text-shadow: None;
-}
-.actor.sheet textarea[name="system.history.originInfo"] {
-  height: 160px;
-}
-.actor.sheet .actor-sheet-block {
-  margin-top: 3px;
-}
-.actor.sheet .input-contacts-name {
-  width: 25%;
-  border-bottom: 1px solid black;
-}
-.actor.sheet .input-contacts-val {
-  width: 60%;
-  border-bottom: 1px solid black;
-}
-.actor.sheet .input-contacts-val::placeholder {
-  opacity: 1;
-  color: black;
-}
-.actor.sheet .input-contact-psychomant-no-active::placeholder {
-  opacity: 0.5;
-  color: gray;
-}
-.actor.sheet .masonry-container {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-flow: dense;
-}
-.actor.sheet .masonry-container .masonry-item input {
-  width: 100%;
-}
-.actor.sheet .actor-playbook-name {
-  font-family: Furore;
-  font-weight: bold;
-  transform: uppercase;
-  font-size: var(--font-size-24);
-  text-align: center;
-}
-.actor.sheet .notes-own .editor {
-  width: 100%;
-  height: 766px;
-}
-.actor.sheet .actor-stats-block {
-  padding: 5px;
-  font-family: Furore;
-  font-weight: bold;
-  flex: 0 0 auto;
-  width: 45%;
-}
-.actor.sheet .actor-stats-block .actor-cons-line {
-  margin-top: 10px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line {
-  margin-bottom: 5px;
-  background-color: black;
-  color: #fff;
-  padding: 3px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .line-height-50 {
-  height: 50px;
-  line-height: 25px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-label {
-  flex: 0 0 auto;
-  width: 20%;
-  padding-left: 3px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-input {
-  flex: 0 0 auto;
-  width: 10%;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-input input {
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  color: black;
-  text-align: center;
-  margin-top: 1px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-prop {
-  font-size: var(--font-size-16);
-  margin-top: 6px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-cond {
-  font-size: var(--font-size-14);
-  width: 30%;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-mod {
-  flex: 0 0 auto;
-  width: 10%;
-  font-size: var(--font-size-14);
-  margin-top: 7px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-select {
-  flex: 0 0 auto;
-  width: 30%;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-select select {
-  background-color: #fff;
-  color: black;
-  margin-top: 2px;
-}
-.actor.sheet .actor-stats-block .actor-stat-line .actor-stat-to-select select option {
-  background-color: #fff;
-  color: black;
-}
-.actor.sheet .actor-stats-block .actor-stats-caption {
-  background-color: black;
-  color: #fff;
-  font-size: var(--font-size-20);
-}
-.actor.sheet .actor-stats-block .actor-stats-name {
-  flex: 0 0 auto;
-  width: 100px;
-  padding-left: 3px;
-}
-.actor.sheet .actor-stats-block .actor-name {
-  border: 2px solid black;
-  font-size: var(--font-size-18);
-  font-family: Furore;
-  background-color: #fff;
-  color: black;
-}
-.actor.sheet .actor-cons-prfire {
-  flex: 0 0 auto;
-  width: 40%;
-}
-.actor.sheet .actor-cons-prfire .cons-prfire-input {
-  padding-left: 10px;
-}
-.actor.sheet .actor-cons-prfire .prfire-padding-top {
-  padding-top: 5px;
-}
-.actor.sheet .actor-cons-prfire .prfire-padding-explvl {
-  padding-right: 37px;
-}
-.actor.sheet .actor-cons-prfire .prfire-padding-explvl input {
-  width: 50px;
-}
-.actor.sheet .input-consumables {
-  width: 25px;
-  border-bottom: 1px solid black;
-  margin-left: auto;
-  text-align: center;
-}
-.actor.sheet .actor-critical-block .set-backgound-black {
-  background-color: black;
-}
-.actor.sheet .actor-critical-block .actor-critical-cond {
-  padding: 5px;
-  padding-top: 13px;
-  background-color: black;
-  color: #fff;
-  flex: 0 0 auto;
-  width: 84%;
-  height: 43px;
-}
-.actor.sheet .actor-critical-block .actor-critical-check {
-  flex: 0 0 42px;
-  width: 25%;
-  padding-left: 11px;
-  padding-top: 8px;
-  background-color: black;
-}
-.actor.sheet .actor-critical-block .actor-critical-check input[type="checkbox"] {
-  -ms-transform: scale(2);
-  /* IE */
-  -moz-transform: scale(2);
-  /* FF */
-  -webkit-transform: scale(2);
-  /* Safari and Chrome */
-  -o-transform: scale(2);
-  /* Opera */
-  transform: scale(2);
-}
-.actor.sheet .critical-additional_states {
-  background-color: #E4E4E4;
-  margin-top: 3px;
-}
-.actor.sheet .critical-additional_states ul {
-  padding: 2px;
-  margin-bottom: 0;
-}
-.actor.sheet .critical-additional_states ul li:first-child {
-  margin-bottom: 2px;
-}
-.actor.sheet .critical-additional_states ul li:last-child {
-  padding-top: 2px;
-}
-.actor.sheet .critical-additional_states ul input {
-  background-color: #fff;
-}
-.actor.sheet .critical-additional_states .actor-stat-to-select {
-  flex: 0 0 auto;
-  width: 30%;
-  padding: 2px;
-}
-.actor.sheet .critical-additional_states .actor-stat-to-select select {
-  background-color: #fff;
-  color: black;
-  margin-top: 15px;
-}
-.actor.sheet .critical-additional_states .actor-stat-to-select select option {
-  background-color: #fff;
-  color: black;
-}
-#chat-log .chat-message {
-  background: none;
-  background-color: #fff;
-  color: black;
-}
-#chat-log .chat-message .actor-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-#chat-log .chat-message .actor-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-#chat-log .chat-message .roll-total {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#chat-log .chat-message .roll-total .success {
-  color: #1F8A2F;
-}
-#chat-log .chat-message .roll-total .fail {
-  color: #DC3200;
-}
