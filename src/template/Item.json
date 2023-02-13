@@ -34,7 +34,8 @@
       "rolls": {
         "fail": "",
         "partially": "",
-        "success": ""
+        "success": "",
+        "list": false
       }
     },
     "tags": {
