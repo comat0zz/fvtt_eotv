@@ -76,3 +76,44 @@ input - какое то текстовое поле, ожидающее ввод
 select - работает как radio, только выпадающим списком
 
 под ходы radio, checkbox и select в массиве ходов персонажа выглядят как уникальные ходы
+
+
+
+{
+  "name": "",
+  "type": "movies",
+  "img": "",
+  "folder": null,
+  "data": {
+    "kind": "dramatic", 
+    "keyName": "",
+    "isStudied": false,
+    "stats": ["fury", "logic", "science", "status"],
+    "spections": {
+      "order": ["txt1", "lst1"],
+      "list": {
+        "txt1": {
+          "type": "text", 
+          "values": ""
+        },
+        "lst1": {
+          "type": "list",
+          "class": "arrow-right",
+          "values": [
+            
+          ]
+        }
+      }
+    },
+    "template": false,
+    "rolls": {
+      "fail": "",
+      "partially": "",
+      "success": "",
+      "list": {
+        "when": ["fail", "partially", "success"],
+        "section": "lst2"
+      }
+    }
+  }
+}
