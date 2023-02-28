@@ -1,4 +1,12 @@
-.window-content, .message-content {
+.window-app .window-content, .message-content {
+
+  background: var(--color-text-light-0);
+  color: var(--color-text-dark-primary);
+  
+  font-family: 'Hattori Hanzo';
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Furore;
+  }
 
   .czt-wrapper {
     .czt-row {
@@ -22,13 +30,20 @@
     height: 300px;
   }
 
-  .czt-ul, .czt-ol {
+  .czt-ul, .czt-ol, .arrow-right {
     margin-top: 0;
     padding: 0;
 
     li {
       list-style: none;
       margin-left: 0;
+    }
+  }
+
+  .arrow-right {
+    li:before {
+      content: "➤";
+      padding-right: 5px;
     }
   }
 

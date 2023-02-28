@@ -1,19 +1,56 @@
 <form class="{{cssClass}}" autocomplete="off">
-  {{!-- Sheet Tab Navigation --}}
-  <nav class="sheet-tabs tabs" data-group="primary">
-    <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.Properties"}}</a>
-    <a class="item" data-tab="spections">{{localize "CZT.Common.Navs.Spections"}}</a>
-  </nav>
-  {{!-- Sheet Header --}}
-  <header class="sheet-header flexrow">{{name}}</header>
-
+  <h1>{{item.name}}</h1>
   {{!-- Sheet Body --}}
   <section class="sheet-body">
-    <div class="tab properties" data-group="primary" data-tab="properties">  
-      Properties
-    </div>
-    <div class="tab" data-group="primary" data-tab="spections">
-      spections
-    </div>
+    <table class="czt-table">
+      <tr>
+        <td>{{localize "CZT.Item.Movies.TypeLabel"}}</td>
+        <td>
+          {{lzCc "CZT.Item.Movies.Types." systemData.kind}}
+          {{#ife systemData.kind "archetype"}}
+            ( ВПИСАТЬ ИМЯ АРХЕТИПА )
+          {{/ife}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{localize "CZT.Item.KeyName"}}
+          <br><i>{{localize "CZT.Item.KeyNameDesc"}}</i>
+        </td>
+        <td>{{systemData.keyName}}</td>
+      </tr>
+      <tr>
+        <td>{{localize "CZT.Item.Movies.isStudied"}}<br><i>{{localize "CZT.Item.Movies.isStudiedDesc"}}</i></td>
+        <td>{{#if systemData.isStudied}}{{localize "CZT.Common.Select.Yes"}}{{else}}{{localize "CZT.Common.Select.No"}}{{/if}}</td>
+      </tr>
+      <tr>
+        <td>
+          {{localize "CZT.Item.Movies.stats"}}<br><i>{{localize "CZT.Item.Movies.statsDesc"}}</i>
+        </td>
+        <td>
+          {{#each systemData.stats as |stat key|}}
+            {{lzCc "CZT.Actor.Stats." stat}}&nbsp;
+          {{else}}
+          &mdash;
+          {{/each}}
+        </td>
+      </tr>
+      {{#each systemData.spections.order as |specord key|}}
+      <tr>
+        <td colspan="2">
+            {{#ife (lookup (lookup ../systemData.spections.list specord) "type") "text"}}
+              {{{lookup (lookup ../systemData.spections.list specord) "values"}}}
+            {{/ife}}
+            {{#ife (lookup (lookup ../systemData.spections.list specord) "type") "list"}}
+              <ul{{#if (lookup (lookup ../systemData.spections.list specord) "class") }} class="{{lookup (lookup ../systemData.spections.list specord) "class"}}"{{/if}}>
+                {{#each (lookup (lookup ../systemData.spections.list specord) "values") as |val key|}}
+                <li>{{{val}}}</li>
+                {{/each}}
+              </ul>
+            {{/ife}}
+        </td>
+      </tr>
+      {{/each}}
+    </table>
   </section>
 </form>
