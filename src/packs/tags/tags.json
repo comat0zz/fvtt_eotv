@@ -34,19 +34,8 @@
     },
     {
         "data": {
-            "description": "Определяет предельную дальность эффективности оружия и снаряжения: <ul class=\\\"uqip-tags\\\"><li><b>в упор:</b> для атаки цели в ближнем бою;</li><li><b>ближняя:</b> для атаки цели, находящейся в пределах пары десятков метров;</li><li><b>дальняя:</b> для атаки цели, находящейся в сотнях метров, а иногда и далее.</li></ul>",
-            "keyName": "distance",
-            "typeTag": "equp"
-        },
-        "folder": null,
-        "img": "",
-        "name": "Дистанция",
-        "type": "tags"
-    },
-    {
-        "data": {
             "description": "Полностью игнорирует эффект защиты от любых типов энергетических щитов.",
-            "keyName": "Ignores-shields",
+            "keyName": "ignores-shields",
             "typeTag": "equp"
         },
         "folder": null,
@@ -283,6 +272,50 @@
         "folder": null,
         "img": "",
         "name": "Штатское",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Определяет предельную дальность эффективности оружия и снаряжения для атаки цели в ближнем бою.",
+            "keyName": "distance_pointblank",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дистанция: в упор ",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Определяет предельную дальность эффективности оружия и снаряжения для атаки цели, находящейся в пределах пары десятков метров.",
+            "keyName": "distance_melee",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дистанция: ближняя",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Определяет предельную дальность эффективности оружия и снаряжения для атаки цели, находящейся в сотнях метров, а иногда и далее.",
+            "keyName": "distance_range",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дистанция: дальняя",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Для использования необходимо держать в двух руках.",
+            "keyName": "two-handed",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Двуручное",
         "type": "tags"
     }
 ]

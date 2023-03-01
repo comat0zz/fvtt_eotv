@@ -27,6 +27,34 @@
       "system": "eotv",
       "path": "packs/movies.db",
       "type": "Item"
+    },
+    {
+      "name": "clusters",
+      "label": "В свободном кластере",
+      "system": "eotv",
+      "path": "packs/clusters.db",
+      "type": "Item"
+    },
+    {
+      "name": "equipments",
+      "label": "Снаряжение",
+      "system": "eotv",
+      "path": "packs/equipments.db",
+      "type": "Item"
+    },
+    {
+      "name": "origins",
+      "label": "Происхождение",
+      "system": "eotv",
+      "path": "packs/origins.db",
+      "type": "Item"
+    },
+    {
+      "name": "tags",
+      "label": "Теги",
+      "system": "eotv",
+      "path": "packs/tags.db",
+      "type": "Item"
     }
   ],
   "languages": [

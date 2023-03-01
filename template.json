@@ -483,8 +483,13 @@
     },
     "emissary": {
       "templates": [
-        "baseActor",
-        "common_clusters"
+        "baseActor"
+      ],
+      "clusters": [
+        "yershalaim",
+        "magadon",
+        "visdegri",
+        "unity"
       ],
       "consumables": {
         "finance": {
@@ -618,9 +623,9 @@
         "playbook": ""
       },
       "equipItem": {
-        "description": "",
         "price": 0,
-        "tags": []
+        "tags": [],
+        "choose_one": false
       }
     },
     "movies": {
@@ -637,13 +642,14 @@
       "rolls": {
         "fail": "",
         "partially": "",
-        "success": ""
+        "success": "",
+        "list": false
       }
     },
     "tags": {
       "templates": [],
       "description": "",
-      "type": "",
+      "typeTag": "",
       "keyName": ""
     },
     "origins": {
@@ -657,7 +663,7 @@
         "baseItem"
       ]
     },
-    "equipment": {
+    "equipments": {
       "templates": [
         "baseItem",
         "equipItem"
