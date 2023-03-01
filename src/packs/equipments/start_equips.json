@@ -1,0 +1,1877 @@
+[
+    {
+        "data": {
+            "choose_one": true,
+            "description": "в упор, бесшумное, бронебойное, скрытое",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Встроенный моноклинок",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "дальняя, мощное, бронебойное",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Револьвер XPERT",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "дальняя, нелетальный режим, штатское",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Экспериментальный парализатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Только тщательная проверка распознает обман. Потрать 1 Припас и запрограммируй его на новую личность",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Фальшивое ID",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и брось гранату (ближняя, площадное). Все в зоне поражения дезориентированы на короткое время;",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Шоковая граната",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Из программируемых материалов. Потрать 1 Припас и быстро смени ему цвет и фасон",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Маскировочное пальто",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас и можешь попытаться Взломать любое устройство через свой коммуникатор, если оно в пределах видимости и не далее нескольких метров от тебя.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "courier_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Прошивка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы снять Состояние, 2 на Серьёзное или 3 на Критическое",
+            "formula": "",
+            "keyName": "",
+            "playbook": "noble_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Медицинский браслет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Приводит в порядок одежду и имидж клиента. Потрать 1 Припас, чтобы сделать идеальным твой внешний вид или вид соратника",
+            "formula": "",
+            "keyName": "",
+            "playbook": "noble_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Робот-камердинер",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и достань ценный предмет. Он может давать возможность или рычаг . Кроме того, у тебя всегда есть красивые и дорогие безделушки, чтобы добавить стиля помещению",
+            "formula": "",
+            "keyName": "",
+            "playbook": "noble_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Роскошь",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и полностью игнорируй урон от одной атаки. ",
+            "formula": "",
+            "keyName": "",
+            "playbook": "noble_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Энергетический щит в перстне",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы твой звонок или передачу невозможно было отследить или расшифровать",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cyborg_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "High-end Коммуникатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы всё твоё вооружение (включая импланты) считалось ритуальным и приобрело тег штатское в глазах одних спецслужб или на 1 сцену",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cyborg_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Документы на оружие",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Успокаивающее занятие. Оно помогает тебе Восстанавливаться, когда Проводишь время. При этом ты можешь потратить Припас и избавиться от психоза",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cyborg_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Набор для каллиграфии или бонсай",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Со встроенным голопроектором. Потрать 1 Припас, чтобы под шляпой отображалось не твоё лицо, а другое",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cyborg_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Традиционная шляпа",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(в упор, бесшумное, скрытое, штатское) в виде заколки",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Стилет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, кодированное, скрытое, штатское)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пистолет, карманный",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, нелетальный режим, скрытое, штатское) в виде элегантного браслета.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Разрядник, персональный",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы повысить результат с 6— до 7—9, когда Соблазняешь, или чтобы оппонент запомнил тебя только смутно",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Духи с феромонами",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и поставь жучок. Ты слышишь (или даже видишь), что рядом с ним происходит",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Шпионское оборудование",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "в форме элемента одежды. Потрать 1 Припас и игнорируй весь урон от одной атаки",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Энергетический щит",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и задай ещё один вопрос, используя Открытое очарование. Собеседник не догадается, что рассказал что-то важное.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "companion",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Эффектные аксессуары",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "маскировка.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Камуфляжная система",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "прыжок до 15 метров в длину и высоту.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Прыжковый ранец",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "+2 к максимуму Припасов.",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Разгрузка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и достань пистолет (ближняя) или нож (в упор).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Второе оружие",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и брось гранату (ближняя, опасное, площадное, умное). Запрограммируй: она плазменная (игнорирует щиты), светошумовая (нелетальное) или с иными свойствами (на твой выбор).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Гранаты 2.0",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и установи в подходящем месте. Она будет автоматически защищать сектор (дальняя, кодированное, очередь, умное).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Переносная турель",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас для лечения обычного Состояния, 2 — Серьёзного и 3 — Критического.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "mercenary_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Реаниматор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, кодированное, программируемое, штатское)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пистолет-пулемёт для спецподразделений",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(дальняя, бронебойное, игнорирует щиты, нелетальный режим)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Турбоплазменный пистолет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы в течение одного разговора понимать, когда собеседник врёт.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Карманный детектор лжи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Сама разворачивается из маленького рюкзачка. Потрать 1 Припас и получи броню до конца боя. Даёт состояние «Броня повреждена». При получении этого Состояния броня разрушается.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Кираса",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и проведи физикохимический анализ любого объекта. Задай 1 вопрос из хода Ориентируешься или возьми ещё 1 фишку, используя Всё по плану (если анализ помог в планировании операции).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Мини-лаборатория",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Помогает тебе сосредоточиться. Потрать 1 Припас и получи +1 к Науке.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "tactician_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Сигара",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и просканируй с небольшого расстояния техническое устройство или робота (включая 1 или несколько его Граней).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "daredevil",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Анализатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и съешь таблетку. Она действует одну сцену. Скорость реакции невероятно обостряется. Когда Навигатор объявляет результат твоего действия, ты один раз за сцену можешь перебить его и заявить, что успеваешь среагировать и как-то избежать последствий. Объясни, что именно ты делаешь.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "daredevil",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "«сk0RоSть»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас — «унитул» примет форму инструмента или оружия ближнего боя по твоему выбору.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "daredevil",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "«Унитул МАК21»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и достань скейтборд, способный скользить на высоте до метра над поверхностью земли.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "daredevil",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ховерскейт",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и запусти небольшую летающую сферу, способную вести наблюдение с записью.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Зонд-анализатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы увеличить свою мускульную силу на одну сцену.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Малый экзоскелет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы избавиться ото всех последствий акклиматизации.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Метаморфин",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы установить на одну сцену в одном помещении стандартную, усиленную или нулевую гравитацию.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Переносной гравигенератор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы выстрелить ими на дистанцию до 10м. Тросы могут притягивать к тебе лёгкие предметы или тебя к тяжёлым. Вреда не наносят.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Тросы",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы твой резак (или подобное оружие) приобрёл теги мощное и точное.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "stranger",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Усилители резака",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и получи +1 к Статусу в одной сцене",
+            "formula": "",
+            "keyName": "",
+            "playbook": "battlesuit",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Коробка дорогих сигар",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и восстанови 1 батарею экзоскелета",
+            "formula": "",
+            "keyName": "",
+            "playbook": "battlesuit",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Запасной аккумулятор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас для лечения обычного Состояния, 2 — Серьёзного",
+            "formula": "",
+            "keyName": "",
+            "playbook": "battlesuit",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Регенератор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас для лечения обычного Состояния, 2 — Серьёзного",
+            "formula": "",
+            "keyName": "",
+            "playbook": "battlesuit",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Счастливая пуля",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(в упор, игнорирует щиты, бесшумный)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Кинжал с плазменной кромкой",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, бронебойный, бесшумный)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пистолет ПРОК-22",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, нелетальный режим, очередь, штатское)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Модифицированный разрядник",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас, когда смотришь через эти «очки» на подозреваемого — если он в розыске, ты получишь его имя, персональные данные и заведённые дела",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Визуальный анализатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас и прикрепи к цели маячок. Ты засекаешь его с нескольких километров",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Маячок",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "(ближняя): потрать 1 Припас и поймай цель. Она не сможет удалиться от тебя больше, чем на несколько метров, пока трос не перерезан или не отключён",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Перчатка-гарпун",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас. Тебя нельзя увидеть, пока ты не совершаешь резких движений.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "bountyhunter",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Хамелеон",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "Финансы 2, Припасы 2, плазменная винтовка (дальняя, игнорирует щиты , очередь), хамелеон (потрать 1 Припас; ты незаметна пока не делаешь резких движений), какая-то униформа, билет на лайнер до другой планеты, короткое прощальное письмо, небольшой укреплённый контейнер с неизвестным содержимым;",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "supernova_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "sl1",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "Финансы 1, Припасы 2, кибер-протезы (потрать 1 Припас и сломай небольшой не сопротивляющийся объект) со встроенными лезвиями (в упор, бронебойное, скрытое), лохмотья, хлам, загадочное и неработающее устройство",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "supernova_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "sl2",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "Финансы 3, Припасы 1, карманный лазер (ближняя , скрытое, штатское), дорогие безделушки (потрать 1 Припас и получи рычаг или возможность , если это уместно), шикарная одежда и вещи, ключи от флаера, ID на неизвестного человека",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "supernova_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "sl3",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "Финансы 1, Припасы 2, наруч с лазерным генератором (в упор, ближняя, точное), энергетический щит (потрать 1 Припас и игнорируй урон от одной атаки), вакуумные гранаты (потрать 1 Припас; ближняя, бесшумное, площадь), комбинезон странного кроя, записка твоим почерком «Извини, мне надо это сделать»",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "supernova_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "sl4",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "Финансы 2, Припасы 2, пистолет (ближняя , штатское), встроенная медсистема (потрать 1 Припас и сними состояние или 2 Припаса — и Серьёзное), чужие вещи, непонятная документация, странная татуировка, шрам от смертельного ранения.",
+            "formula": "get_res",
+            "keyName": "",
+            "playbook": "supernova_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "sl5",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и измени свою внешность и голос на несколько часов. Подмену можно обнаружить только с помощью специального оборудования.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cenzor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Наномаска",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и достань небольшую сумку с эффектом маскировки. Любой положенный туда предмет считается обладающим тегом скрытый .",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cenzor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Сумка-хамелеон",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и активируй на одну сцену сканер по своему выбору: движения, электромагнитный, инфракрасный. Радиус – Ближняя дистанция.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cenzor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Юнисканер",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас — твой костюм становится герметичным на пару десятков минут. Запас дыхательной смеси на тот же срок прилагается.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "cenzor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Экстренный набор спасения",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Стреляет быстрозастывающим гелем. Потрать 1 Припас, чтобы укрепить или герметизировать поверхность. Когда Идёшь в атаку, можешь обездвижить противника.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "engineer",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Гипс-пушка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Если ты его надеваешь, получи +1 к Статусу, но -1 к Науке. Потрать 1 Припас, чтобы сменить образ так, что тебя сложно узнать. К нему прилагался контейнер с клубникой.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "engineer",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Платье / дорогой костюм",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, и можешь медленно передвигаться по стенам и потолку в течение одной сцены.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "engineer",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Снаряжение прокладчика кабелей",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "(в упор, ближняя). Потрать 1 Припас, чтобы приобрести до конца боя или сцены любые из тэгов: кровавое, мощное, очередь.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "engineer",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Усиленный лазерный резак",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, и понизь Некомфортную среду цели на 1. Также она будет потреблять меньше кислорода",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Адаптант",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и приведи цель в сознание",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Адреналин",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас для лечения обычного Состояния, 2 — Серьёзного и 3 — Критического",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Реаниматор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и задай цели 1 любой вопрос. Если цель знает ответ, она не сможет его утаить",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Сыворотка правды",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и дай цели возможность",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Концентрирующее",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, и цель получит +1 на следующий ход",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Тоник",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, и цель заснёт на 3 часа",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Транквилизатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, и цель успокоится и 3 часа будет ощущать хорошее настроение",
+            "formula": "",
+            "keyName": "",
+            "playbook": "doctor",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Эндорфин",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(в упор, бесшумное, легендарное, штатское) Этот меч сакрален, поэтому с ним разрешают ходить свободно.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ритуальный меч",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(в упор, бесшумное, двуручное, кровавое, мощное).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Импульсный топор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(в упор, бесшумное, бронебойное, двуручное, точное).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Копьё",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и получи 1 Адреналин. В твоем племени сочли бы позорным его применение, а обычные люди могут быть разочарованы.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Адреналиновый инъектор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "(ближняя, мощное). Потрать 1 Припас для атаки.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Метательный топор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "По рецепту из твоего дома. Потрать 1 Припас и обостри свои чувства на 1 сцену.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Микстура",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Получить такой клык в подарок считается честью даже за пределами твоего дома. Потрать 1 Припас и получи +2 когда Договариваешься.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "juggernaut_female",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ожерелье из клыков стылого призрака",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Можешь прессовать такие из графита. Потрать 1 Припас, чтобы использовать в одном бою (в упор, бесшумное, бронебойное, скрытое) .",
+            "formula": "",
+            "keyName": "",
+            "playbook": "kinetick",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Алмазный нож",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и достань небольшую летающую платформу на реактивной тяге. Такие обычно медленны из-за веса… но не в твоём случае.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "kinetick",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Аэропод",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Усиливает концентрацию, но нуждается в перезарядке. Потрать 1 Припас и получи +1, когда действуешь с помощью Гравигена.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "kinetick",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Имплант L2",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и возведи небольшую вертикальную или горизонтальную поверхность средней прочности.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "kinetick",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Материал для спрессовывания",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и мгновенно очисть 1 ячейку Перегрузки",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Внешний накопитель",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Создает отклоняющее снаряды электрическое поле. Потрать 1 Припас и впиши Состояние «Поле отключено» до конца боя. Серьёзным это Состояние быть не может.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Грозовое облако",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Дотронься этим прибором до любого носителя информации и потрать 1 Припас. Получи на коммуникатор всю информацию с носителя",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Инфо-лассо",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и мгновенно получи информацию общего доступа по персоне, явлению или месту (по имени или изображению)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Информационный концентратор (центрик)",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "(ближняя, бесшумное, мощное, скрытое, точное) . Имплантирован в твоё тело. Потрать 1 Припас, чтобы активировать его на один бой или сцену",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Лазер «Грэй-Кейби»-06",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы запитать 1 любой прибор. Его нельзя выключить без твоего желания.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "digital_dao_male",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Экранированная батарея",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "из синташелка с энергощитом (потрать 1 Припас и игнорируй урон от одной атаки). Не пачкается и не рвётся",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Костюм",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас и запусти его. Зонд хранит множество данных, создаёт голограммы, может вести разведку и голозапись",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Летающий бот",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас. В течение 1 часа на Ближней дистанции вокруг тебя не действуют никакие эффекты Некомфортной или опасной среды",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Локальный терраформатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "работает на расстояний всей системы. Управляется мыслью — потрать 1 Припас, чтобы твой разговор невозможно было обнаружить и отследить",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Нейрокоммуникатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "очки, подключённые к инфосети. Потрать 1 Припас и задай 1 вопрос из списка Ориентируешься или увеличь проверку хода Получаешь информацию на 1 категорию",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Оптинет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "потрать 1 Припас и добавь к пистолету любые 3 тега из: бесшумное, мощное, нелетальное, точное .",
+            "formula": "",
+            "keyName": "",
+            "playbook": "emissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Оружейные аксессуары",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Усиливает твои мысли. Потрать 1 Припас и передай 1 мысль соратнику, с которым у тебя есть Связь",
+            "formula": "",
+            "keyName": "",
+            "playbook": "psychomant",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Препарат «Prof. X»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и распространи действие одной способности на все цели в пределах видимости (если способность можно так применить). После этого получи Серьёзное состояние и потеряй сознание",
+            "formula": "",
+            "keyName": "",
+            "playbook": "psychomant",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Препарат «Император»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас для лечения обычного Состояния или 2 — для Серьёзного",
+            "formula": "",
+            "keyName": "",
+            "playbook": "psychomant",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Регенератор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Концентрируясь 10 минут, ты можешь восстановить все свои Связи сразу. Потрать 1 Припас",
+            "formula": "",
+            "keyName": "",
+            "playbook": "psychomant",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Тотемный предмет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "небольшая отделяемая часть тела, которая может летать и вести наблюдение. Потрать 1 Припас для запуска",
+            "formula": "",
+            "keyName": "",
+            "playbook": "raelith",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Зонд",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "раэлитская система самоконтроля. После Единения потрать 1 Припас и вспомни, что происходило, пока Машина владела твоим телом. Не работает, когда зачёркнута последняя ячейка Угасания.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "raelith",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Имплант «7 of 9»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "потрать 1 Припас и на одну сцену выбери ещё 1 пункт из хода Не-человек . Если взятая Броня оказалась повреждена, её надо чинить прежде, чем делать новую Пересборку. ",
+            "formula": "",
+            "keyName": "",
+            "playbook": "raelith",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пересборка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "потрать 1 Припас и заставь все электронные системы наблюдения некоторое время сбоить, вести себя странно и не обнаруживать тебя.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "raelith",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Система «Призрак»",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "потрать 1 Припас и очисти 1 ячейку Угасания, отменив её эффект.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "raelith",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Энергоячейка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы снять цели 1 Состояние. Если применяешь на себе, можешь вместо этого получить 1 Пневму.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "janissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Витальный гель",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас, чтобы на 1 сцену поменять значения 2 характеристик. Но для усвоения надо несколько минут.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "janissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Мутаген",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "(ближняя, бесшумное, скрытое, умное). Потрать 1 Припас, чтобы игла была отравлена (противник ослабевает и может оказаться парализован).",
+            "formula": "",
+            "keyName": "",
+            "playbook": "janissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Органический игломёт",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и подари такой же символ кому-нибудь. Если ему будет грозить беда, ты это почувствуешь.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "janissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Священный символ",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и впиши Состояние «Броня повреждена» до конца боя. Серьёзным это Состояние быть не может.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "janissary",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Хитиновая броня",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и получи Броню до конца боя. Даёт состояние «Броня повреждена». При получении этого Состояния броня разрушается.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "scoundrel",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Поношенная броня",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и выстави напоказ деталь костюма, которая одних приводит в бешенство, а другим нравится. Выбери НПС и получи его симпатию. Но Навигатор может выбрать НПС, которому эта деталь неприятна. Получи возможность против каждого из них.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "scoundrel",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Провокационный костюм",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "выручит тебя в трудную минуту. Потрать 1 Припас и восстанови 1 Фортуну.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "scoundrel",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Талисман",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и скажи, на чьё имя у тебя документы сейчас",
+            "formula": "",
+            "keyName": "",
+            "playbook": "scoundrel",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Фальшивые документы",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, игнорирует щит, кодированное, точное)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Плазменный пистолет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(ближняя, бесшумное, очередь, программируемое)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Импульс-ПП",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": true,
+            "description": "(дальняя, двуручное, мощное, бронебойное)",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Снайперская винтовка",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и поставь мини-проектор. Пару часов он может создавать иллюзию небольшого объекта или сегмента стены, не отличимую от реальной.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Голопроектор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и получи броню до конца боя. Даёт состояние «Броня повреждена». При его получении броня разрушается. Не может быть Серьёзным состоянием.",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Лёгкая броня",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Маскировочное поле включается мгновенно. Потрать 1 Припас и исчезни бесследно у всех на глазах или повысь результат хода Укрываешься на одну категорию",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Стелс-форсаж",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "choose_one": false,
+            "description": "Потрать 1 Припас и измени данные, создав себе новую личность",
+            "formula": "",
+            "keyName": "",
+            "playbook": "shadow",
+            "price": 0,
+            "tags": []
+        },
+        "folder": null,
+        "img": "",
+        "name": "Фальшивое ID",
+        "type": "equipments"
+    }
+]

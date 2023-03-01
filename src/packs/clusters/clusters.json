@@ -1,0 +1,212 @@
+[
+    {
+        "data": {
+            "description": "ледяной мир, синяя кожа, технологичность",
+            "keyName": "adana_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Адана (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "изящество, культурный лидер, интриги и дуэли",
+            "keyName": "acosta_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Акоста (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "гармония, сельское хозяйство, традиционализм",
+            "keyName": "aluat_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Алуат (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "опальный, связь с криминалом, индустриальный",
+            "keyName": "ankhil_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Анхил (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "правящий, благополучный, влиятельный",
+            "keyName": "astor_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Астор (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "амбициозный, молодой, транспортный хаб",
+            "keyName": "degas_rossa_empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дега Росса (Империя)",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "феодализм, гордость, свобода",
+            "keyName": "baron_of_the_castonian_mark"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Барон Кастонианской марки",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "традиции, импланты, честь",
+            "keyName": "noble_of_the_shogun_clan_on_tao_prime"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дворянин сёгуна клана на Тао Прайм",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "религиозность, биотехнологии, иерархичность",
+            "keyName": "approximate_emir_on_elkhali"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Приближённый эмира на Эльхали",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "в Империи и вне",
+            "keyName": "small_House"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Малый Дом",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "«Смерть не является оправданием»",
+            "keyName": "crimson_lotus"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Багровый лотос",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "«Честь превыше Жизни»",
+            "keyName": "steel_crane"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Стальной журавль",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "«Всё имеет свою цену»",
+            "keyName": "black_fox"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Чёрный лис",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "аристократия, традиции, забота",
+            "keyName": "empire"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Империя",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "корпорации, рейтинг граждан, свобода",
+            "keyName": "federation"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Федерация",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "разнообразные, самобытные, недоверие",
+            "keyName": "independent_worlds"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Независимые миры",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "война с Машиной, всё на фронт, дисциплина",
+            "keyName": "borderland"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Пограничье",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "лидирующая, дипломатия, надёжность во всём",
+            "keyName": "yershalaim"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ершалаим",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "биотехнологии, соц. Технологии, доступность во всём",
+            "keyName": "magadon"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Магадон",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "транспорт, логистика, исследование космоса",
+            "keyName": "visdegri"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Висдегри",
+        "type": "clusters"
+    },
+    {
+        "data": {
+            "description": "дерзкая, передовые технологии, масс-медиа",
+            "keyName": "unity"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Юнити",
+        "type": "clusters"
+    }
+]

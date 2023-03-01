@@ -1,0 +1,288 @@
+[
+    {
+        "data": {
+            "description": "Не производит шума.",
+            "keyName": "silent",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Бесшумное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Может игнорировать защиту от Грани «Броня» или эффективно нейтрализовать её.",
+            "keyName": "armor-piercing",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Бронебойное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Способно защитить пользователя от агрессивной окружающей среды: вакуума, воды и т.д.",
+            "keyName": "sealed",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Герметичное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Определяет предельную дальность эффективности оружия и снаряжения: <ul class=\\\"uqip-tags\\\"><li><b>в упор:</b> для атаки цели в ближнем бою;</li><li><b>ближняя:</b> для атаки цели, находящейся в пределах пары десятков метров;</li><li><b>дальняя:</b> для атаки цели, находящейся в сотнях метров, а иногда и далее.</li></ul>",
+            "keyName": "distance",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Дистанция",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Полностью игнорирует эффект защиты от любых типов энергетических щитов.",
+            "keyName": "Ignores-shields",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Игнорирует щиты",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Применять может только зарегистрированный пользователь.",
+            "keyName": "coded",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Кодированное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Наносит особо страшные раны, буквально разрывая противника на части. Может вгонять в панику.",
+            "keyName": "bloody",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Кровавое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Предмет с богатой историей, его легко узнать. У многих к нему особое отношение.",
+            "keyName": "legendary",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Легендарное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Предмет определённо лучше аналогичного, которым герой сейчас пользуется. Чем-то. Когда герой начинает пользоваться им, данный тег исчезает. Он нужен только для кинематографичности: чтобы, например, герой после боя мог взять трофейную крутую пушку, не погружаясь в детали, чем она лучше.",
+            "keyName": "better-than-before",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Лучше прежнего",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Пользователь невидим, пока не совершает резких движений.",
+            "keyName": "disguise",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Маскировка",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Эффективно разрушает предметы обстановки.",
+            "keyName": "powerful",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Мощное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Не наносит долговременного вреда и не может убить.",
+            "keyName": "non-lethal",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Нелетальное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Переключается между обычным типом атаки и нелетальным.",
+            "keyName": "non-lethal-mode",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Нелетальный режим",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Необычное управление или форма, к которым надо приноровиться прежде, чем использовать.",
+            "keyName": "non-standard",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Нестандартное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Может бить по площадям или воздействовать на большие территории.",
+            "keyName": "areal",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Площадное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "При неаккуратном использовании легко навредить себе или союзникам.",
+            "keyName": "dangerous",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Опасное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Когда Бросаешься в атаку, потрать Припас, чтобы заставить противника залечь. Может повреждать Грань «Толпа» и не тратит времени, повреждая Грань «Группа».",
+            "keyName": "queue",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Очередь",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Даёт возможность поразить цель за укрытием и вне прямой видимости.",
+            "keyName": "programmable",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Программируемое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Способно нейтрализовывать и повреждать Грань «Бронетехника».",
+            "keyName": "anti-tank",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Противотанковое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Предмет может быть спрятан или замаскирован, без специального досмотра его нельзя обнаружить.",
+            "keyName": "hidden",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Скрытое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Даёт возможность поразить маленькую цель.",
+            "keyName": "precise",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Точное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Атака с этим оружием тратит 1 Припас.",
+            "keyName": "heavy",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Тяжёлое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Можно использовать разные типы боеприпасов или зарядов. Типы иногда указаны в описании, а иногда это оставлено на ваше решение. Чтобы достать нужный комплект, нужно потратить 1 Припас.",
+            "keyName": "smart",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Умное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Предмет чем-то ценен или дорого стоит.",
+            "keyName": "valuable",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Ценное",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Сделано совершенно иной культурой. Непонятно, как им пользоваться, или даже что это.",
+            "keyName": "alien",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Чуждое",
+        "type": "tags"
+    },
+    {
+        "data": {
+            "description": "Допустимо к открытому ношению, есть лицензия.",
+            "keyName": "civilian",
+            "typeTag": "equp"
+        },
+        "folder": null,
+        "img": "",
+        "name": "Штатское",
+        "type": "tags"
+    }
+]

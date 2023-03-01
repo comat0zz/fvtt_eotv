@@ -50,8 +50,8 @@ cf1.close()
 sheet = book.worksheets[1]
 
 clusters = []
-for row in range(1, 999):
-    playbook = sheet.cell(row=row, column=1).value
+for row in range(2, 999):
+    keyName = sheet.cell(row=row, column=1).value
     name = sheet.cell(row=row, column=2).value
     desc = sheet.cell(row=row, column=3).value
 
@@ -64,8 +64,8 @@ for row in range(1, 999):
         "folder": None,
         "type": "clusters",
         "data": {
-          "description": desc,
-          "playbook": playbook
+          "keyName": keyName,
+          "description": desc
         }
     })
 
@@ -74,7 +74,7 @@ cf2.writelines(json.dumps(clusters, ensure_ascii=False, indent=4, sort_keys=True
 cf2.close()
 
 sheet = book.worksheets[2]
-equipments = []
+start_equips = []
 for row in range(1, 999):
 
     playbook = sheet.cell(row=row, column=1).value
@@ -91,50 +91,55 @@ for row in range(1, 999):
     else:
         in_action = False
 
+    if key == "no":
+        key = ""
 
-    equipments.append({
+    start_equips.append({
         "name": name,
         "img": "",
         "folder": None,
         "type": "equipments",
         "data": {
+          "keyName": "",
           "playbook": playbook,
-          "key": key,
-          "in_action": in_action,
-          "description": desc
+          "formula": key,
+          "choose_one": in_action,
+          "description": desc,
+          "price": 0,
+          "tags": []
         }
     })
 
-cf3 = open('equipments.json', 'w', encoding='utf-8')
-cf3.writelines(json.dumps(equipments, ensure_ascii=False, indent=4, sort_keys=True))
+cf3 = open('start_equips.json', 'w', encoding='utf-8')
+cf3.writelines(json.dumps(start_equips, ensure_ascii=False, indent=4, sort_keys=True))
 cf3.close()
 
 
 sheet = book.worksheets[3]
-cfg = {}
+tags = []
 for row in range(2, 999):
 
-    playbook = sheet.cell(row=row, column=1).value
-    res_max = sheet.cell(row=row, column=2).value
-    res_tec = sheet.cell(row=row, column=3).value
-    fin_max = sheet.cell(row=row, column=4).value
-    fin_tec = sheet.cell(row=row, column=5).value
-    pr_max = sheet.cell(row=row, column=6).value
-    pr_tec = sheet.cell(row=row, column=7).value
+    typeTag = sheet.cell(row=row, column=1).value
+    keyName = sheet.cell(row=row, column=2).value
+    name = sheet.cell(row=row, column=3).value
+    description = sheet.cell(row=row, column=4).value
 
-    if playbook is None:
+    if name is None:
         break
 
-    cfg[playbook] = {
-        "res_max": res_max,
-        "res_tec": res_tec,
-        "fin_max": fin_max,
-        "fin_tec": fin_tec,
-        "pr_max": pr_max,
-        "pr_tec": pr_tec
-    }
+    tags.append({
+        "name": name,
+        "img": "",
+        "folder": None,
+        "type": "tags",
+        "data": {
+          "typeTag": typeTag,
+          "keyName": keyName,
+          "description": description
+        }
+    });
 
 
-cf3 = open('cfg.json', 'w', encoding='utf-8')
-cf3.writelines(json.dumps(cfg, ensure_ascii=False, indent=4, sort_keys=True))
-cf3.close()
+cf4 = open('tags.json', 'w', encoding='utf-8')
+cf4.writelines(json.dumps(tags, ensure_ascii=False, indent=4, sort_keys=True))
+cf4.close()

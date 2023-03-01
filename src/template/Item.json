@@ -15,9 +15,9 @@
         "playbook": ""
       },
       "equipItem": {
-        "description": "",
         "price": 0,
-        "tags": []
+        "tags": [],
+        "choose_one": false
       }
     },
     "movies": {
@@ -41,7 +41,7 @@
     "tags": {
       "templates": [],
       "description": "",
-      "type": "",
+      "typeTag": "",
       "keyName": ""
     },
     "origins": {
@@ -51,7 +51,7 @@
     "clusters": {
       "templates": ["baseItem"]
     },
-    "equipment": {
+    "equipments": {
       "templates": ["baseItem", "equipItem"]
     }
   }

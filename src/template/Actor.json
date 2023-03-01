@@ -446,7 +446,13 @@
       }
     },
     "emissary": {
-      "templates": ["baseActor", "common_clusters"],
+      "templates": ["baseActor"],
+      "clusters": [
+        "yershalaim",
+        "magadon",
+        "visdegri",
+        "unity"
+      ],
       "consumables": {
         "finance": {
           "current": 3,
