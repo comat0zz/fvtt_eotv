@@ -5,6 +5,38 @@ import json
 import os
 import argparse 
 import openpyxl
+import string
+import random
+
+def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
+
+
+archetypes = {
+    "noble_female": "Аристократка",
+    "cyborg_male": "Киборг",
+    "companion": "Компаньонка",
+    "courier_male": "Курьер",
+    "mercenary_male": "Наёмник",
+    "tactician_male": "Тактик",
+    "daredevil": "Сорвиголова",
+    "stranger": "Странник",
+    "battlesuit": "Броненосец",
+    "bountyhunter": "Охотник за головами",
+    "supernova_female": "Сверхновая",
+    "cenzor": "Цензор",
+    "engineer": "Инженер",
+    "doctor": "Доктор",
+    "juggernaut_female": "Джаггернаут",
+    "kinetick": "Кинетик",
+    "digital_dao_male": "Дао Цифры",
+    "emissary": "Эмиссар",
+    "psychomant": "Психомант",
+    "raelith": "Раэлит",
+    "janissary": "Янычар",
+    "scoundrel": "Авантюрист",
+    "shadow": "Тень"
+}
 
 parser = argparse.ArgumentParser(description='Перегоняет xslx в JSON для подготовки компендиума')
 
@@ -20,7 +52,7 @@ args = parser.parse_args()
 book = openpyxl.load_workbook(args.xlsx)
 sheet = book.worksheets[0]
 
-origins = []
+origins_tmp = {}
 
 for row in range(1, 999):
     playbook = sheet.cell(row=row, column=1).value
@@ -31,22 +63,38 @@ for row in range(1, 999):
     if name is None:
         break
 
-    origins.append({
+
+    listItem = {
+        "id": id_generator(8),
         "name": name,
-        "img": "",
-        "folder": None,
-        "type": "origins",
-        "data": {
-          "sign": sign,
-          "description": desc,
-          "playbook": playbook
+        "sign": sign,
+        "description": desc
+    }
+
+    if playbook in origins_tmp:
+        origins_tmp[playbook]["data"]["list"].append(listItem)
+    else:
+        origins_tmp[playbook] = {
+            "name": archetypes[playbook],
+            "img": "",
+            "folder": None,
+            "type": "origins",
+            "data": {
+                "playbook": playbook,
+                "list": [listItem]
+            }
         }
-    })
+
+origins = []
+for origin in origins_tmp:
+    origins.append(origins_tmp[origin])
+
 
 cf1 = open('origins.json', 'w', encoding='utf-8')
 cf1.writelines(json.dumps(origins, ensure_ascii=False, indent=4, sort_keys=True))
 cf1.close()
 
+'''
 sheet = book.worksheets[1]
 
 clusters = []
@@ -143,3 +191,4 @@ for row in range(2, 999):
 cf4 = open('tags.json', 'w', encoding='utf-8')
 cf4.writelines(json.dumps(tags, ensure_ascii=False, indent=4, sort_keys=True))
 cf4.close()
+'''

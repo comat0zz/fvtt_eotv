@@ -653,10 +653,9 @@
       "keyName": ""
     },
     "origins": {
-      "templates": [
-        "baseItem"
-      ],
-      "sign": ""
+      "templates": [],
+      "playbook": "",
+      "list": []
     },
     "clusters": {
       "templates": [
