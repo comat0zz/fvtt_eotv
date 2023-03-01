@@ -4,7 +4,8 @@
       "movies",
       "origins",
       "clusters",
-      "tags"
+      "tags",
+      "starter_kits"
     ],
     "templates": {
       "baseItem": {
@@ -52,6 +53,9 @@
       "templates": ["baseItem"]
     },
     "equipments": {
+      "templates": ["baseItem", "equipItem"]
+    },
+    "starter_kits": {
       "templates": ["baseItem", "equipItem"]
     }
   }

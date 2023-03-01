@@ -52,6 +52,7 @@ args = parser.parse_args()
 book = openpyxl.load_workbook(args.xlsx)
 sheet = book.worksheets[0]
 
+'''
 origins_tmp = {}
 
 for row in range(1, 999):
@@ -93,6 +94,8 @@ for origin in origins_tmp:
 cf1 = open('origins.json', 'w', encoding='utf-8')
 cf1.writelines(json.dumps(origins, ensure_ascii=False, indent=4, sort_keys=True))
 cf1.close()
+'''
+
 
 '''
 sheet = book.worksheets[1]
@@ -120,9 +123,10 @@ for row in range(2, 999):
 cf2 = open('clusters.json', 'w', encoding='utf-8')
 cf2.writelines(json.dumps(clusters, ensure_ascii=False, indent=4, sort_keys=True))
 cf2.close()
+'''
 
 sheet = book.worksheets[2]
-start_equips = []
+starter_kits = []
 for row in range(1, 999):
 
     playbook = sheet.cell(row=row, column=1).value
@@ -142,11 +146,11 @@ for row in range(1, 999):
     if key == "no":
         key = ""
 
-    start_equips.append({
+    starter_kits.append({
         "name": name,
         "img": "",
         "folder": None,
-        "type": "equipments",
+        "type": "starter_kits",
         "data": {
           "keyName": "",
           "playbook": playbook,
@@ -158,11 +162,12 @@ for row in range(1, 999):
         }
     })
 
-cf3 = open('start_equips.json', 'w', encoding='utf-8')
-cf3.writelines(json.dumps(start_equips, ensure_ascii=False, indent=4, sort_keys=True))
+cf3 = open('starter_kits.json', 'w', encoding='utf-8')
+cf3.writelines(json.dumps(starter_kits, ensure_ascii=False, indent=4, sort_keys=True))
 cf3.close()
 
 
+'''
 sheet = book.worksheets[3]
 tags = []
 for row in range(2, 999):

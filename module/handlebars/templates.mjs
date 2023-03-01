@@ -8,7 +8,8 @@ export const preloadHandlebarsTemplates = async function () {
       "sheets/items/movies-sheet.hbs",
       "sheets/items/origins-sheet.hbs",
       "sheets/items/clusters-sheet.hbs",
-      "sheets/items/tags-sheet.hbs"
+      "sheets/items/tags-sheet.hbs",
+      "sheets/items/starter_kits-sheet.hbs"
     ],
     "ActorSheets": [
       "sheets/actors/hero-sheet.hbs",
