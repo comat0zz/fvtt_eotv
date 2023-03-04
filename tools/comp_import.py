@@ -123,7 +123,7 @@ for row in range(2, 999):
 cf2 = open('clusters.json', 'w', encoding='utf-8')
 cf2.writelines(json.dumps(clusters, ensure_ascii=False, indent=4, sort_keys=True))
 cf2.close()
-'''
+
 
 sheet = book.worksheets[2]
 starter_kits = []
@@ -167,7 +167,7 @@ cf3.writelines(json.dumps(starter_kits, ensure_ascii=False, indent=4, sort_keys=
 cf3.close()
 
 
-'''
+
 sheet = book.worksheets[3]
 tags = []
 for row in range(2, 999):
@@ -197,3 +197,4 @@ cf4 = open('tags.json', 'w', encoding='utf-8')
 cf4.writelines(json.dumps(tags, ensure_ascii=False, indent=4, sort_keys=True))
 cf4.close()
 '''
+

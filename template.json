@@ -625,8 +625,7 @@
       },
       "equipItem": {
         "price": 0,
-        "tags": [],
-        "choose_one": false
+        "tags": []
       }
     },
     "movies": {
@@ -664,16 +663,12 @@
       ]
     },
     "equipments": {
-      "templates": [
-        "baseItem",
-        "equipItem"
-      ]
+      "keyName": "",
+      "price": 0,
+      "tags": [],
+      "formula": "",
+      "description": ""
     },
-    "starter_kits": {
-      "templates": [
-        "baseItem",
-        "equipItem"
-      ]
-    }
+    "starter_kits": {}
   }
 }
