@@ -2,7 +2,6 @@
     "types": [
       "equipments",
       "movies",
-      "origins",
       "clusters",
       "tags",
       "starter_kits"
@@ -43,11 +42,6 @@
       "typeTag": "",
       "keyName": ""
     },
-    "origins": {
-      "templates": [],
-      "playbook": "",
-      "list": []
-    },
     "clusters": {
       "templates": ["baseItem"]
     },
@@ -58,8 +52,51 @@
       "formula": "",
       "description": ""
     },
-    "starter_kits": {
-      
+    "playbooks": {
+      "titleName": "",
+      "description": "",
+      "origins": {
+        "isShow": true,
+        "info": {
+          "before": "",
+          "addLine": ""
+        },
+        "list": []
+      },
+      "theme": "",
+      "appearance": [],
+      "princips": {
+        "title": "",
+        "list": []
+      },
+      "contacts": [],
+      "clusters": {
+        "title": "",
+        "isShow": true,
+        "list": []
+      },
+      "starter_kits": [],
+      "movies": {
+        "speacials": [],
+        "starts": []
+      },
+      "consumables": {
+        "finance": {
+          "current": 0,
+          "limit": 5
+        },
+        "resources": {
+          "current": 0,
+          "limit": 10
+        },
+        "income": {
+          "current": 0,
+          "limit": 3
+        }
+      },
+      "additionals": {
+
+      }
     }
   }
 }
