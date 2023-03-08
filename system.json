@@ -43,10 +43,10 @@
       "type": "Item"
     },
     {
-      "name": "origins",
-      "label": "Происхождение",
+      "name": "playbooks",
+      "label": "Архетипы",
       "system": "eotv",
-      "path": "packs/origins.db",
+      "path": "packs/playbooks.db",
       "type": "Item"
     },
     {
