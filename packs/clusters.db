@@ -1,21 +1,21 @@
-{"data":{"description":"ледяной мир, синяя кожа, технологичность","keyName":"adana_empire"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"LXQ2wo2YMOjApFGc"}
+{"data":{"description":"в Империи и вне","keyName":"small_House"},"folder":null,"img":"","name":"Малый Дом","type":"clusters","_id":"1LoulDE29zO3WDO5"}
+{"data":{"description":"аристократия, традиции, забота","keyName":"empire"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"2luk56teLutAjPZx"}
 {"data":{"description":"изящество, культурный лидер, интриги и дуэли","keyName":"acosta_empire"},"folder":null,"img":"","name":"Акоста (Империя)","type":"clusters","_id":"2xJspIzIPwfZOSfz"}
-{"data":{"description":"гармония, сельское хозяйство, традиционализм","keyName":"aluat_empire"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"eFCT0LUNMukk4MKg"}
+{"data":{"description":"дерзкая, передовые технологии, масс-медиа","keyName":"unity"},"folder":null,"img":"","name":"Юнити","type":"clusters","_id":"4QqWrw8QmMzYXr28"}
+{"data":{"description":"разнообразные, самобытные, недоверие","keyName":"independent_worlds"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"6i6Thq6fCa8RSWNx"}
+{"data":{"description":"война с Машиной, всё на фронт, дисциплина","keyName":"borderland"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"9BxLwb4GD34Iu4Yn"}
+{"data":{"description":"«Честь превыше Жизни»","keyName":"steel_crane"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"AvzjZWLoj2RFqs5d"}
+{"data":{"description":"ледяной мир, синяя кожа, технологичность","keyName":"adana_empire"},"folder":null,"img":"","name":"Адана (Империя)","type":"clusters","_id":"LXQ2wo2YMOjApFGc"}
+{"data":{"description":"транспорт, логистика, исследование космоса","keyName":"visdegri"},"folder":null,"img":"","name":"Висдегри","type":"clusters","_id":"NikiS1hLtyFOUbby"}
 {"data":{"description":"опальный, связь с криминалом, индустриальный","keyName":"ankhil_empire"},"folder":null,"img":"","name":"Анхил (Империя)","type":"clusters","_id":"VxRSHXkByu9nL1R6"}
 {"data":{"description":"правящий, благополучный, влиятельный","keyName":"astor_empire"},"folder":null,"img":"","name":"Астор (Империя)","type":"clusters","_id":"X086Op7BqQMTGBCe"}
 {"data":{"description":"амбициозный, молодой, транспортный хаб","keyName":"degas_rossa_empire"},"folder":null,"img":"","name":"Дега Росса (Империя)","type":"clusters","_id":"amu4ZmJvnY3pwjoo"}
-{"data":{"description":"феодализм, гордость, свобода","keyName":"baron_of_the_castonian_mark"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"v7AdFOVx6729Gk2i"}
-{"data":{"description":"традиции, импланты, честь","keyName":"noble_of_the_shogun_clan_on_tao_prime"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"fmLWIViyNjicIj1n"}
-{"data":{"description":"религиозность, биотехнологии, иерархичность","keyName":"approximate_emir_on_elkhali"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"i8jFkzsyGyehGw8c"}
-{"data":{"description":"в Империи и вне","keyName":"small_House"},"folder":null,"img":"","name":"Малый Дом","type":"clusters","_id":"1LoulDE29zO3WDO5"}
-{"data":{"description":"«Смерть не является оправданием»","keyName":"crimson_lotus"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"xIjNj55ywKdAZcRB"}
-{"data":{"description":"«Честь превыше Жизни»","keyName":"steel_crane"},"folder":null,"img":"","name":"Стальной журавль","type":"clusters","_id":"AvzjZWLoj2RFqs5d"}
-{"data":{"description":"«Всё имеет свою цену»","keyName":"black_fox"},"folder":null,"img":"","name":"Чёрный лис","type":"clusters","_id":"rsUrxRjb9KTYmmeU"}
-{"data":{"description":"аристократия, традиции, забота","keyName":"empire"},"folder":null,"img":"","name":"Империя","type":"clusters","_id":"2luk56teLutAjPZx"}
 {"data":{"description":"корпорации, рейтинг граждан, свобода","keyName":"federation"},"folder":null,"img":"","name":"Федерация","type":"clusters","_id":"cSuak0FnbixPiYdv"}
-{"data":{"description":"разнообразные, самобытные, недоверие","keyName":"independent_worlds"},"folder":null,"img":"","name":"Независимые миры","type":"clusters","_id":"6i6Thq6fCa8RSWNx"}
-{"data":{"description":"война с Машиной, всё на фронт, дисциплина","keyName":"borderland"},"folder":null,"img":"","name":"Пограничье","type":"clusters","_id":"9BxLwb4GD34Iu4Yn"}
+{"data":{"description":"гармония, сельское хозяйство, традиционализм","keyName":"aluat_empire"},"folder":null,"img":"","name":"Алуат (Империя)","type":"clusters","_id":"eFCT0LUNMukk4MKg"}
 {"data":{"description":"лидирующая, дипломатия, надёжность во всём","keyName":"yershalaim"},"folder":null,"img":"","name":"Ершалаим","type":"clusters","_id":"f0sXZRyfcXV32x8O"}
 {"data":{"description":"биотехнологии, соц. Технологии, доступность во всём","keyName":"magadon"},"folder":null,"img":"","name":"Магадон","type":"clusters","_id":"fCDooTnyR6leTycU"}
-{"data":{"description":"транспорт, логистика, исследование космоса","keyName":"visdegri"},"folder":null,"img":"","name":"Висдегри","type":"clusters","_id":"NikiS1hLtyFOUbby"}
-{"data":{"description":"дерзкая, передовые технологии, масс-медиа","keyName":"unity"},"folder":null,"img":"","name":"Юнити","type":"clusters","_id":"4QqWrw8QmMzYXr28"}
+{"data":{"description":"традиции, импланты, честь","keyName":"noble_of_the_shogun_clan_on_tao_prime"},"folder":null,"img":"","name":"Дворянин сёгуна клана на Тао Прайм","type":"clusters","_id":"fmLWIViyNjicIj1n"}
+{"data":{"description":"религиозность, биотехнологии, иерархичность","keyName":"approximate_emir_on_elkhali"},"folder":null,"img":"","name":"Приближённый эмира на Эльхали","type":"clusters","_id":"i8jFkzsyGyehGw8c"}
+{"data":{"description":"«Всё имеет свою цену»","keyName":"black_fox"},"folder":null,"img":"","name":"Чёрный лис","type":"clusters","_id":"rsUrxRjb9KTYmmeU"}
+{"data":{"description":"феодализм, гордость, свобода","keyName":"baron_of_the_castonian_mark"},"folder":null,"img":"","name":"Барон Кастонианской марки","type":"clusters","_id":"v7AdFOVx6729Gk2i"}
+{"data":{"description":"«Смерть не является оправданием»","keyName":"crimson_lotus"},"folder":null,"img":"","name":"Багровый лотос","type":"clusters","_id":"xIjNj55ywKdAZcRB"}

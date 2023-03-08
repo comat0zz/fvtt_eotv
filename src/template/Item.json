@@ -75,11 +75,7 @@
         "isShow": true,
         "list": []
       },
-      "starter_kits": [],
-      "movies": {
-        "speacials": [],
-        "starts": []
-      },
+      "starter_kits": {},
       "consumables": {
         "finance": {
           "current": 0,
@@ -94,9 +90,7 @@
           "limit": 3
         }
       },
-      "additionals": {
-
-      }
+      "additionals": {}
     }
   }
 }

@@ -1,5 +1,5 @@
 import { BaseActorSheet } from "./BaseActorSheet.mjs";
-
+import * as CztUtility from "../utilities/_module.mjs";
 
 /**
  * Extend the base Actor document to support attributes and groups with a custom template creation dialog.
@@ -10,23 +10,41 @@ export class CztActorSheet extends BaseActorSheet {
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: [game.system.id, "sheet", "actor", "actor-simple"],
-      width: 720,
+      classes: [game.system.id, "sheet", "actor", "actor-main"],
+      width: 1200,
       height: 800,
-      tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"}]
+      tabs: [
+        {navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "properties"},
+        {navSelector: ".sheet-tabs-origin", contentSelector: ".sheet-body-origin", initial: "origin-list"}
+      ]
     });
   }
 
   /** @inheritdoc */
-  getData(options) {
+  async getData(options) {
     const context = super.getData(options);
+    const actor_type = this.actor.type;
 
     context.systemData = context.data.system;
     context.config = CONFIG.CZT;
+    context.items = [];
 
-    context.isWeapons = context.items.filter((i) => i.type === "weapon");
-    context.isArmor = context.items.filter((i) => i.type === "armor");
-    context.isEquip = context.items.filter((i) => i.type === "equipment");
+    context.specialtab = (['battlesuit', 'cyborg_male', 'daredevil', 'engineer', 'janissary'].indexOf(actor_type) > -1)?actor_type:false;
+
+    //context.isWeapons = context.items.filter((i) => i.type === "weapon");
+    //context.isArmor = context.items.filter((i) => i.type === "armor");
+    //context.isEquip = context.items.filter((i) => i.type === "equipment");
+
+    const movies_pack = await game.packs.get(game.system.id + '.movies').getDocuments();
+    context.movie_common = await movies_pack.filter(e => e.system.kind === "basic");
+    context.movie_dramatic = await movies_pack.filter(e => e.system.kind === "dramatic");
+    context.movie_cosmo = await movies_pack.filter(e => e.system.kind === "cosmo");
+    context.movie_threats = await movies_pack.filter(e => e.system.kind === "threats");
+
+    const pack = game.packs.get(game.system.id + '.playbooks');
+    const playbook_id = pack.index.find(e => e.name === actor_type)._id;
+    const playbook = await pack.getDocument(playbook_id);
+    context.playbook_data = playbook.system;
 
     game.logger.log(context)
     return context;
@@ -37,8 +55,7 @@ export class CztActorSheet extends BaseActorSheet {
 
     html.find('.sheet-roll-weapon').click(evt => this._onActorRollWeapon(evt));
     html.find('.sheet-roll-attrs').click(evt => this._onActorRollAttrs(evt));
-
-    
+   
   }
 
  

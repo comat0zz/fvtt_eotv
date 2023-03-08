@@ -1,6 +1,7 @@
 import * as CztUtility from "../utilities/_module.mjs";
 
 export class BaseActorSheet extends ActorSheet {
+  
   /** @override */
   get template() {
     if(this.actor.type === "cosmoship") {
@@ -12,17 +13,17 @@ export class BaseActorSheet extends ActorSheet {
     }
   }
 
-  activateListeners(html) {
+  async activateListeners(html) {
     super.activateListeners(html);
 
     html.find('.actor-item-remove').click(evt => this._onActorItemRemove(evt));
+    
   }
-
   /** @override */
   async _onDrop(evt) { 
     evt.preventDefault();
     const dragData = JSON.parse(evt.dataTransfer.getData("text/plain"));
-  
+
     if(dragData.type != "Item") return;
 
     var item = await CztUtility.extractItem(dragData);
@@ -52,7 +53,7 @@ export class BaseActorSheet extends ActorSheet {
             icon: '<i class="fas fa-check"></i>',
             label: game.i18n.localize("CZT.Common.Buttons.Remove"),
             callback: html => resolve(this.actor.deleteEmbeddedDocuments("Item", [item_id]))
-           }        
+          }        
         },
         default: "cancel",
         close: () => resolve({cancelled: true})

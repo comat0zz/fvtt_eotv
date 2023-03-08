@@ -1,64 +1,48 @@
 <form class="{{cssClass}}" autocomplete="off">
-{{!-- Sheet Tab Navigation --}}
-<nav class="sheet-tabs tabs" data-group="primary">
-  <a class="item" data-tab="properties">{{localize "CZT.Common.Navs.History"}}</a>
-  <a class="item" data-tab="self-movies">{{localize "CZT.Common.Navs.Playbook"}}</a>
-  {{#ife specialtab}}
-    <a class="item" data-tab="tab-{{actor.type}}">{{llCc "CZT.Common.Navs.Playbooks." actor.type}}</a>
-  {{/ife}}
-  <a class="item" data-tab="common-movies">{{localize "CZT.Common.Navs.CommonMovies"}}</a>
-  <a class="item" data-tab="dramatic-movies">{{localize "CZT.Common.Navs.DramaticMovies"}}</a>
-  <a class="item" data-tab="cosmic-movies">{{localize "CZT.Common.Navs.CosmicMovies"}}</a>
-  <a class="item" data-tab="traits-movies">{{localize "CZT.Common.Navs.TraitsMovies"}}</a>
-  <a class="item" data-tab="notes-own">{{localize "CZT.Common.Navs.ForNotes"}}</a>
-</nav>
+
+{{>"sheets-actors-partials-navigation-sheet" specialtab=specialtab }}
+
 {{!-- Sheet Body --}}
 <section class="sheet-body">
-  {{!-- Properties Tab --}}
-  <div class="tab properties" data-group="primary" data-tab="properties">
-    <div class="czt-wrapper">
-      <div class="czt-row">
-        <div class="czt-column">
-  
-          <h3>{{localize "CZT.Actor.Inventory.itEquips"}}</h3>
-          
-          <table class="actor-items-equipment czt-table">
-            {{#each items as |item key|}}
-              <tr item-id="{{item._id}}" item-type="{{item.type}}" class="actor-items-single cursor-click">
-                <td class="table-line-img"><img src="{{item.img}}" alt="{{item.name}}"></td>
-                <td class="table-line-name sheet-roll-weapon">{{item.name}}</td>
-                <td></td>
-                <td class="table-line-control icon-trash"><i class="fa-solid fa-trash actor-item-remove"></i></td>
-              </tr>
-            {{else}}
-              <tr><td>{{localize "CZT.Actor.Inventory.itNoEquips"}}</td></tr>
-            {{/each}}
-          </table>
-        </div>
+{{#if specialtab}}
+  <div class="tab tab-{{specialtab}}" data-group="primary" data-tab="tab-{{specialtab}}">
+    {{#ife specialtab 'battlesuit'}}
+      {{>"sheets-actors-partials-tab-sheet-battlesuit" systemData=systemData}}
+    {{/ife}}
+    {{#ife specialtab 'cyborg_male'}}
+      {{>"sheets-actors-partials-tab-sheet-cyborg_male" systemData=systemData}}
+    {{/ife}}
+    {{#ife specialtab 'daredevil'}}
+      {{>"sheets-actors-partials-tab-sheet-daredevil" systemData=systemData}}
+    {{/ife}}
+    {{#ife specialtab 'engineer'}}
+      {{>"sheets-actors-partials-tab-sheet-engineer" systemData=systemData}}
+    {{/ife}}
+    {{#ife specialtab 'janissary'}}
+      {{>"sheets-actors-partials-tab-sheet-janissary" systemData=systemData}}
+    {{/ife}}
+  </div>
+{{/if}}
+<div class="tab" data-group="primary" data-tab="common-movies">
+  {{>"sheets-actors-partials-tab-sheet-movies" movies=movie_common}}
+</div>
+<div class="tab" data-group="primary" data-tab="dramatic-movies">
+  {{>"sheets-actors-partials-tab-sheet-movies" movies=movie_dramatic}}
+</div>
+<div class="tab" data-group="primary" data-tab="cosmic-movies">
+  {{>"sheets-actors-partials-tab-sheet-movies" movies=movie_cosmo}}
+</div>
+<div class="tab" data-group="primary" data-tab="threats-movies">
+  {{>"sheets-actors-partials-tab-sheet-movies" movies=movie_threats}}
+</div>
+<div class="tab notes-own" data-group="primary" data-tab="notes-own">
+  <div class="actor-wrapper">
+    <div class="actor-row">
+      <div class="actor-column">
+        {{editor systemData.notes target="system.notes" button=true engine="tinymce" collaborate=false}}
       </div>
     </div>
   </div>
-
-  {{!-- Skills Tab --}}
-  <div class="tab skills" data-group="primary" data-tab="skills">
-    <div class="czt-wrapper">
-      <div class="czt-row">
-        <div class="czt-column">
-          <h3>{{localize "CZT.Item.Name"}} 1</h3>
-        
-        </div>
-        <div class="czt-column">
-          <h3>{{localize "CZT.Item.Name"}} 2</h3>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {{!-- Description Tab --}}
-  <div class="tab" data-group="primary" data-tab="description">
-    {{editor systemData.description target="system.description" button=true engine="tinymce" collaborate=false}}
-  </div>
-
+</div>
 </section>
 </form>

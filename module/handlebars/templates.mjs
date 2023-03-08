@@ -18,6 +18,8 @@ export const preloadHandlebarsTemplates = async function () {
 
       "sheets/actors/partials/movie-factory.hbs",
 
+      "sheets/actors/partials/navigation-sheet.hbs",
+
       "sheets/actors/partials/tab-sheet-archetype.hbs",
       "sheets/actors/partials/tab-sheet-self.hbs",
       "sheets/actors/partials/tab-sheet-movies.hbs",
@@ -45,7 +47,8 @@ export const preloadHandlebarsTemplates = async function () {
       templatePaths[key] = `${game.system_path}/templates/${el}`;
     })
   };
-
+  game.logger.info("Templates List");
+  game.logger.log(templatePaths);
   // Load the template parts
   return await loadTemplates(templatePaths); 
 };

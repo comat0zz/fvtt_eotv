@@ -20,4 +20,5 @@ export class CztActor extends Actor {
   prepareDerivedData() {
     game.logger.info("prepareDerivedData CztActor")
   }
+
 };

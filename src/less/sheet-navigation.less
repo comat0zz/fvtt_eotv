@@ -1,7 +1,26 @@
 .sheet {
   form {
     .sheet-tabs {
-    
+      margin: 0 4px;
+      border: 0;
+
+      .item {
+        border-radius: 0 0  28px 28px;
+        border: 1px solid var(--color-text-light-2);
+        background: var(--color-text-light-1);
+        overflow: hidden;
+        width: 100%;
+        margin: 0 3px;
+      }
+      .item.active, .item:hover {
+        text-shadow: none;
+        background: var(--color-border-light-tertiary);
+        color: var(--color-text-light-0);
+      }
+    }
+
+    .sheet-tabs-origin {
+      
     }
   }
 }
