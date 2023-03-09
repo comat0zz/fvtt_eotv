@@ -11,19 +11,26 @@
     }
   
     .actor-movies-list {
-      margin: 5px 4px 0;
+     // margin: 5px 4px 0;
+      /*
       display: grid;
       grid-gap: 15px;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       grid-auto-flow: dense;
-
+      */
+      column-count: auto;
+      column-width: 350px;
+      column-gap: 7px;
 
       .movie-item {
+        margin: 5px 4px 0;
+        break-inside: avoid;
         input {
           width: 100%
         }
       }
     }
+
 
     .movie-roll {
       cursor: pointer;
