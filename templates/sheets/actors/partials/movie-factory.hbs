@@ -1,1 +1,26 @@
-movie.hbs
+<div class="movie-item" 
+  data-movie-key="{{movie.system.keyName}}" 
+  data-movie-type="{{movie.system.kind}}"
+>
+  <h3{{#if movie.system.stats}} class="movie-roll"{{/if}}>
+    {{movie.name}}
+    {{#if movie.system.stats}}<i class="fa-solid fa-dice"></i>{{/if}}
+  </h3>
+  {{#each movie.system.spections.order as |ord key|}}
+    {{#with (lookup ../movie.system.spections.list ord) as |item|}}
+      {{#ife item.type "text"}}
+      <div{{#if item.class}} class="{{item.class}}"{{/if}}>
+        {{{item.values}}}
+      </div>
+      {{/ife}}
+      {{#ife item.type "list"}}
+        <ul{{#if item.class}} class="{{item.class}}"{{/if}}>
+          {{#each item.values as |value key|}}
+            <li>{{{value}}}</li>
+          {{/each}}
+        </ul>
+      {{/ife}}
+
+    {{/with}}
+  {{/each}}
+</div>

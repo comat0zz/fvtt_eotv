@@ -149,3 +149,16 @@
 .window-app.sheet.actor .window-content {
   padding: 0;
 }
+.window-app.sheet.actor .window-content .actor-movies-list {
+  margin: 5px 4px 0;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-flow: dense;
+}
+.window-app.sheet.actor .window-content .actor-movies-list .movie-item input {
+  width: 100%;
+}
+.window-app.sheet.actor .window-content .movie-roll {
+  cursor: pointer;
+}

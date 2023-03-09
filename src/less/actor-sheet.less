@@ -1,7 +1,7 @@
 .window-app.sheet.actor {
   .window-content {
     padding: 0;
-    
+
     .sheet-roll-weapon {
 
     }
@@ -10,17 +10,23 @@
   
     }
   
-    .actor-items-equipment {
+    .actor-movies-list {
+      margin: 5px 4px 0;
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-auto-flow: dense;
 
-    }
-  
-    .actor-items-weapon {
-    
-    }
-  
-    .actor-items-armor {
-    
+
+      .movie-item {
+        input {
+          width: 100%
+        }
+      }
     }
 
+    .movie-roll {
+      cursor: pointer;
+    }
   }
 }
