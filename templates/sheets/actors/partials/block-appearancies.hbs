@@ -1,0 +1,12 @@
+<h3 class="block-header">{{localize "CZT.Actor.Appearance"}}</h3>
+
+<ul class="czt-ul">
+{{#each appears as |appear key|}}
+  <li>
+    <input type="text" value="{{lookup ../heroAppears appear.key}}" 
+      name="system.appearancies.{{appear.key}}" 
+      placeholder="{{appear.value}}"
+    />
+  </li>
+{{/each}}
+</ul>

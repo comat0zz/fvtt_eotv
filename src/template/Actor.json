@@ -75,18 +75,20 @@
         "theme": "",
         "description": "",
         
-        "history": {
-          "origin": "",
-          "originInfo": "",
-          "cluster": "",
-          "clusterInfo": "",
-          "appearancies": {
-            "plLine1": "",
-            "plLine2": "",
-            "plLine3": "",
-            "plLine4": ""
-          }
-          
+        "origin": {
+          "answers": "",
+          "id": ""
+        },
+        "appearancies": {
+          "p1": "",
+          "p2": "",
+          "p3": "",
+          "p4": ""
+        },
+
+        "clusters": {
+          "id": "",
+          "text": ""
         },
         "contacts": {
           "c1": {

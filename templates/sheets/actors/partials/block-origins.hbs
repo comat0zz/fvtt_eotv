@@ -1,0 +1,26 @@
+<nav class="tabs sheet-tabs-origin" data-group="origin-tabs">
+  <a class="item" data-tab="origin-list"><h3 class="block-header">{{localize "CZT.Actor.Origin"}}</h3></a>
+  <a class="item" data-tab="origin-desc">{{localize "CZT.Actor.OriginQA"}}</a>
+</nav>
+<div  class="sheet-body-origin">
+  <div class="tab origin-list" data-group="origin-tabs" data-tab="origin-list">
+    {{#if origins.info.before}}{{origins.info.before}} {{/if}}
+    {{localize "CZT.Actor.OriginText"}}
+    <ul class="czt-ul">
+    {{#each origins.list as |origin key|}}
+      <li>
+        <input type="radio" value="{{origin.id}}" name="system.origin.id"{{#ife origin.id ../heroOrigin.id}} checked="checked"{{/ife}}/>&nbsp;
+        <b>{{origin.name}}</b>&nbsp;<i>({{origin.sign}})</i>&nbsp;{{origin.description}}
+      </li>
+    {{/each}}
+    </ul>
+    {{#if origins.info.addLine}}
+    <div>
+      {{origins.info.addLine}}
+    </div>
+    {{/if}}
+  </div>
+  <div class="tab origin-desc" data-group="origin-tabs" data-tab="origin-desc">
+    <textarea name="system.origin.answers">{{heroOrigin.answers}}</textarea>
+  </div>
+</div>

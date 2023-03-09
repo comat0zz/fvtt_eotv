@@ -20,6 +20,23 @@ export const preloadHandlebarsTemplates = async function () {
 
       "sheets/actors/partials/navigation-sheet.hbs",
 
+      // First page: Left inside
+      "sheets/actors/partials/block-description.hbs",
+      "sheets/actors/partials/block-origins.hbs",
+      "sheets/actors/partials/block-clusters.hbs",
+      "sheets/actors/partials/block-appearancies.hbs",
+      "sheets/actors/partials/block-craft.hbs",
+      "sheets/actors/partials/block-specialist.hbs",
+      // First page: Right inside
+      "sheets/actors/partials/block-princips.hbs",
+      "sheets/actors/partials/block-theme.hbs",
+      "sheets/actors/partials/block-startcompects.hbs",
+      "sheets/actors/partials/block-contacts.hbs",
+
+      // Second page: Center
+      // Second page: Left inside
+      // Second page: Right inside
+
       "sheets/actors/partials/tab-sheet-archetype.hbs",
       "sheets/actors/partials/tab-sheet-self.hbs",
       "sheets/actors/partials/tab-sheet-movies.hbs",

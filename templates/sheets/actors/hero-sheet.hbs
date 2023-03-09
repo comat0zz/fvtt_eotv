@@ -4,6 +4,71 @@
 
 {{!-- Sheet Body --}}
 <section class="sheet-body">
+
+<div class="tab properties" data-group="primary" data-tab="properties">
+  <div class="czt-wrapper">
+    <div class="czt-row">
+      <div class="czt-column czt-sheet-leftside">
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-description" description=playbook_data.description}}
+        </div>
+        {{#if playbook_data.origins.isShow}}
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-origins" origins=playbook_data.origins heroOrigin=systemData.origin}}
+        </div>
+        {{/if}}
+        {{#if playbook_data.additionals.specialist}}
+        <div class="actor-sheet-block">
+          specialist
+        </div>
+        {{/if}}
+        {{#if playbook_data.additionals.craft}}
+        <div class="actor-sheet-block">
+          craft
+        </div>
+        {{/if}}
+        {{#if playbook_data.clusters.isShow}}
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-clusters" clusters=playbook_data.clusters heroClusters=systemData.clusters}}
+        </div>
+        {{/if}}
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-appearancies" appears=playbook_data.appearance heroAppears=systemData.appearancies}}
+        </div>
+      </div>
+      <div class="czt-column czt-sheet-center">
+        s
+      </div>
+      <div class="czt-column czt-sheet-rightside">
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-princips" princips=playbook_data.princips heroPrincip=systemData.princip_input}}
+        </div>
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-theme" theme=playbook_data.theme}}
+        </div>
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-startcompects"}}
+        </div>
+        <div class="actor-sheet-block">
+          {{>"sheets-actors-partials-block-contacts" contacts=playbook_data.contacts heroContacts=systemData.contacts}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab self-movies" data-group="primary" data-tab="self-movies">
+<div class="czt-wrapper">
+    <div class="czt-row">
+      <div class="czt-column czt-sheet-leftside">
+        
+      </div>
+      <div class="czt-column czt-sheet-center"></div>
+      <div class="czt-column czt-sheet-rightside"></div>
+    </div>
+  </div>
+</div>
+
 {{#if specialtab}}
   <div class="tab tab-{{specialtab}}" data-group="primary" data-tab="tab-{{specialtab}}">
     {{#ife specialtab 'battlesuit'}}

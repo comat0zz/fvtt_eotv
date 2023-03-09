@@ -19,6 +19,10 @@
 .message-content h6 {
   font-family: Furore;
 }
+.window-app .window-content .czt-wrapper,
+.message-content .czt-wrapper {
+  padding: 0 3px;
+}
 .window-app .window-content .czt-wrapper .czt-row,
 .message-content .czt-wrapper .czt-row {
   display: flex;
@@ -144,10 +148,20 @@
   background: var(--color-border-light-tertiary);
   color: var(--color-text-light-0);
 }
+.sheet form .sheet-tabs-origin {
+  justify-content: space-between;
+}
 /* Items Sheet */
 /* Actors Sheet */
 .window-app.sheet.actor .window-content {
   padding: 0;
+}
+.window-app.sheet.actor .window-content .actor-sheet-block {
+  margin-top: 5px;
+}
+.window-app.sheet.actor .window-content .block-header {
+  border: 0;
+  margin: 0;
 }
 .window-app.sheet.actor .window-content .actor-movies-list {
   /*
