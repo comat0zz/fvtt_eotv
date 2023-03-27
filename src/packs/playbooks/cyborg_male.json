@@ -70,7 +70,20 @@
           "black_fox"
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "Импланты дают тебе Состояние: впиши «Импланты повреждены» (снимается починкой (потрать 1 Припас и время), Серьёзное – 2 Припаса и длительное время). Ты начинаешь игру, имея:",
+        "itemsListUp": [
+          "MONOCATANA",
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "TradicionalItems",
+          "IM5D6VKW",
+          "WHCTN7KR",
+          "N9GTNGJ3",
+          "KBEGFSLS"
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 5,

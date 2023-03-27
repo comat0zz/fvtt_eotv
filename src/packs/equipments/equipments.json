@@ -1224,5 +1224,93 @@
         },
         "name": "Небольшой укреплённый контейнер с неизвестным содержимым",
         "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "IDIDIDID"
+        },
+        "name": "ID",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "COMMUNICATOR"
+        },
+        "name": "Коммуникатор",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "CREDITCHIP"
+        },
+        "name": "Кредитный чип",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "TopQualityItems"
+        },
+        "name": "Вещи высшего качества",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "FamilySword",
+            "tags": [
+                "distance_pointblank",
+                "silent",
+                "armor-piercing"
+            ]
+        },
+        "name": "Фамильный меч",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "TradicionalItems"
+        },
+        "name": "Традиционные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "MONOCATANA",
+            "tags": [
+                "distance_pointblank",
+                "silent",
+                "armor-piercing"
+            ]
+        },
+        "name": "Монокатана",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "SJDDKCItems"
+        },
+        "name": "Изящные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "CommonItems"
+        },
+        "name": "Обычные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "IPDCCItems"
+        },
+        "name": "Потёртые вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "SecondWeapon",
+            "description": "Потрать 1 Припас и достань пистолет (ближняя) или нож (в упор)."
+        },
+        "name": "Второе оружие",
+        "type": "equipments"
     }
 ]

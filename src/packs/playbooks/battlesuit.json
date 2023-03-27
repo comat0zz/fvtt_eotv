@@ -68,7 +68,15 @@
           
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "",
+        "itemsListUp": [
+          
+        ],
+        "itemsListDown": [
+          
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 1,

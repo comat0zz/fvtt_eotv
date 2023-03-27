@@ -74,7 +74,20 @@
           "small_House"
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "Ты начинаешь игру, имея:",
+        "itemsListUp": [
+          "FamilySword",
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "TopQualityItems",
+          "MFD4U108",
+          "FW97ZLWE",
+          "ELQQEXGL",
+          "Z9YL6V65"
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 3,

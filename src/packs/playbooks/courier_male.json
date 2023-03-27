@@ -71,7 +71,25 @@
           "borderland"
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "Ты начинаешь игру, имея:",
+        "itemsListUp": [
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "CommonItems",
+          "6FXI033P",
+          "JMJAURRR",
+          "1GB3FM8C",
+          "8OYLJQ5K"
+        ],
+        "choiseText": "Выбери своё оружие:",
+        "choiceOfOne": [
+          "M0H6VN00",
+          "RA03TAE3",
+          "7EQPX7LA"
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 2,

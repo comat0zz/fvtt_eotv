@@ -71,7 +71,25 @@
           "borderland"
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "Ты начинаешь игру, имея:",
+        "itemsListUp": [
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "IPDCCItems",
+          "RGV5VXPQ",
+          "GSPVIKOK",
+          "1HYEIVWP",
+          "SecondWeapon"
+        ],
+        "choiseText": "У тебя есть Броня. Она даёт состояние «Броня повреждена». Обычное Состояние снимается починкой (потрать 1 Припас и время), Серьёзное – ремонтом в мастерской. Выбери её обвес:",
+        "choiceOfOne": [
+          "2HFTRJZV",
+          "RTFRF21V",
+          "40RE3SNF"
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 3,
