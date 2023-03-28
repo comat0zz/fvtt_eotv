@@ -72,15 +72,21 @@
         ]
       },
       "starter_kits": {
-        "text": "",
+        "text": "Ты начинаешь игру, имея:",
         "itemsListUp": [
-          
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "IPDDDPItems",
+          "M9TWPEWX",
+          "S222PTIP",
+          "M35XD69M",
+          "NT0ULJ5D"
         ],
-        "itemsListDown": [
-          
-        ],
+        "choiseText": "Выбери своё оружие:",
         "choiceOfOne": [
-          
+          "TZ2LBTAC",
+          "MT6JQS0P"
         ]
       },
       "consumables": {

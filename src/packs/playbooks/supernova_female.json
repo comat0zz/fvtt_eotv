@@ -80,7 +80,13 @@
           
         ]
       },
-      "starter_kits": [],
+      "starter_kits": {
+        "text": "Ты начинаешь игру, имея:",
+        "itemsListUp": [
+          "IDIDIDID",
+          "COMMUNICATOR"
+        ]
+      },
       "consumables": {
         "finance": {
           "current": 0,

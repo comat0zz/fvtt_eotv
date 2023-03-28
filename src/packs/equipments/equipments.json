@@ -1312,5 +1312,109 @@
         },
         "name": "Второе оружие",
         "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "IPDDDPItems"
+        },
+        "name": "Тщательно подготовленные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "IPDDXXXXSms"
+        },
+        "name": "Небольшой бардак из вещей",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "pistolpulemet",
+            "tags": [
+                "distance_pointblank"
+            ]
+        },
+        "name": "Пистолет-пулемет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "wtfitems"
+        },
+        "name": "Странные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "colorsitems"
+        },
+        "name": "Краски или баллончики для рисования на стенах",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "scafandrstrd",
+            "tags": [
+                "sealed",
+                "civilian"
+            ]
+        },
+        "name": "Перелатанный скафандр",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "lazerrezak",
+            "tags": [
+                "civilian",
+                "distance_pointblank",
+                "distance_melee",
+                "silent"
+            ]
+        },
+        "name": "Лазерный резак",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "gromozditems"
+        },
+        "name": "Громоздкие вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "tabelplazmapistol",
+            "tags": [
+                "distance_melee",
+                "silent",
+                "ignores-shields"
+            ]
+        },
+        "name": "Табельный плазменный пистолет",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "oldokitems"
+        },
+        "name": "Старые, но надежные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "vintorezkara",
+            "tags": [
+                "silent",
+                "distance_range",
+                "two-handed",
+                "coded",
+                "smart",
+                "precise",
+                "valuable"
+            ]
+        },
+        "name": "Табельный плазменный пистолет",
+        "type": "equipments"
     }
 ]

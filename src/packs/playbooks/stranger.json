@@ -69,12 +69,20 @@
         ]
       },
       "starter_kits": {
-        "text": "",
+        "text": "Ты начинаешь игру, имея:",
         "itemsListUp": [
-          
-        ],
-        "itemsListDown": [
-          
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "wtfitems",
+          "colorsitems",
+          "scafandrstrd",
+          "lazerrezak",
+          "VODM2M98",
+          "3B2UU6QO",
+          "GDG6R0C2",
+          "7PN941SI",
+          "ZLNSCFDC",
+          "807ZPA1P"
         ]
       },
       "consumables": {

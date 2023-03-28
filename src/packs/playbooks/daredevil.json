@@ -72,12 +72,17 @@
         ]
       },
       "starter_kits": {
-        "text": "",
+        "text": "Ты начинаешь игру, имея:",
         "itemsListUp": [
-          
-        ],
-        "itemsListDown": [
-          
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "IPDDXXXXSms",
+          "pistolpulemet",
+          "Q2F050NO",
+          "ZS5MEC28",
+          "Z9PGBJSC",
+          "8ZMVEAFV"
         ]
       },
       "consumables": {
