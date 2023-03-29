@@ -274,6 +274,8 @@
     "movies": {
       "templates": [],
       "kind": "",
+      "archetype": "",
+      "archetype_type": "",
       "keyName": "",
       "isStudied": false,
       "stats": [],

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "",
+      "archetype_type": "",
+      "keyName": "",
+      "isStudied": false,
+      "stats": ["fury", "logic", "science", "status"],
+      "spections": {
+        "order": ["txt1", "lst1", "txt2", "txt3"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": ""
+          },
+          "txt2": {
+            "type": "text", 
+            "values": ""
+          },
+          "txt3": {
+            "type": "text", 
+            "values": ""
+          },
+          "lst1": {
+            "type": "list",
+            "class": "arrow-right",
+            "values": [
+
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": {
+        "fail": "",
+        "partially": "",
+        "success": "",
+        "list": {
+          "when": ["fail", "partially", "success"],
+          "section": "lst1"
+        }
+      }
+    }
+  }
+]

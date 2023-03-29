@@ -69,15 +69,10 @@
         ]
       },
       "starter_kits": {
-        "text": "",
+        "text": "Ты начинаешь игру, имея:",
         "itemsListUp": [
-          
-        ],
-        "itemsListDown": [
-          
-        ],
-        "choiceOfOne": [
-          
+          "IDIDIDID",
+          "CREDITCHIP"
         ]
       },
       "consumables": {

@@ -1416,5 +1416,33 @@
         },
         "name": "Табельный плазменный пистолет",
         "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "UNIZENZOR"
+        },
+        "name": "Униформа Цензора (включая форменный плащ)",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "sareitems"
+        },
+        "name": "Безопасные вещи",
+        "type": "equipments"
+    },
+    {
+        "data": {
+            "keyName": "autopistolplazm",
+            "tags": [
+                "distance_melee",
+                "ignores-shields",
+                "smart",
+                "coded",
+                "queue"
+            ]
+        },
+        "name": "2 автоматических плазменных пистолета",
+        "type": "equipments"
     }
 ]

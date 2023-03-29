@@ -1,0 +1,412 @@
+[
+  {
+    "name": "По моей воле",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_starter",
+      "keyName": "noble_female_Bymywill",
+      "isStudied": false,
+      "stats": ["status"],
+      "spections": {
+        "order": ["txt1", "lst1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты отдаешь приказ НПС, используя своё положение в качестве рычага, действуй Статусно. На 10+ выбери 2. На 7—9 выбери 1:"
+          },
+          "lst1": {
+            "type": "list",
+            "class": "",
+            "values": [
+              "Он выполняет твой приказ.",
+              "Ты получаешь возможность.",
+              "Он не доставит тебе проблем."
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": {
+        "fail": "",
+        "partially": "На 7—9 выбери 1:",
+        "success": "На 10+ выбери 2:",
+        "list": {
+          "when": ["partially", "success"],
+          "section": "lst1"
+        }
+      }
+    }
+  },
+  {
+    "name": "Полезные знакомства",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_starter",
+      "keyName": "noble_female_UsefulAcquaintances",
+      "isStudied": false,
+      "stats": ["status"],
+      "spections": {
+        "order": ["txt1", "lst1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты ищешь что-то или кого-то, действуй Статусно. На 10+ выбери 1. На 7—9 выбери 2. На 6— выбери 3."
+          },
+          "lst1": {
+            "type": "list",
+            "class": "",
+            "values": [
+              "Это будет стоить тебе кучу денег.",
+              "Это займёт много времени.",
+              "От тебя потребуется ответная услуга.",
+              "Тебе придется поступить недостойно."
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": {
+        "fail": "На 6— выбери 3:",
+        "partially": "На 7—9 выбери 2:",
+        "success": "На 10+ выбери 1:",
+        "list": {
+          "when": ["fail", "partially", "success"],
+          "section": "lst1"
+        }
+      }
+    }
+  },
+  {
+    "name": "Свита",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_starter",
+      "keyName": "noble_female_Suite",
+      "isStudied": false,
+      "stats": ["fury", "logic", "science", "status"],
+      "spections": {
+        "order": ["txt1", "txt2", "txt3", "lst1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Аристократ не должен путешествовать один, и поэтому тебя всегда сопровождает свита. Специалисты свиты могут выполнять твои небольшие задания. Выбери <b>двух специалистов</b>."
+          },
+          "txt2": {
+            "type": "text", 
+            "values": "Ты управляешь действиями своих специалистов, пока вы на связи. Если связь пропадает, ты можешь лишь обозначать, как специалист поступил бы в той или иной ситуации. Когда он действует в одиночку, все его характеристики равны 0."
+          },
+          "txt3": {
+            "type": "text", 
+            "values": "Если специалист погибает, ты легко завербуешь нового в любом населённом месте. Реши, кто это и почему он согласился."
+          },
+          "lst1": {
+            "type": "checkbox_3",
+            "class": "",
+            "values": [
+              { "uniqKey": "noble_female_Suite_1", "name": "Телохранитель", "stat": "Ярость", "value": "Один раз за сессию, получая Состояние, ты можешь вписать и получить Состояние «Телохранитель ранен». Оно может быть как обычным, так и Серьёзным. Оно снимается по обычным правилам, просто не у тебя, а у твоего телохранителя. Пока оно у него есть, ты не можешь пользоваться этим ходом." },
+              { "uniqKey": "noble_female_Suite_2", "name": "Квартирмейстер", "stat": "Логика","value": "Следит, чтобы у тебя под рукой всегда было необходимое. Раз в сессию получи 3 Припаса и распредели их между собой и соратниками." },
+              { "uniqKey": "noble_female_Suite_3", "name": "Советник", "stat": "Наука","value": "Когда тебе требуется какой-либо редкий или неизвестный навык, 1 раз за сессию ты можешь сказать, что твой Советник им обладает." },
+              { "uniqKey": "noble_female_Suite_4", "name": "Герольд", "stat": "Статус","value": "Он может привлечь к себе внимание всех присутствующих. На какое-то короткое время никто не обращает внимание на тебя и твоих спутников." }
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Вам за это платят",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_Yougetpaidforit",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты получаешь Кризис, специалист твоей свиты, для которого использованная характеристика основная (в скобках), может вмешаться, что даст тебе переброс кубиков. Один раз за сессию для каждого специалиста."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Влиятельные друзья",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_Influentialfriends",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты используешь <b>Полезные знакомства</b>, выбери на 1 вариант меньше, даже на 6—."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Вы слышали?",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_Youheard",
+      "isStudied": true,
+      "stats": ["status"],
+      "spections": {
+        "order": ["txt1", "lst1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты распространяешь слухи о персоне, месте или предмете, действуй Статусно . На 10+ выбери 2. На 7—9 выбери 1."
+          },
+          "lst1": {
+            "type": "list",
+            "class": "",
+            "values": [
+              "Почти все верят тебе.",
+              "Слухи распространяются максимально быстро.",
+              "Никто не отследит источник слухов."
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": {
+        "fail": "",
+        "partially": "На 7—9 выбери 1:",
+        "success": "На 10+ выбери 2:",
+        "list": {
+          "when": ["partially", "success"],
+          "section": "lst1"
+        }
+      }
+    }
+  },
+  {
+    "name": "Лидер",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_leader",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Ты можешь применять ход <b>По моей воле</b> на большую группу людей. На 12+ тот, кто получает твой приказ, будет поддерживать тебя и далее, хотя бы какое-то время."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Превосходство напоказ",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_Superiorityondisplay",
+      "isStudied": true,
+      "stats": ["status"],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Когда ты оскорбляешь или угрожаешь человеку, действуй Статусно. На 7—9 он совершает ошибку (фокусируется на тебе, выбалтывает лишнее и т.д.). На 10+ получи +1 против него, пока он не успокоится."
+          }
+        }
+      },
+      "template": false,
+      "rolls": {
+        "fail": "",
+        "partially": "На 7—9 он совершает ошибку (фокусируется на тебе, выбалтывает лишнее и т.д.).",
+        "success": "На 10+ получи +1 против него, пока он не успокоится.",
+        "list": false
+      }
+    }
+  },
+  {
+    "name": "Прямая наследница",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_directheiress",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Теперь ты прямая наследница лорда высокого ранга. Все, кому это важно, отнесутся к тебе с особым уважением и окажут услуги в надежде на твою милость."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Свита — новый специалист",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_newspecialist",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Выбери ещё одного специалиста и добавь его к себе в свиту."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Свита — эксперт",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_expert",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1", "lst1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Один из твоих специалистов приобретает новый ход. Отметь его:"
+          },
+          "lst1": {
+            "type": "checkbox_2",
+            "class": "",
+            "values": [
+              { "uniqKey": "noble_female_expert_1", "name": "Телохранитель", "value": "1 раз за бой может нейтрализовать Грань противника или выяснить почему это невозможно." },
+              { "uniqKey": "noble_female_expert_2", "name": "Квартирмейстер", "value": "может 1 раз в сессию достать необходимое. Действуй Статусно . На 10+ у тебя есть желаемое, на 7—9 его придётся ждать, или это будет чего-то стоить." },
+              { "uniqKey": "noble_female_expert_3", "name": "Советник", "value": "1 раз за сессию может снять суммарно три состояния (или 1 Серьёзное) кому угодно." },
+              { "uniqKey": "noble_female_expert_4", "name": "Герольд", "value": "1 раз в сессию может увеличить твою репутацию в глазах какого-то человека или группы." }
+            ]
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Свита — эксперт",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_newexpert",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "Отметь ход ещё одного специалиста."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  },
+  {
+    "name": "Чужими руками",
+    "type": "movies",
+    "img": "",
+    "folder": null,
+    "data": {
+      "kind": "archetype", 
+      "archetype": "noble_female",
+      "archetype_type": "pb_special",
+      "keyName": "noble_female_Bysomeoneelsesands",
+      "isStudied": true,
+      "stats": [],
+      "spections": {
+        "order": ["txt1"],
+        "list": {
+          "txt1": {
+            "type": "text", 
+            "values": "1 раз в сессию ты можешь приказать каждому специалисту сделать что-то вместо тебя. Его основная характеристика (в скобках) при этом получает +2."
+          }
+        }
+      },
+      "template": false,
+      "rolls": false
+    }
+  }
+]

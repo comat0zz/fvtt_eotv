@@ -117,3 +117,16 @@ select - работает как radio, только выпадающим спи
     }
   }
 }
+
+
+
+          "lst1": {
+            "type": "checkbox_3",
+            "class": "",
+            "values": [
+              { "uniqKey": "noble_female_Suite_1", "name": "Телохранитель", "stat": "", "value": "значение 1" },
+              { "uniqKey": "noble_female_Suite_2", "name": "Квартирмейстер", "stat": "","value": "значение 1" },
+              { "uniqKey": "noble_female_Suite_3", "name": "Советник", "stat": "","value": "значение 1" },
+              { "uniqKey": "noble_female_Suite_4", "name": "Герольд", "stat": "","value": "значение 1" }
+            ]
+          }

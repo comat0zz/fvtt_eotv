@@ -72,12 +72,18 @@
         ]
       },
       "starter_kits": {
-        "text": "",
+        "text": "На тыльной стороне ладони у тебя проявляющаяся татуировка с ID Цензора. Ты начинаешь игру, имея:",
         "itemsListUp": [
-          
-        ],
-        "itemsListDown": [
-          
+          "IDIDIDID",
+          "COMMUNICATOR",
+          "CREDITCHIP",
+          "UNIZENZOR",
+          "sareitems",
+          "autopistolplazm",
+          "OMQNGSOT",
+          "3EBCBV8Q",
+          "9DL7WBJ3",
+          "MH4QVDY8"
         ]
       },
       "consumables": {
