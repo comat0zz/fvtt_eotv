@@ -46,6 +46,12 @@ export class CztActorSheet extends BaseActorSheet {
     const playbook = await pack.getDocument(playbook_id);
     context.playbook_data = playbook.system;
 
+    if(context.playbook_data.clusters.isShow) {
+      const clusters_pack = await game.packs.get(game.system.id + '.clusters').getDocuments();
+      const playbook_clusters = context.playbook_data.clusters.list;
+      context.clusters_list = clusters_pack.filter(e => playbook_clusters.includes(e.system.keyName));
+    }
+
     game.logger.log(context)
     return context;
   }

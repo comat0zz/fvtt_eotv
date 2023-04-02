@@ -1,1 +1,23 @@
 <h3 class="block-header">{{localize "CZT.Actor.Cluster"}}</h3>
+<div>
+  {{#if clustersInfo.title}}
+    {{{clustersInfo.title}}}
+  {{else}}
+    {{localize "CZT.Actor.ClusterText"}}  
+  {{/if}}
+</div>
+{{#if clusters}}
+<ul class="czt-ul">
+  {{#each clusters as |cluster key|}}
+  <li>
+    <input type="radio" value="{{cluster.id}}" name="system.clusters.id"{{#ife cluster.id ../heroClusters.id}} checked="checked"{{/ife}}/>&nbsp;
+    <b>{{cluster.name}}</b>: {{cluster.system.description}}
+  </li>
+  {{/each}}
+  <li>
+    <input type="radio" value="your_own_version" name="system.clusters.id" {{#ife system.clusters.id "your_own_version"}} checked="checked"{{/ife}}/>&nbsp;
+    <b>{{localize "CZT.Actor.your_own_version"}}</b>: <i>{{localize "CZT.Actor.your_own_desc"}}</i>
+    <input type="text" class="input-under-line" value="{{systemData.clusters.text}}" name="system.clusters.text" />
+  </li>
+</ul>
+{{/if}}

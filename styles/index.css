@@ -163,6 +163,11 @@
   border: 0;
   margin: 0;
 }
+.window-app.sheet.actor .window-content .input-under-line {
+  border: 0;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
 .window-app.sheet.actor .window-content .actor-movies-list {
   /*
       display: grid;

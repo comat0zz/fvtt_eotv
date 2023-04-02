@@ -29,7 +29,7 @@
         {{/if}}
         {{#if playbook_data.clusters.isShow}}
         <div class="actor-sheet-block">
-          {{>"sheets-actors-partials-block-clusters" clusters=playbook_data.clusters heroClusters=systemData.clusters}}
+          {{>"sheets-actors-partials-block-clusters" clusters=clusters_list heroClusters=systemData.clusters clustersInfo=playbook_data.clusters}}
         </div>
         {{/if}}
         <div class="actor-sheet-block">
