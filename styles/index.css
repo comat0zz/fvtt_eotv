@@ -163,6 +163,13 @@
   border: 0;
   margin: 0;
 }
+.window-app.sheet.actor .window-content .actor-playbook-name {
+  font-family: Furore;
+  font-weight: bold;
+  transform: uppercase;
+  font-size: var(--font-size-24);
+  text-align: center;
+}
 .window-app.sheet.actor .window-content .czt-sheet-center {
   padding: 3px;
 }

@@ -24,7 +24,7 @@
         {{/if}}
         {{#if playbook_data.additionals.craft}}
         <div class="actor-sheet-block">
-          {{>"sheets-actors-partials-block-craft"}}
+          {{>"sheets-actors-partials-block-craft" craftList=playbook_data.additionals.craft heroCraft=systemData.remeslo}}
         </div>
         {{/if}}
         {{#if playbook_data.clusters.isShow}}
@@ -37,6 +37,7 @@
         </div>
       </div>
       <div class="czt-column czt-sheet-center">
+        <div class="actor-playbook-name">{{playbook_data.titleName}}</div>
         <img class="actor-avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
       </div>
       <div class="czt-column czt-sheet-rightside">

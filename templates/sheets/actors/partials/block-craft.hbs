@@ -1,1 +1,12 @@
-block-craft.hbs
+<h3 class="block-header">{{craftList.title}}</h3>
+<div>{{craftList.subTitle}}</div>
+<ul class="czt-ul">
+  <li>
+    <input type="radio" name="system.remeslo" value="warrior"{{#ife heroCraft "warrior"}} checked="checked"{{/ife}}/>
+    <b>{{craftList.warrior.title}}</b> {{craftList.warrior.text}}
+  </li>
+  <li>
+    <input type="radio" name="system.remeslo" value="hunter"{{#ife heroCraft "hunter"}} checked="checked"{{/ife}}/>
+    <b>{{craftList.hunter.title}}</b> {{craftList.hunter.text}}
+  </li>
+</ul>
