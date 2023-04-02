@@ -4,7 +4,11 @@
 </nav>
 <div  class="sheet-body-origin">
   <div class="tab origin-list" data-group="origin-tabs" data-tab="origin-list">
-    
+    {{#if origins.info.addLine}}
+    <div>
+      {{origins.info.addLine}}
+    </div>
+    {{/if}}
     {{localize "CZT.Actor.OriginText"}}
     <ul class="czt-ul">
     {{#each origins.list as |origin key|}}
@@ -14,12 +18,7 @@
       </li>
     {{/each}}
     </ul>
-    {{#if origins.info.before}}{{origins.info.before}} {{/if}}
-    {{#if origins.info.addLine}}
-    <div>
-      {{origins.info.addLine}}
-    </div>
-    {{/if}}
+    {{#if origins.info.before}}{{origins.info.before}}{{/if}}
   </div>
   <div class="tab origin-desc" data-group="origin-tabs" data-tab="origin-desc">
     <textarea name="system.origin.answers">{{heroOrigin.answers}}</textarea>
