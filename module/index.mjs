@@ -50,3 +50,17 @@ Hooks.once("init", function () {
 Hooks.on("renderChatLog", (log, html, data) => {
   
 });
+
+const mm = "icons/svg/mystery-man.svg";
+const mmToken = "icons/mystery-man.png";
+
+Hooks.on("createActor", (actorData) => {
+  const prevImg = actorData?.img;
+  const prevToken = actorData.token?.img;
+
+  const pack = game.packs.get(game.system.id + '.playbooks');
+  const playbook_img = pack.index.find(e => e.name === actorData.type).img;
+
+  actorData.img = !prevImg || prevImg === mm ? playbook_img : prevImg;
+  //actorData.token.img = !prevToken || prevToken === mmToken || prevToken === mm ? playbook_img : prevToken;
+});

@@ -163,6 +163,9 @@
   border: 0;
   margin: 0;
 }
+.window-app.sheet.actor .window-content .czt-sheet-center {
+  padding: 3px;
+}
 .window-app.sheet.actor .window-content .input-under-line {
   border: 0;
   border-bottom: 1px solid #000;

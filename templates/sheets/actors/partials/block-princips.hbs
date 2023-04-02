@@ -1,1 +1,7 @@
 <h3 class="block-header">{{localize "CZT.Actor.Princips"}}</h3>
+<div>{{princips.title}}</div>
+<ul>
+  {{#each princips.list as |princip key|}}
+  <li>{{princip.value}}</li>
+  {{/each}}
+</ul>

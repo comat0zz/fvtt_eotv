@@ -1,1 +1,10 @@
-block-specialist.hbs
+<h3 class="block-header">{{specialist.title}}</h3>
+<div>{{specialist.text}}</div>
+<ul class="czt-ul">
+{{#each specialist.roles as |role key|}}
+  <li>
+    <input type="radio" name="system.specialist" value="{{role.key}}" {{#ife role.key ../heroSpec}} checked="checked"{{/ife}}/>
+    <b>{{role.name}}</b> {{role.text}}
+  </li>
+{{/each}}
+</ul>

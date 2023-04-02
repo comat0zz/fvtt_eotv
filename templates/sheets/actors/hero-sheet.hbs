@@ -19,12 +19,12 @@
         {{/if}}
         {{#if playbook_data.additionals.specialist}}
         <div class="actor-sheet-block">
-          specialist
+          {{>"sheets-actors-partials-block-specialist" specialist=playbook_data.additionals.specialist heroSpec=systemData.specialist}}
         </div>
         {{/if}}
         {{#if playbook_data.additionals.craft}}
         <div class="actor-sheet-block">
-          craft
+          {{>"sheets-actors-partials-block-craft"}}
         </div>
         {{/if}}
         {{#if playbook_data.clusters.isShow}}
@@ -37,14 +37,14 @@
         </div>
       </div>
       <div class="czt-column czt-sheet-center">
-        s
+        <img class="actor-avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
       </div>
       <div class="czt-column czt-sheet-rightside">
         <div class="actor-sheet-block">
           {{>"sheets-actors-partials-block-princips" princips=playbook_data.princips heroPrincip=systemData.princip_input}}
         </div>
         <div class="actor-sheet-block">
-          {{>"sheets-actors-partials-block-theme" theme=playbook_data.theme}}
+          {{>"sheets-actors-partials-block-theme" theme=playbook_data.theme heroTheme=systemData.theme}}
         </div>
         <div class="actor-sheet-block">
           {{>"sheets-actors-partials-block-startcompects"}}
